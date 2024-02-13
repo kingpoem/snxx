@@ -1,0 +1,11 @@
+<!--pages/singleTemplate/index.wxml-->
+<view class="page">
+  <view class="title">功能介绍</view>
+  <view class="info">云开发针对小程序中常见的抽奖、邀请函、积分中心等内嵌H5页面，提供了一套业务模板+定制修改工具。</view>
+  <view class="info">您可以通过安装模版快速搭建各类场景的小程序页面，例如抽奖、邀请函、领奖等等，也可以结合低代码工具，自定义页面内容和样式，实现个性化定制。</view>
+  <image class="img" mode="widthFix" lazy-load="true"  src="../../images/single_template_info.png"></image>
+  <view class="title">如何体验</view>
+  <view class="info">在资源管理器内找到pages文件夹，右键单击后选择「配置单页模版」。</view>
+  <image class="img" mode="widthFix" lazy-load="true"  src="../../images/single_template.png"></image>
+  <view class="info">如果您是首次安装，您选择您需要单页模版，然后点击开通即可。您可以在开通时配置好页面信息，也可以开通后二次修改。</view>
+</view>
