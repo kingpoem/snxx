@@ -1,17 +1,18 @@
 /* pages/classification_cm/classification_cm.wxss */
 .bg{
-  padding-top: 5px;
-  padding-bottom: 0px;
+  padding-top: 7rpx;
+  padding-bottom: 0rpx;
 }
 .search-box{
   display: flex;
   align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 5px;
+  border: 1rpx solid #ccc;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  margin-bottom: 10rpx;
+  margin-left: 10rpx;
   width:90%;
-  height: 20px;
+  height: 40rpx;
   background-color: #ffffff;
 }
 .search-image{
@@ -23,9 +24,36 @@
   color: black; 
 }
 .scroll-view{
-  width: 50px;
-  height: 150px;
-  border: #c21616;
-
+  width: 130rpx;
+  height: 998rpx;
+  border:  0-rpx solid #ccc;
+  margin-top: 20rpx;
+  border-radius: 0rpx;
   font-size: x-large;
+}
+.bar{
+  font-size:large;
+  font:xx-large;
+  font-weight:normal;
+  font-style:normal;
+  margin-top: 0rpx;
+  color: #4b9600;
+  width: 130rpx;
+  height: 90rpx;
+  text-align:center;
+  padding-top: 36rpx;
+  background: rgb(233, 232, 232);
+}
+.bar_active{
+  font-size:large;
+  font:xx-large;
+  font-weight:normal;
+  font-style:normal;
+  margin-top: 0rpx;
+  color: rgb(57, 139, 2);
+  width: 130rpx;
+  height: 90rpx;
+  text-align:center;
+  padding-top: 36rpx;
+  background: rgb(255, 255, 255);
 }
