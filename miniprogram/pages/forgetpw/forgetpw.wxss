@@ -1,0 +1,96 @@
+
+/* 复选框样式 */
+checkbox {
+  display: inline-block;
+  margin-top: 0px; /* 垂直居中 */
+}
+
+/* 胶囊形状选择框容器样式 */
+.capsule-container {
+  display: flex; /* 使用 Flex 布局 */
+  justify-content: center; /* 水平居中 */
+  margin-top: 20px;
+}
+
+/* 胶囊形状选项样式 */
+.capsule-option {
+  background-color: white; /* 浅绿色 */
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 20px; /* 增加两个胶囊之间的间距 */
+  font-size: 18px;
+}
+
+/* 输入框样式 */
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #EBFCD9;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+  background-color: #EBFCD9;
+  margin-top: 20px; /* 添加上下间距 */
+  margin-bottom: 20px; /* 添加上下间距 */
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* 输入框内部样式 */
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  font-size: 14px;
+  background-color: transparent;
+  text-align: left; /* 修改为左对齐 */
+}
+
+/* 新增按钮样式 */
+.verification-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4B9600;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 10px; /* 设置按钮与输入框的间距 */
+}
+
+
+/* 注册按钮样式 */
+.capsule {
+  width: 80%; /* 胶囊形状的矩形宽度为页面宽度的一半 */
+  background-color: #4B9600; /* 胶囊形状的矩形背景颜色 */
+  border: none; /* 移除按钮默认边框 */
+  border-radius: 20px; /* 设置圆角为20px，使其呈现胶囊形状 */
+  margin: 20px auto; /* 居中显示 */
+  text-align: center; /* 文字居中显示 */
+  cursor: pointer; /* 鼠标样式为手型 */
+  padding: 10px; /* 添加内边距 */
+}
+
+.capsule-text {
+  color: #fff; /* 文字颜色为白色 */
+  font-size: 16px; /* 字体大小 */
+  line-height: 1; /* 重置行高 */
+}
+
+/* 忘记密码按钮样式 */
+.forget-password {
+  text-align: center;
+  background-color: white;
+  color: grey;
+  font-size: 14px; /* 设置字体大小 */
+}

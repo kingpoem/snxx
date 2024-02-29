@@ -1,0 +1,29 @@
+.function_container{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  color: black;
+}
+.fenge{
+  background: #f5f5f5;
+  height: 40rpx;
+  width:100%;
+}
+.function_item{
+  width:25%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-size:14px;
+  box-sizing:border-box;
+  padding-bottom:10px;
+  padding-top:10px
+}
+.function_img{
+  width:20px;
+  height:20px;
+}
+.function_name{
+  padding-top:10px
+}

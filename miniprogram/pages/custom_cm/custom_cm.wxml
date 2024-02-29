@@ -1,0 +1,11 @@
+<view>
+<image src="/images/iron1.png" />
+</view>
+<button ></button>
+<view class="fenge"/>
+<view class='function_container'>
+    <view class='function_item' wx:for="{{functions}}" wx:for-index="" wx:for-item="function">
+        <image class='function_img' src='{{function.pic_url}}'/> 
+        <view class='function_name'>{{function.name}}</view>
+    </view>
+  </view>

@@ -1,0 +1,90 @@
+<!--pages/login/login.wxml-->
+
+<!-- login page -->
+<view style="position: relative;">
+  <image src="/images/login/green.png" style="position: absolute; left: 0; top: 0; width: 1000px; height: 210px;"></image>
+  <image src="/images/login/welto.png" style="position: absolute; left: -20px; top: 10px; height: 120px;"></image>
+</view> 
+
+<view style="position: relative;">
+  <!-- 圆角矩形框 -->
+  <view style="position: absolute; left: 20px; top: 140px; width: 315px; height: 500px; background-color: white; border-radius: 30px; padding: 10px;">
+
+    <!-- 切换按钮 -->
+    <view style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+      <button style="width: 110px; background-color: white; font-size: 25px;" bindtap="switchToLogin">登录</button>
+      <button style="width: 110px; background-color: white; font-size: 25px;" bindtap="switchToRegister">注册</button>
+    </view>
+    
+    <!-- 登录界面 -->
+    <view wx:if="{{currentPage === 'login'}}">
+      <!-- 胶囊形状的选择框 -->
+      <view class="capsule-container">
+        <view class="capsule-option" bindtap="userTypeChanged" data-type="farmer">
+          <checkbox style="margin-right: 5px;" checked="{{userType === 'farmer'}}"></checkbox>
+          <text>我是农户</text>
+        </view>
+        <view class="capsule-option" bindtap="userTypeChanged" data-type="consumer">
+          <checkbox style="margin-right: 5px;" checked="{{userType === 'consumer'}}"></checkbox>
+          <text>我是消费者</text>
+        </view>
+      </view>
+
+      <!-- 用户名输入框 -->
+      <view class="search-box">
+        <image src="/images/login/usern.png" class="search-icon"></image>
+        <input class="input" type="text" placeholder="请输入您的手机号或邮箱"></input>
+      </view>
+
+      <!-- 密码输入框 -->
+      <view class="search-box">
+        <image src="/images/login/pw.png" class="search-icon"></image>
+        <input class="input" type="password" placeholder="请输入您的登录密码"></input>
+      </view>
+
+      <button class="capsule" bindtap="login">
+        <text class="capsule-text">登录</text>
+      </button>
+      
+       <!-- 忘记密码按钮 -->
+       <button class="forget-password" bindtap="forgetPassword">
+        <text>忘记密码？</text>
+      </button>
+      
+    </view>
+
+    <!-- 注册界面 -->
+    <view wx:else>
+      <!-- 胶囊形状的选择框 -->
+      <view class="capsule-container">
+        <view class="capsule-option" bindtap="userTypeChanged" data-type="farmer">
+          <checkbox style="margin-right: 5px;" checked="{{userType === 'farmer'}}"></checkbox>
+          <text>我是农户</text>
+        </view>
+        <view class="capsule-option" bindtap="userTypeChanged" data-type="consumer">
+          <checkbox style="margin-right: 5px;" checked="{{userType === 'consumer'}}"></checkbox>
+          <text>我是消费者</text>
+        </view>
+      </view>
+
+      <!-- 用户名输入框 -->
+      <view class="search-box">
+        <image src="/images/login/usern.png" class="search-icon"></image>
+        <input class="input" type="text" placeholder="请输入您的手机号或邮箱"></input>
+      </view>
+
+      <!-- 密码输入框 -->
+      <view class="search-box">
+        <image src="/images/login/pw.png" class="search-icon"></image>
+        <input class="input" type="password" placeholder="请输入您的登录密码"></input>
+      </view>
+
+      <!-- 注册按钮 -->
+      <button class="capsule" bindtap="register">
+        <text class="capsule-text">注册</text>
+      </button>
+      
+     
+    </view>
+  </view>
+</view>

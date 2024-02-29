@@ -1,0 +1,31 @@
+/* pages/classification_cm/classification_cm.wxss */
+.bg{
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+.search-box{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  width:90%;
+  height: 20px;
+  background-color: #ffffff;
+}
+.search-image{
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+}
+.search-input{
+  color: black; 
+}
+.scroll-view{
+  width: 50px;
+  height: 150px;
+  border: #c21616;
+
+  font-size: x-large;
+}

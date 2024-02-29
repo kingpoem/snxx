@@ -1,0 +1,55 @@
+<!-- home.wxml -->
+
+<view>
+<view class="container">
+  <!-- 搜索框 -->
+  <view class="search-box">
+    <image src="/images/reps/sicon.png" class="search-icon"></image>
+    <input type="text" placeholder="请输入关键词" class="search-input"></input>
+  </view>
+  </view>
+
+<!-- 轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{activeColor}}" circular="{{circular}}">
+  <block wx:for="{{imgURLs}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 胶囊形状的矩形 -->
+<view class="capsule" >
+    <text class="capsule-text">每日臻选</text>
+  </view>
+
+  <!-- 商品列表 -->
+  <view class="product-list">
+    <block wx:for="{{products}}" wx:key="id">
+      <view class="product-item">
+        <image src="{{item.image}}" class="product-image"></image>
+        <view class="product-info">
+          <text class="product-name">{{item.name}}</text>
+          <text class="product-price">{{item.price}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+
+<!-- 胶囊形状的矩形 -->
+<view class="capsule">
+    <text class="capsule-text">低价抢购</text>
+  </view>
+<!-- 商品列表 -->
+<view class="product-list">
+    <block wx:for="{{products}}" wx:key="id">
+      <view class="product-item">
+        <image src="{{item.image}}" class="product-image"></image>
+        <view class="product-info">
+          <text class="product-name">{{item.name}}</text>
+          <text class="product-price">{{item.price}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

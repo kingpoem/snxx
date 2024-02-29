@@ -1,0 +1,18 @@
+<!--pages/classification_cm/classification_cm.wxml-->
+<!--搜索栏-->
+<view class="bg">
+  <view class="search-box">
+    <image src="/images/reps/sicon.png" class="search-image"></image>
+    <input type="text" placeholder="搜索商品信息" class="search-input"></input>
+  </view>
+</view>
+<scroll-view class="scroll-view" scroll-y>
+  <view class="bar" onTap="swap">蔬菜</view>
+  <view class="bar">水果</view>
+  <view class="bar">水产</view>
+  <view class="bar">特产</view>
+  <span>蔬菜</span>
+  <span>水果</span>
+  <span>水产</span>
+  <span>特产</span>
+</scroll-view>

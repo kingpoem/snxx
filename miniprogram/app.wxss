@@ -1,0 +1,18 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+body, .wx-body {
+  font-family: '宋体', 'Arial', sans-serif; /* 设置字体为宋体，若用户设备不支持，则使用 Arial 或 sans-serif */
+}
+
+.wx-navigation-bar-title {
+  font-size: 30px; 
+}
