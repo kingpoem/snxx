@@ -7,21 +7,26 @@
   display: flex;
   align-items: center;
   border: 1rpx solid #ccc;
-  border-radius: 20rpx;
+  border-radius: 40rpx;
   padding: 20rpx;
   margin-bottom: 10rpx;
-  margin-left: 10rpx;
+  margin-left: 16.65rpx;
   width:90%;
   height: 40rpx;
   background-color: #ffffff;
+
 }
 .search-image{
-  width: 20px;
-  height: 20px;
-  margin: 15px;
+  width: 44rpx;
+  height: 41rpx;
+  margin: 13rpx;
 }
 .search-input{
   color: black; 
+  font-size: 35rpx;
+  margin-left: 9rpx;
+  height: 50rpx;
+  width: 400rpx;
 }
 .scroll-view{
   width: 130rpx;
@@ -31,12 +36,15 @@
   border-radius: 0rpx;
   font-size: x-large;
 }
+::-webkit-scrollbar{
+  width: 0rpx;
+  height: 0rpx;
+}
 .bar{
-  font-size:large;
-  font:xx-large;
+  font-size:37rpx;
   font-weight:normal;
   font-style:normal;
-  margin-top: 0rpx;
+  margin-top: -0.3rpx;
   color: #4b9600;
   width: 130rpx;
   height: 90rpx;
@@ -45,11 +53,10 @@
   background: rgb(233, 232, 232);
 }
 .bar_active{
-  font-size:large;
-  font:xx-large;
+  font-size:37rpx;
   font-weight:normal;
   font-style:normal;
-  margin-top: 0rpx;
+  margin-top: -0.3rpx;
   color: rgb(57, 139, 2);
   width: 130rpx;
   height: 90rpx;
