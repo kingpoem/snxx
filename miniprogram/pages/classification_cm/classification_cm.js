@@ -1,11 +1,10 @@
 // pages/classification_cm/classification_cm.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    "active_class" : "0"
   },
 
   /**
@@ -63,7 +62,9 @@ Page({
   onShareAppMessage() {
 
   },
-  methods(e){
-    
+
+  scroll_bind(e){
+    const index = e.target.dataset.index;
+    this.setData({active_class : index})  
   }
 })

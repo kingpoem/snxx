@@ -6,17 +6,39 @@
     <input type="text" placeholder="搜索商品信息" class="search-input"></input>
   </view>
 </view>
-<scroll-view class="scroll-view" scroll-y>
-  <view class="bar_active" onTap="swap">蔬菜</view>
-  <view class="bar">水果</view>
-  <view class="bar">水产</view>
-  <view class="bar">谷物</view>
-  <view class="bar">肉类</view>
-  <view class="bar">香料</view>
-  <view class="bar">花卉</view>
-  <view class="bar">中药</view>
-  <view class="bar">特产</view>
-  <view class="bar">农副</view>
-  <view class="bar">其它</view>
+<scroll-view class="scroll-view ::-webkit-scrollbar"scroll-y bindtap = "scroll_bind" show-scrollbar ="none" >
+
+  <view wx:if = "{{active_class != 0}}" class="bar" data-index = "0">蔬菜</view>
+  <view wx:else class="bar_active" data-index = "0">蔬菜</view>
+
+  <view wx:if="{{active_class != 1}}" class="bar" data-index="1">水果</view>
+  <view wx:else class="bar_active" data-index="1">水果</view>
+
+  <view wx:if="{{active_class != 2}}" class="bar" data-index="2">水产</view>
+  <view wx:else class="bar_active" data-index="2">水产</view>
+
+  <view wx:if="{{active_class != 3}}" class="bar" data-index="3">谷物</view>
+  <view wx:else class="bar_active" data-index="3">谷物</view>
+
+  <view wx:if="{{active_class != 4}}" class="bar" data-index="4">肉类</view>
+  <view wx:else class="bar_active" data-index="4">肉类</view>
+
+  <view wx:if="{{active_class != 5}}" class="bar" data-index="5">香料</view>
+  <view wx:else class="bar_active" data-index="5">香料</view>
+
+  <view wx:if="{{active_class != 6}}" class="bar" data-index="6">花卉</view>
+  <view wx:else class="bar_active" data-index="6">花卉</view>
+
+  <view wx:if="{{active_class != 7}}" class="bar" data-index="7">中药</view>
+  <view wx:else class="bar_active" data-index="7">中药</view>
+
+  <view wx:if="{{active_class != 8}}" class="bar" data-index="8">特产</view>
+  <view wx:else class="bar_active" data-index="8">特产</view>
+
+  <view wx:if="{{active_class != 9}}" class="bar" data-index="9">农副</view>
+  <view wx:else class="bar_active" data-index="9">农副</view>
+
+  <view wx:if="{{active_class != 10}}" class="bar" data-index="10">其它</view>
+  <view wx:else class="bar_active" data-index="10">其它</view>
 
 </scroll-view>

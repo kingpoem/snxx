@@ -3,80 +3,89 @@ view {
   background-color: #EBFCD9;/* 设置页面背景颜色 */
 }
 
+.map{
+  height: 442rpx;
+}
 .container {
-  padding-top: 5px;
-  padding-bottom: 0px;
-   
+  padding-top: 7rpx;
+  padding-bottom: 0rpx;
 }
 
 .search-box {
   display: flex;
   align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  padding: 10px;
-  margin-bottom: 5px;
-  width: 90%;
+  border: 1rpx solid #ccc;
+  border-radius: 40rpx;
+  padding: 20rpx;
+  margin-bottom: 10rpx;
+  width:90%;
+  height: 40rpx;
   background-color: #ffffff;
 }
 
 .search-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 15px;
+  width: 44rpx;
+  height: 41rpx;
+  margin: 13rpx;
 }
 
 .capsule {
   width: 80%; /* 胶囊形状的矩形宽度为页面宽度的一半 */
   background-color: #4B9600; /* 胶囊形状的矩形背景颜色 */
-  border-radius: 20px; /* 设置圆角为20px，使其呈现胶囊形状 */
-  margin: 20px auto; /* 居中显示 */
+  border-radius: 40rpx; /* 设置圆角为20px，使其呈现胶囊形状 */
+  margin: 40rpx auto; /* 居中显示 */
   text-align: center; /* 文字居中显示 */
 }
 
 .capsule-text {
   color: #fff; /* 文字颜色为白色 */
-  font-size: 16px; /* 字体大小 */
-  line-height: 40px; /* 行高与矩形高度相同，使文字垂直居中 */
+  font-size: 32rpx; /* 字体大小 */
+  line-height: 80rpx; /* 行高与矩形高度相同，使文字垂直居中 */
 }
 
 
 /* 添加下面这段样式 */
 .search-input {
   color: black; 
+  font-size: 35rpx;
+  margin-left: 9rpx;
+  height: 50rpx;
+  width: 400rpx;
 }
 
 /* 轮播 */
 swiper image {
-  width: 750;
-  height: 352rpx;
+  width: 750rpx;
+  height: 442rpx;
 }
 
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px; /* 添加顶部间距 */
+  margin-top: 40rpx; /* 添加顶部间距 */
   justify-content: space-between; /* 均匀分布项目 */
 }
 
 .product-item {
-  width: calc(33.33%-5px);
-  margin-right: 20px;
-  margin-bottom: 70px;
+  width: calc(33.33%-10rpx);
+  height: 107rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 140rpx;
 }
 
 .product-image {
   width: 100%; /* 图片宽度自适应父容器 */
   height: 150%; /* 高度自适应根据宽度调整 */
-  border-radius: 5px;
+  border-radius: 13rpx;
 }
 
 .product-info {
-  margin-top: 10px;
+  margin-top: 20rpx;
 }
 
 .product-name {
-  font-size: 14px;
+  font-size: 28rpx;
   color: green;
   white-space: nowrap; /* 避免文字换行 */
   overflow: hidden; /* 隐藏溢出的文字 */
@@ -84,7 +93,7 @@ swiper image {
 }
 
 .product-price {
-  font-size: 12px;
+  font-size: 24rpx;
   color: red;
   white-space: pre-wrap; /* 保留换行符，并根据需要进行换行 */
 }

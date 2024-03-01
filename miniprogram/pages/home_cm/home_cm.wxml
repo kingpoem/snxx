@@ -1,5 +1,6 @@
 <!-- home.wxml -->
 
+
 <view>
 <view class="container">
   <!-- 搜索框 -->
@@ -10,7 +11,7 @@
   </view>
 
 <!-- 轮播图 -->
-<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{activeColor}}" circular="{{circular}}">
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{activeColor}}" circular="{{circular}}" class="map">
   <block wx:for="{{imgURLs}}" wx:key="*this">
     <swiper-item>
       <image src="{{item}}"></image>
