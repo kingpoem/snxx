@@ -4,8 +4,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-    "active_class" : "0"
+    "active_class" : "0",
+    cls_productinfo:[
+      {guid:"1",
+      ownerld:"小林的店铺",
+      name:"田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节 中果",
+      image:["/images/prods/product1.png"],
+      despciption:"",
+      address:"",
+      type: [
+        {
+          guid:"",
+          name:"阳山水蜜桃",
+          number: 1,
+          price: 20.00,
+        }
+      ],
+      category:"水果",
+      quality:"",
+      advantage:"",
+      warranty:"6-7两,一盒6个",
+      sold: 0,
+      hidden: false
+      }
+    ]
   },
+
 
   /**
    * 生命周期函数--监听页面加载
