@@ -89,7 +89,7 @@
   width: 410rpx;
   margin-left: 20rpx;
   height: 180rpx;
-  border: 0rpx solid black;
+  /* border: 0rpx solid black; */
 }
 image{
   height: 180rpx;
@@ -115,23 +115,23 @@ image{
 }
 .zone_1{
   margin-top: 3rpx;
-  border: 1rpx solid red;
-  height:110rpx
+  /* border: 0rpx solid red; */
+  height:104rpx
 }
 .zone_2{
   margin-top: 0rpx;
-  border: 1rpx solid green;
-  height: 50rpx;
-  overflow: hidden;
+  /* border: 0rpx solid green; */
+  height: 36rpx;
 }
 .pdct_number{
-  margin-left: 2rpx;
+  margin-left: 7rpx;
   margin-top: 0rpx;
-  font-size: 5pt;
+  font-size: 8.5pt;
+  color:rgb(141, 141, 141)
 }
 
 .zone_3{
-  border: 1rpx solid blue;
+  /* border: 0rpx solid blue; */
   margin-bottom: 0rpx;
   height:33rpx;
 }

@@ -7,7 +7,9 @@
     "pages/classification_cm/classification_cm",
     "pages/cart_cm/cart_cm",
     "pages/custom_cm/custom_cm",
-    "pages/forgetpw/forgetpw"
+    "pages/forgetpw/forgetpw",
+    "pages/product_info/product_info"
+    
 
   ],
   "window": {

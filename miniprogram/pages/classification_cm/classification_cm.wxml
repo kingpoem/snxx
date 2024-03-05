@@ -47,85 +47,21 @@
 
 <scroll-view class="cls_background" scroll-y>
   <view wx:if="{{active_class == 1}}">
-    <view class="cls_product_zone">
+  
+    <view class="cls_product_zone" bindtap="redirectToproduct_info">
       <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
       <div class="text_zone">
         <view class="zone_1">
           <view class = "product_text">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节 中果</view> <!--云链接-->
         </view>
         <view class = "zone_2">
-          <text class = "pdct_number">12/800</text>
+          <text class = "pdct_number">库存：12/800</text>
         </view>
         <view class="zone_3">
           <text class = "product_price">￥20.00/斤</text>
         </view>
       </div>
     </view>
-    <view class="cls_product_zone">
-      <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
-      <div class="text_zone">
-        <view class="zone_1">
-          <view class = "product_text">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节 中果</view> <!--云链接-->
-        </view>
-        <view class="zone_3">
-          <text class = "product_price">￥20.00</text>
-        </view>
-      </div>
-    </view>
-    <view class="cls_product_zone">
-      <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
-      <div class="text_zone">
-        <view class="zone_1">
-          <view class = "product_text">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节 中果</view> <!--云链接-->
-        </view>
-        <view class="zone_3">
-          <text class = "product_price">￥20.00</text>
-        </view>
-      </div>
-    </view>
-    <view class="cls_product_zone">
-      <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
-      <div class="text_zone">
-        <view class="zone_1">
-          <view class = "product_text">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节 中果</view> <!--云链接-->
-        </view>
-        <view class="zone_3">
-          <text class = "product_price">￥20.00</text>
-        </view>
-      </div>
-    </view>
-    <view class="cls_product_zone">
-      <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
-      <div class="text_zone">
-        <view class="zone_1">
-          <view class = "product_text">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节 中果</view> <!--云链接-->
-        </view>
-        <view class="zone_3">
-          <text class = "product_price">￥20.00</text>
-        </view>
-      </div>
-    </view>
-    <view class="cls_product_zone">
-      <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
-      <div class="text_zone">
-        <view class="zone_1">
-          <view class = "product_text">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节 中果</view> <!--云链接-->
-        </view>
-        <view class="zone_3">
-          <text class = "product_price">￥20.00</text>
-        </view>
-      </div>
-    </view>
-    <view class="cls_product_zone">
-      <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
-      <div class="text_zone">
-        <view class="zone_1">
-          <view class = "product_text">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节中果哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</view> <!--云链接-->
-        </view>
-        <view class="zone_3">
-          <text class = "product_price">￥20.00</text>
-        </view>
-      </div>
-    </view>
+    
   </view>
 </scroll-view>

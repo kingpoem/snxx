@@ -90,5 +90,11 @@ Page({
   scroll_bind(e){
     const index = e.target.dataset.index;
     this.setData({active_class : index})  
+  },
+
+  redirectToproduct_info(){
+    wx.navigateTo({
+      url: '/pages/product_info/product_info'
+    })
   }
 })
