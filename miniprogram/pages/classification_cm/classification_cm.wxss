@@ -84,11 +84,12 @@
   flex-direction: row;
 }
 .text_zone{
+  margin-top: 0rpxs;
   direction: column;
   width: 410rpx;
   margin-left: 20rpx;
   height: 180rpx;
-  border: 0rpx solid black;
+  /* border: 0rpx solid black; */
 }
 image{
   height: 180rpx;
@@ -98,25 +99,39 @@ image{
 }
 .product_text{
   font-size: 28rpx;
-  margin-top: 3rpx;
+  margin-top: 0rpx;
   margin-left: 20rpx;
   color: rgb(80, 80, 80);
-  width: 200rpx;
+  width: 395rpx;
+  height: 90rpx;
   margin: 0rpx;
 }
 
 .product_price{
-  margin-left:219rpx;
-  font-size: 45rpx;
+  margin-left: 0rpx;
+  font-size: 30rpx;
   color:darkorange;
+  margin-top: 0rpx;
 }
 .zone_1{
-  border: 0rpx solid red;
+  margin-top: 3rpx;
+  /* border: 0rpx solid red; */
+  height:104rpx
 }
 .zone_2{
-  border: 0rpx solid green;
+  margin-top: 0rpx;
+  /* border: 0rpx solid green; */
+  height: 36rpx;
 }
+.pdct_number{
+  margin-left: 7rpx;
+  margin-top: 0rpx;
+  font-size: 8.5pt;
+  color:rgb(141, 141, 141)
+}
+
 .zone_3{
-  border: 0rpx solid blue;
+  /* border: 0rpx solid blue; */
   margin-bottom: 0rpx;
+  height:33rpx;
 }

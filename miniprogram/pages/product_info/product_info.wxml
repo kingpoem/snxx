@@ -1,0 +1,59 @@
+
+<view class = "back_1">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{activeColor}}" circular="{{circular}}" class = "map">
+    <block wx:for="{{imgURLs}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+  </swiper>
+</view>
+<view class ="back_2">
+  <view class = "white_1">
+    <view class = "mes_1">
+      <view class = "a1">
+        <text class ="t1">￥138.00</text>
+      </view>
+      <view class = "a2">
+        <text class ="t2">盒装水蜜桃</text>
+      </view>
+      <view class = "a3">
+        <view class = "b1">
+          <text class ="t3">库存：366件</text>
+        </view>
+        <view class = "b2">
+          <text class ="t4">销量：33件</text>
+        </view>
+      </view>
+    </view>
+    <view class = "mes_2">
+      <view class ="orbutton"> 
+        <text class = "ort">生产溯源</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class ="back_3">
+  <view class = "white_2">
+    <view class = "d1">
+      <text class ="intro_t">产品介绍</text>
+    </view>
+    <view class = "d2">
+      <image src="/images/prods/fruitOne.png" mode="widthFix" style="height: 170rpx;width: 709rpx;margin-top: -180rpx;"></image>
+    </view>
+    <view class = "d3">
+      <view class = "d1">盒装水蜜桃是一种以水蜜桃为主要原料制成的饮品，通常是将水蜜桃果肉榨汁或浸泡后制成的果汁饮料。这种产品通常以盒装形式出售，方便携带和保存。
+    </view></view>
+  </view>
+</view>
+<view class ="back_4">
+  <view class = "white_3">
+    <view class = "d1">
+      <text class ="intro_t">为您推荐</text>
+    </view>
+  </view>
+</view>
+
+<cover-view class ="bottom">
+
+</cover-view>
