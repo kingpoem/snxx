@@ -22,6 +22,15 @@ Page({
     ],  
     
   },  
+    //跳转到详情
+    toDetail: function(e){
+      console.log(e)
+      let productId = e.currentTarget.dataset.productid
+      wx.navigateTo({
+        url: '../detail/detail?productId='+productId,
+      })
+    },
+  
   onLoad: function () {  
     // 页面加载时执行的操作  
   }  
