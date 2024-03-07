@@ -53,7 +53,9 @@
     </view>
   </view>
 </view>
+<view class="back_5">
+</view>
 
-<cover-view class ="bottom">
+<view class ="bottom" style="position: fixed;bottom:0;width: 750rpx;height: 100rpx;">
 
-</cover-view>
+</view>

@@ -173,10 +173,16 @@ swiper image {
   display: flex;
   flex-direction: column;
 }
-.bottom{
-  border: 1rpx solid black;
+.back_5{
+  margin-top: 0rpx;
+  background-color: rgb(232, 255, 232);
   height: 100rpx;
+}
+.bottom{
+  height: 100rpx;
+  width: 742rpx;
   position: absolute;
-  margin-bottom: 100rpx;
+  display:fixed;
+  background-color: rgb(255, 255, 255);
 }
 
