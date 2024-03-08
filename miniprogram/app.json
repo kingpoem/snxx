@@ -8,8 +8,8 @@
     "pages/cart_cm/cart_cm",
     "pages/custom_cm/custom_cm",
     "pages/forgetpw/forgetpw",
-    "pages/product_info/product_info"
-    
+    "pages/product_info/product_info",
+    "pages/all_order/all_order"
 
   ],
   "window": {

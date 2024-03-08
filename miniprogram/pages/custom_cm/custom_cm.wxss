@@ -9,7 +9,13 @@
   height: 40rpx;
   width:100%;
 }
-.function_item{
+.menu-box{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  color: black;
+}
+.menu{
   width:25%;
   display:flex;
   flex-direction:column;
@@ -19,11 +25,22 @@
   box-sizing:border-box;
   padding-bottom:10px;
   padding-top:10px
+  
 }
-.function_img{
-  width:20px;
-  height:20px;
+.menu>image{
+  width:30px;
+  height:30px;
 }
-.function_name{
+.text{
   padding-top:10px
+}
+.capsule {
+  width: 80%; /* 胶囊形状的矩形宽度为页面宽度的一半 */
+  background-color: #4B9600; /* 胶囊形状的矩形背景颜色 */
+  border: none; /* 移除按钮默认边框 */
+  border-radius: 20px; /* 设置圆角为20px，使其呈现胶囊形状 */
+  margin: 20px auto; /* 居中显示 */
+  text-align: center; /* 文字居中显示 */
+  cursor: pointer; /* 鼠标样式为手型 */
+  padding: 10px; /* 添加内边距 */
 }
