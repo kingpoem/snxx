@@ -16,7 +16,6 @@
       "pages": [
         "pages/shop_revenue/shop_revenue",
         "pages/release_product/release_product",
-        "pages/inventory_management/inventory_management",
         "pages/received_review/received_review",
         "pages/income_expenses/income_expenses"
       ]
