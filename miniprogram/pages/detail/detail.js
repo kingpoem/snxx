@@ -16,19 +16,25 @@ Page({
 
     // 商品详情介绍
   },
-
+addCar(){
+  wx.showToast({      
+    title: '加入购物车成功',      
+    icon: 'success',      
+    duration: 2000
+});   
+},
   
-  // 收藏
-  addLike() {
-    this.setData({
-      isLike: !this.data.isLike
-    });
-  },
+  
   // 跳到购物车
   toCar() {
     wx.switchTab({
-      url: '/pages/cart/cart'
+      url: '/pages/cart_cm/cart_cm'
     })
+  },
+  toHome(){
+wx.switchTab({
+  url: '/pages/home_cm/home_cm',
+})
   },
   // 立即购买
   immeBuy() {

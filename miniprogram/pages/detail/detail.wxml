@@ -13,23 +13,13 @@
     <button  class="my-button" style="height: 100rpx " >产品溯源</button>
   </view>
   <view class="separate"></view>
-  
-
-  <text bindtap="toggleDialog">请选择购买数量</text>
-  <view class="separate"></view>
-  <text>商品评价</text>
-  <text class="text-remark">东西还可以，好评~</text>
-  <view class="separate"></view>
-  <text>商品详情</text>
-  <block wx:for-items="{{detailImg}}" wx:key="name">
-    <image class="image_detail" src="{{item}}" />
-  </block>
-  <view class="temp"></view>
 </scroll-view>
+
+  
 <!-- 底部悬浮栏 -->
 <view class="detail-nav">
   <image bindtap="toHome" src="/images/tabs/home_cm_tb.png" />
   <image bindtap="toCar" src="/images/tabs/cart_cm_tb.png" />
-  <button class="button-green" bindtap="addCar" formType="submit">加入购物车</button>
-  <button class="button-yellow" bindtap="immeBuy" formType="submit">立即购买</button>
+  <button class="button-green" bindtap="addCar" date-item="{{item}}">加入购物车</button>
+  <button class="button-yellow" bindtap="immeBuy" >立即购买</button>
 </view>

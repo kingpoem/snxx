@@ -5,7 +5,7 @@
 <view class="fenge"/>
 <view>
   <view class="menu-box">
-			<view class="menu">
+			<view class="menu" bindtap="skipAll_order">
 				<image src="/images/iron/dingdan.png"></image>
 				<text>我的订单</text>
 			</view>
@@ -15,7 +15,7 @@
 			</view>
 			<view class="menu">
 				<image src="../../images/iron/fahuo.png"></image>
-				<text>代发货</text>
+				<text>待发货</text>
 			</view>
 			<view class="menu">
 				<image src="../../images/iron/shouhuo.png"></image>

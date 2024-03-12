@@ -1,16 +1,17 @@
 {
   "pages": [
-    
     "pages/home_cm/home_cm",
-    
     "pages/login/login",
     "pages/classification_cm/classification_cm",
     "pages/cart_cm/cart_cm",
     "pages/custom_cm/custom_cm",
     "pages/forgetpw/forgetpw",
     "pages/product_info/product_info",
-    "pages/trace_cm/trace_cm"
-  ],"subpackages": [
+    "pages/all_orders/all_orders",
+    "pages/trace_cm/trace_cm",
+    "pages/confirm_order/confirm_order"
+  ],
+  "subpackages": [
     {
       "root": "packageA",
       "pages": [
@@ -22,7 +23,6 @@
     }, 
     {
       "root": "packageB",
-      "name": "pack2",
       "pages": [
         "pages/addresss_management/address_management",
         "pages/contact_merchat/contact_merchant",

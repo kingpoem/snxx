@@ -27,9 +27,9 @@
   <!-- 商品列表 -->
   <view class="product-list">
     <block wx:for="{{products}}" wx:key="id">
-    <navigator url="/pages/detail/detail?productId={{item.productId}}">
+    <navigator url="/pages/detail/detail" bindtap="toDetail">
       <view class="product-item">
-        <image src="{{item.image}}" class="product-image"></image>
+        <image src="{{item.image}}" bindtap ="toDetail" class="product-image" mode="aspectFill"></image>
         <view class="product-info">
           <text class="product-name">{{item.name}}</text>
           <text class="product-price">{{item.price}}</text>
@@ -45,7 +45,7 @@
 <!-- 商品列表 -->
 <view class="product-list">
     <block wx:for="{{products}}" wx:key="id">
-    <navigator url="/pages/detail/detail?productId={{item.productId}}">
+    <navigator url="/pages/detail/detail" bindtap="toDetail">
       <view class="product-item">
         <image src="{{item.image}}" class="product-image"></image>
         <view class="product-info">

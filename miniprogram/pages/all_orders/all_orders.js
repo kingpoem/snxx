@@ -1,4 +1,4 @@
-// pages/all_order/all_order.js
+// pages/all_orders/all_orders.js
 Page({
 
   /**
