@@ -10,8 +10,6 @@
     "pages/forgetpw/forgetpw",
     "pages/product_info/product_info",
     "pages/trace_cm/trace_cm"
-    
-
   ],"subpackages": [
     {
       "root": "packageA",

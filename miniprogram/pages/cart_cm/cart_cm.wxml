@@ -1,4 +1,50 @@
 <!--pages/cart_cm/cart_cm.wxml-->
-<view>
-
+<view class="background">
+	<!--搜索框-->
+	<view class="bg">
+		<view class="search-box">
+			<image src="/images/reps/sicon.png" class="search-image"></image>
+			<input type="text" placeholder="搜索商品信息" class="search-input"></input>
+			<view class="management">
+					<image src="/images/iron/management.png" class="manageicon"></image>
+			</view>
+		</view>
+	</view>
 </view>
+<view class="background">
+	<view class="products" wx:for="{{productinfo}}" wx:key="k" wx:for-index="idx" wx:for-item="itm">
+		<view class="top">
+		</view>
+		<view class="left_container">
+			<view class="shop-info">
+				<image src="/images/iron/product_not_selected.png" class="shopico"></image>
+				<image src="/images/iron/shop.png" class="shopico"></image>
+				<a>{{itm.ownerld}}</a>
+			</view>
+			<block class="productlist">
+				<image src="/images/iron/product_not_selected.png" class="selectionico"></image>
+				<image src="{{itm.image[0]}}" class="productimg"></image>
+				<view class="productinfo_txt">
+					<view class ="name_zone">
+						<text class ="name_text">
+						</text>
+					</view>
+				</view>
+			</block>
+		</view>
+		<view class="right_container">
+			<view class="description_1"> 
+				<span class="itemname">
+					<text class="itemname">{{itm.name}}</text> 
+				</span>
+				<span class="productnum">
+					<image src="/images/iron/1.png" class="multiico"></image>
+					<text>{{itm.type[0].number}}</text>
+				</span>
+			</view>
+			<view class="description_2"> <text>{{itm.warranty}}</text> </view>
+			<view class="description_3"> <text>¥{{itm.type[0].price}}</text> </view>
+		</view>
+	</view>
+</view>
+
