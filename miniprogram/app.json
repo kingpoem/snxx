@@ -8,9 +8,31 @@
     "pages/cart_cm/cart_cm",
     "pages/custom_cm/custom_cm",
     "pages/forgetpw/forgetpw",
-    "pages/product_info/product_info"
+    "pages/product_info/product_info",
+    "pages/trace_cm/trace_cm"
     
 
+  ],"subpackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/shop_revenue/shop_revenue",
+        "pages/release_product/release_product",
+        "pages/inventory_management/inventory_management",
+        "pages/received_review/received_review",
+        "pages/income_expenses/income_expenses"
+      ]
+    }, 
+    {
+      "root": "packageB",
+      "name": "pack2",
+      "pages": [
+        "pages/addresss_management/address_management",
+        "pages/contact_merchat/contact_merchant",
+        "pages/evaluation/evaluation",
+        "pages/logistics_info/logistics_info"
+      ]
+    } 
   ],
   "window": {
     "navigationBarTextStyle": "white",
