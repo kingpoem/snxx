@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgURLs: [  
+    imgURLs: [
       '/images/prods/fruitOne.png',
       '/images/prods/fruitOne.png',
       '/images/prods/fruitOne.png',
@@ -17,8 +17,8 @@ Page({
     autoplay: true,  //是否自动切换
     interval: 3500,  //自动切换时间间隔
     duration: 500,   //滑动动画时长
-    activeColor:"#ffffff",  //当前选中的指示点颜色
-    circular:true ,   // 是否采用衔接滑动
+    activeColor: "#ffffff",  //当前选中的指示点颜色
+    circular: true,   // 是否采用衔接滑动
   },
 
   /**
@@ -75,5 +75,19 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  redirectTo(event) {
+    const target = event.target.dataset.index
+    const pages = getCurrentPages();
+    console.log(pages)
+    for (let index = pages.length - 1; index >= 0; index--) {
+      const element = pages[index];
+
+    }
+  },
+  trace(){
+    wx.navigateTo({
+      url: '/pages/trace_cm/trace_cm'
+    })
   }
 })

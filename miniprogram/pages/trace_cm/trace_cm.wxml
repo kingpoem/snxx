@@ -1,0 +1,190 @@
+<view style = "background-color: #4B9600;width: 750rpx;height: 120rpx;text-align: center;">
+  <text style = "margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">的\n产品是这样产生的</text>
+</view>
+
+<view class="flex-col page">
+  <!-- <view class="flex-row justify-center items-center relative section">
+    <image
+      class="image pos"
+      src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=4761ca6925eb334de18530887ecd9c8b.png"
+    />
+    <text class="text">产品这样产生</text>
+  </view> -->
+  <view class="flex-col group">
+    <view class="flex-col">
+      <view class="flex-col section_2">
+        <text class="self-center font text_2">种植时间</text>
+        <view class="flex-row equal-division group_2">
+          <view class="flex-col items-center group_3 equal-division-item">
+            <image
+              class="image_2"
+              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=fa76d8f700867351b0b4135e787c8569.png"
+            />
+            <text class="font_2 mt-13">12～17℃</text>
+          </view>
+          <view class="flex-col items-center group_3 equal-division-item">
+            <image
+              class="image_2"
+              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=b9ad418b0455fcb9db1ab305e0d856a0.png"
+            />
+            <text class="font_2 mt-13">65~75%</text>
+          </view>
+          <view class="flex-col items-center group_3 equal-division-item">
+            <image
+              class="image_2"
+              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=0b25e8b2eabd93219923cc77c7ca61bb.png"
+            />
+            <text class="mt-12 font_2">充足</text>
+          </view>
+        </view>
+        <text class="self-center font_2 text_3">十月中下旬到次年一月中下旬</text>
+      </view>
+      <view class="mt-12 flex-col section_3">
+        <text class="self-center text_4">园地选整</text>
+        <view class="flex-col self-stretch mt-9">
+          <image
+            class="image_3"
+            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=0885f01515435a0107141aaab150fcfc.png"
+          />
+          <text class="mt-12 font_3">
+            排水好、土层深厚、土质疏松、偏酸性的沙质壤土。在种植前进行园地整改，需要深翻土壤，施入充足的土杂肥，提高土壤的肥力。然后按照行间距四米、株间距三米挖好定植穴，往定植穴中施入充足的腐熟的农家肥以及是来给你的磷肥，再撒上一层薄土，等待种植。
+          </text>
+        </view>
+      </view>
+      <view class="mt-12 flex-col section_4">
+        <text class="self-center font">选苗定植</text>
+        <view class="mt-10 flex-col self-stretch">
+          <image
+            class="image_3 image_4"
+            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=e625f9e956de1967054821e747ec1248.png"
+          />
+          <view class="mt-8 group_4">
+            <text class="font_3">尽量是选择</text>
+            <text class="font_4">产量高的、品质优良的、销量高的</text>
+            <text class="font_3">苗木，并合理的分配好水蜜桃成熟时期，按</text>
+            <text class="font_4">早、中、晚合理搭配</text>
+            <text class="font_3">。然后将选好的水蜜桃树苗的枝叶和树根进行适当的</text>
+            <text class="font_4">修剪</text>
+            <text class="font_3">，然后放入定植穴中，让它的根部充分的舒展开，然后将</text>
+            <text class="font_4">树苗扶正</text>
+            <text class="font_3">，用土回填，将地面用脚踩实，浇一遍水即可。</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="mt-12 flex-col">
+      <view class="flex-col section_5">
+        <text class="self-center font text_5">肥水管理</text>
+        <view class="mt-10 flex-col self-stretch">
+          <image
+            class="image_3"
+            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=887a290e97a97b3a8ee09289060fae5c.png"
+          />
+          <view class="group_5 mt-5">
+            <text class="font_3">水蜜桃种植前，要给种植地施充足的</text>
+            <text class="font_4">基肥</text>
+            <text class="font_3">
+              定植，而且基肥最好选择有机肥。施基肥以后将种子埋入土中，然后给它覆上一层土浇透水，之后注意保温等待其发芽即可。施基肥一般都是在冬季，后期的追肥要根据果蔬具体的发育情况做决定。不过一般情况下，果树生长最快的那段时间还是需要给它追肥的。
+            </text>
+          </view>
+        </view>
+      </view>
+      <view class="mt-12 flex-col section_6">
+        <text class="self-center font text_6">树体修剪</text>
+        <view class="mt-10 flex-col self-stretch">
+          <image
+            class="image_3 image_5"
+            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=5e430757921dd7e1d8cf571812538bbd.png"
+          />
+          <view class="mt-16 group_6">
+            <text class="font_3">一般果树落叶后会进入休眠期后，这段时间可以给树体进行</text>
+            <text class="font_4">修剪</text>
+            <text class="font_3">。修剪时要将过密的、过长的枝条截断，长度适中的枝条可以保留。这样能</text>
+            <text class="font_4">避免休眠期养分的不必要消耗</text>
+            <text class="font_3">，而且还能</text>
+            <text class="font_4">维持良好的树形</text>
+            <text class="font_3">。</text>
+          </view>
+        </view>
+      </view>
+      <view class="mt-12 flex-col section_7">
+        <text class="self-center font text_7">病虫害防治</text>
+        <view class="mt-10 flex-row justify-evenly self-stretch">
+          <image
+            class="image_6"
+            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=79a50809e1f378e5903dc6e3c2cfa0f9.png"
+          />
+          <image
+            class="image_7"
+            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=aba7802adaf807e78941edd72e81119c.png"
+          />
+          <image
+            class="image_8"
+            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=296eb952e8175a2553c7f14472b2f474.png"
+          />
+        </view>
+        <view class="mt-10 self-stretch group_7">
+          <text class="font_3">水蜜桃病虫害防治首先要做好</text>
+          <text class="font_4">冬季清园工作</text>
+          <text class="font_3">
+            ，结合冬季修剪及时清除病枝、病叶，立冬前后进行树干涂白，早春萌芽前喷波美5度石硫合剂，在生长期要
+          </text>
+          <text class="font_4">防治褐腐病、炭疽病、疮痂病、缩叶病等病害</text>
+          <text class="font_3">
+            。危害桃树的害虫有蚜虫、梨小食心虫、小绿叶蝉、桃蛀螟、剌蛾、军配虫、桑白蚧等，根据发生情况
+          </text>
+          <text class="font_4">及时喷药防治</text>
+          <text class="font_3">。</text>
+        </view>
+      </view>
+      <view class="mt-12 flex-col section_8">
+        <text class="self-center font">果实管理</text>
+        <view class="mt-10 flex-row self-stretch">
+          <image
+            class="flex-1 image_9"
+            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=65656a9a9afc9f43ec2a8e900776631c.png"
+          />
+          <view class="flex-col items-center shrink-0 group_8">
+            <image
+              class="image_10"
+              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=f684c05985c03def36d247f70beb7887.png"
+            />
+            <image
+              class="image_11"
+              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=d12316614eb13744196eca03c95541a1.png"
+            />
+          </view>
+        </view>
+        <view class="mt-10 self-stretch group_9">
+          <text class="font_4">疏果</text>
+          <text class="font_3">
+            提高单果重量，调节枝果营养争夺，控制枝梢抽生的类型、部位和改变树冠结构。 在定果后及时
+          </text>
+          <text class="font_4">套袋</text>
+          <text class="font_3">，套袋底部透气、若排水口有粘连，则加凿排水口。</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+<!-- <view style = "background-color: rgb(232, 255, 232); height:350rpx;margin-top: 0rpx;display: flex;">
+  <view style= "background-color:white;width: 700rpx;height:300rpx;margin-top: 26rpx;margin-left: 25rpx;">
+    <view style = "width: 700rpx;height:350rpx;display: flex;flex-direction: column;">
+      <view style = "width: 700rpx;text-align: center;height: 70rpx;margin-top: 10rpx;">
+        <text style = "color: black; font-size: 40rpx;">种植时间</text>
+      </view>
+      <view style = "height: 170rpx;display: flex;flex-direction: row;">
+        <view style="width: 233.33rpx;">
+          <view style="height: 130rpx;"></view>
+          <view style="height: 40rpx;"></view>
+        </view>
+      </view>
+      <view style="text-align: center;">
+        <text style="font-size: 24rpx;color: grey;">十月中下旬到次年一月中下旬</text>
+      </view>
+    </view>
+  </view>
+</view> -->
