@@ -2,14 +2,16 @@
   "pages": [
     
     "pages/home_cm/home_cm",
-    
     "pages/login/login",
     "pages/classification_cm/classification_cm",
     "pages/cart_cm/cart_cm",
     "pages/custom_cm/custom_cm",
     "pages/forgetpw/forgetpw",
     "pages/product_info/product_info",
-    "pages/all_order/all_order"
+    "pages/all_orders/all_orders",
+    "pages/pending/pending",
+   "pages/detail/detail"
+
 
   ],
   "window": {
