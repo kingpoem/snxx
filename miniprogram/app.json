@@ -11,7 +11,7 @@
     "pages/all_orders/all_orders",
     "pages/pending/pending",
    "pages/detail/detail"
-
+    
 
   ],
   "window": {

@@ -23,7 +23,11 @@ addCar(){
     duration: 2000
 });   
 },
-  
+  trace(){
+    wx.navigateTo({
+      url: 'pages/trace_cm/trace_cm'
+    })
+  },
   
   // 跳到购物车
   toCar() {
