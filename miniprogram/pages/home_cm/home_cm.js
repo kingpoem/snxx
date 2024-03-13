@@ -1,11 +1,11 @@
- // home.js  
-  
-Page({  
-  data: {  
-    imgURLs: [  
-      '/images/reps/slider1.png',  
-      '/images/reps/slider2.png',  
-      '/images/reps/slider3.png'  
+ // home.js
+
+Page({
+  data: {
+    imgURLs: [
+      '/images/reps/slider1.png',
+      '/images/reps/slider2.png',
+      '/images/reps/slider3.png'
     ],
     indicatorDots: true,
     vertical: false, //滑动方向是否为纵向
@@ -15,13 +15,13 @@ Page({
     activeColor:"#ffffff",  //当前选中的指示点颜色
     circular:true ,   // 是否采用衔接滑动
 
-    products: [  
-      { id: 1, image: '/images/prods/product1.png', name: '商品1', price: '￥10.00' },  
-      { id: 2, image: '/images/prods/product2.png', name: '商品2', price: '￥20.00' },  
-      { id: 3, image: '/images/prods/product3.png', name: '商品3', price: '￥30.00' }  
-    ],  
-    
-  },  
+    products: [
+      { id: 1, image: '/images/prods/product1.png', name: '商品1', price: '￥10.00' },
+      { id: 2, image: '/images/prods/product2.png', name: '商品2', price: '￥20.00' },
+      { id: 3, image: '/images/prods/product3.png', name: '商品3', price: '￥30.00' }
+    ],
+
+  },
     //跳转到详情
     /*toDetail: function(e){
       console.log(e)
@@ -35,7 +35,7 @@ Page({
         url: 'pages/detail/detail',
       })
     },
-  onLoad: function () {  
-    // 页面加载时执行的操作  
-  }  
+  onLoad: function () {
+    // 页面加载时执行的操作
+  }
 })

@@ -7,6 +7,7 @@
   </block>
   </swiper>
 </view>
+
 <view class ="back_2">
   <view class = "white_1">
     <view class = "mes_1">
@@ -26,7 +27,7 @@
       </view>
     </view>
     <view class = "mes_2">
-      <view class ="orbutton" bindtap = "trace"> 
+      <view class ="orbutton" bindtap = "trace">
         <text class = "ort">生产溯源</text>
       </view>
     </view>
@@ -70,28 +71,13 @@
           <text style = "font-size: 33rpx; color: rgb(255, 81, 0);">￥138.00</text>
         </view>
       </view>
-      
+
     </view>
   </view>
 </view>
 <view class="back_5">
 </view>
 
+<view class ="bottom" style="position: fixed;bottom:0;width: 750rpx;height: 100rpx;">
 
-
-<navigator class ="bottom">
-  <navigator open-type = "switchTab" url="/pages/home_cm/home_cm">
-    <image src = "/images/tabs/home_cm_tb.png" style="height: 40rpx;width: 40rpx;margin-top: 30rpx;margin-left: 30rpx" data-index = "home_cm"></image>
-  </navigator>  
-  <navigator open-type = "switchTab" url="/pages/cart_cm/cart_cm">
-    <image src = "/images/tabs/cart_cm_tb.png" style="height: 40rpx;width: 40rpx;margin-top: 30rpx;margin-left: 30rpx"  data-index = "cart_cm"></image>
-  </navigator>
-  <view class = "buy">
-    <view class = "f1">
-      <text style="font-size: 25rpx; color: rgb(100, 100, 100) ;text-align: center; margin-left: 25rpx;">加入购物车</text>
-    </view>
-    <view class = "f2">
-      <text style="font-size: 25rpx; color: rgb(236, 236, 236) ;text-align: center; margin-left: 27rpx;">立即购买</text>
-    </view> 
-  </view>
-</navigator>
+</view>

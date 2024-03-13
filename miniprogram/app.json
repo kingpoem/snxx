@@ -8,34 +8,16 @@
     "pages/forgetpw/forgetpw",
     "pages/product_info/product_info",
     "pages/all_orders/all_orders",
-    "pages/trace_cm/trace_cm",
-    "pages/confirm_order/confirm_order"
-  ],
-  "subpackages": [
-    {
-      "root": "packageA",
-      "pages": [
-        "pages/shop_revenue/shop_revenue",
-        "pages/release_product/release_product",
-        "pages/received_review/received_review",
-        "pages/income_expenses/income_expenses"
-      ]
-    }, 
-    {
-      "root": "packageB",
-      "pages": [
-        "pages/addresss_management/address_management",
-        "pages/contact_merchat/contact_merchant",
-        "pages/evaluation/evaluation",
-        "pages/logistics_info/logistics_info"
-      ]
-    } 
+    "pages/pending/pending",
+   "pages/detail/detail"
+
+
   ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "苏农鲜行",
     "navigationBarBackgroundColor": "#4B9600"
-    
+
   },
   "tabBar": {
     "list": [
