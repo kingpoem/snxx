@@ -163,12 +163,12 @@ swiper image {
 .back_4{
   margin-top: 0rpx;
   background-color: rgb(232, 255, 232);
-  height: 370rpx;
+  height: 580rpx;
 }
 .white_3{
   margin-left: 20rpx;
   width: 710rpx;
-  height: 380rpx;
+  height: 590rpx;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -181,8 +181,39 @@ swiper image {
 .bottom{
   height: 100rpx;
   width: 742rpx;
-  position: absolute;
-  display:fixed;
   background-color: rgb(255, 255, 255);
+  margin-bottom:0rpx;
+  width: 750rpx;
+  height: 100rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* position: absolute;
+  display:fixed;
+  border: 9rpx solid black; */
+  display: flex;
+  flex-direction: row;
 }
-
+.buy{
+  width: 330rpx;
+  margin-left: 260rpx;
+  height: 50rpx;
+  margin-top: 25rpx;
+  border-radius: 20rpx;
+  z-index:1;
+  overflow:hidden;
+  display:flex;
+  flex-direction: row;
+}
+.f2{
+  width: 165rpx;
+  margin-left: 0rpx;
+  height: 50rpx;
+  background-color: orange;
+}
+.f1{
+  width: 165rpx;
+  margin-left: 0rpx;
+  height: 50rpx;
+  background-color:rgb(241, 237, 0);
+}

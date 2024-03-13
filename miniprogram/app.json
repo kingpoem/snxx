@@ -1,6 +1,5 @@
 {
   "pages": [
-    
     "pages/home_cm/home_cm",
     "pages/login/login",
     "pages/classification_cm/classification_cm",
@@ -11,14 +10,14 @@
     "pages/all_orders/all_orders",
     "pages/pending/pending",
    "pages/detail/detail"
-    
+
 
   ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "苏农鲜行",
     "navigationBarBackgroundColor": "#4B9600"
-    
+
   },
   "tabBar": {
     "list": [

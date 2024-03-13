@@ -1,4 +1,3 @@
-
 <view class = "back_1">
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{activeColor}}" circular="{{circular}}" class = "map">
     <block wx:for="{{imgURLs}}" wx:key="*this">
@@ -28,7 +27,7 @@
       </view>
     </view>
     <view class = "mes_2">
-      <view class ="orbutton"> 
+      <view class ="orbutton" bindtap = "trace">
         <text class = "ort">生产溯源</text>
       </view>
     </view>
@@ -51,6 +50,28 @@
   <view class = "white_3">
     <view class = "d1">
       <text class ="intro_t">为您推荐</text>
+    </view>
+    <view style="display: flex;flex-direction: row;height: 500rpx;border:1rpx solid black;margin-top: 15rpx;">
+      <view style="width: 300rpx;height: 500rpx;margin-left: 33rpx;display: flex;flex-direction:column">
+        <image mode = "aspectFill" style = "width: 300rpx; height: 300rpx; border-radius: 25rpx;" src = "/images/prods/fruitOne.png"></image>
+        <view style = "height: 100rpx;width: 300rpx;">
+          <text style = "font-size: 25rpx;color: rgb(51, 51, 51);">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节</text>
+        </view>
+        <view style = "height: 50rpx;width: 300rpx;margin-top: 30rpx;margin-left: 150rpx;">
+          <text style = "font-size: 33rpx; color: rgb(255, 81, 0);">￥138.00</text>
+        </view>
+      </view>
+
+      <view style="width: 300rpx;height: 500rpx;margin-left: 33rpx;display: flex;flex-direction:column">
+        <image mode = "aspectFill" style = "width: 300rpx; height: 300rpx; border-radius: 25rpx;" src = "/images/prods/fruitOne.png"></image>
+        <view style = "height: 100rpx;width: 300rpx;">
+          <text style = "font-size: 25rpx;color: rgb(51, 51, 51);">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节</text>
+        </view>
+        <view style = "height: 50rpx;width: 300rpx;margin-top: 30rpx;margin-left: 150rpx;">
+          <text style = "font-size: 33rpx; color: rgb(255, 81, 0);">￥138.00</text>
+        </view>
+      </view>
+
     </view>
   </view>
 </view>
