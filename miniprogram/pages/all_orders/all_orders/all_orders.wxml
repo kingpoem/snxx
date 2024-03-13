@@ -1,0 +1,32 @@
+<!--pages/all_orders/all_orders.wxml-->
+<view class="container">
+  <!-- 搜索框 -->
+  <view class="search-box">
+    <image src="/images/reps/sicon.png" class="search-icon"></image>
+    <input type="text" placeholder="搜索订单信息" class="search-input"></input>
+  </view>
+</view>
+
+<view class="navbar">  
+  <text wx:for="{{navbar}}" wx:key="index" data-index="{{index}}" bindtap="switchTab" class="item {{currentIndex == index ? 'active' : ''}}">{{item}}</text>  
+</view>
+<view wx:if="{{currentIndex == 0}}">
+
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+      <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
+      <div class="text_zone">
+        <view class="zone_1">
+          <view class = "product_text">阳山水蜜桃</view> <!--云链接-->
+        </view>
+        <view class = "zone_2">
+          <text class = "pdct_number">￥138.00</text>
+        </view>
+        <view class="zone_3">
+          <text class = "product_price">实付款：￥135.00</text>
+        </view>
+        <button bind:tap="delete_indent" size="mini" class="button_delete">删除订单</button>
+      </div>
+    </view>
+
+
+</view>
