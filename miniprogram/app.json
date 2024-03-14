@@ -9,8 +9,8 @@
     "pages/product_info/product_info",
     "pages/all_orders/all_orders",
     "pages/pending/pending",
-   "pages/detail/detail"
-
+   "pages/detail/detail",
+    "pages/farmer/farmer"
 
   ],
   "window": {
