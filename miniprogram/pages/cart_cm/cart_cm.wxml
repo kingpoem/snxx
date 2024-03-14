@@ -6,7 +6,7 @@
 			<image src="/images/reps/sicon.png" class="search-image"></image>
 			<input type="text" placeholder="搜索商品信息" class="search-input"></input>
 			<view class="management">
-					<image src="/images/iron/management.png" class="manageicon"></image>
+					<image src="/images/iron/management.png" class="manageicon" bindtap="jmp_confirm_order"></image>
 			</view>
 		</view>
 	</view>
