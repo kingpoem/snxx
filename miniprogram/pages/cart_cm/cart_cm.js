@@ -190,7 +190,6 @@ Page({
   onShareAppMessage() {
 
   },
-
   jmp_confirm_order(){
     wx.navigateTo({
       url: '/pages/confirm_order/confirm_order',
