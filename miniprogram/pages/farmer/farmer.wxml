@@ -1,2 +1,4 @@
 <!--pages/farmer/farmer.wxml-->
-<text>pages/farmer/farmer.wxml</text>
+<view class="text-bg">
+<image src="/images/farmer/home_fm.png"mode="scaleToFill"></image>
+</view>
