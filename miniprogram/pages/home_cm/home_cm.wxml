@@ -57,3 +57,4 @@
     </block>
   </view>
 </view>
+<tabbar tabbar="{{tabbar}}"></tabbar>

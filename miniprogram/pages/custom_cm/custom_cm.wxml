@@ -1,44 +1,48 @@
 <view>
-<image src="/images/iron1.png" />
+  <image src="/images/iron1.png" />
 </view>
-<button ></button>
-<view class="fenge"/>
+<button></button>
+<view class="fenge" />
 <view>
   <view class="menu-box">
-			<view class="menu" bindtap="skipAll_order">
-				<image src="/images/iron/dingdan.png"></image>
-				<text>我的订单</text>
-			</view>
-			<view class="menu">
-				<image src="../../images/iron/zhifu.png"></image>
-				<text>待支付</text>
-			</view>
-			<view class="menu">
-				<image src="../../images/iron/fahuo.png"></image>
-				<text>待发货</text>
-			</view>
-			<view class="menu">
-				<image src="../../images/iron/shouhuo.png"></image>
-				<text>待收货</text>
-			</view>
-			<view class="menu">
-				<image src="../../images/iron/dizhi.png"></image>
-				<text>待支付</text>
-			</view>
-			<view class="menu">
-				<image src="../../images/iron/pingjia.png"></image>
-        <text>待评价</text>
-			</view>
-			<view class="menu">
-				<image src="../../images/iron/xiaoxi.png"></image>
-				<text>消息</text>
-			</view>
-
-		</view>
-
+    <view class="menu" bind:tap="gotoall_orders">
+      <image src="/images/iron/dingdan.png"></image>
+      <text>我的订单</text>
+    </view>
+    <view class="menu" bind:tap="gotopending_payment">
+      <image src="../../images/iron/zhifu.png"></image>
+      <text>待支付</text>
+    </view>
+    <view class="menu" bind:tap="gotopending_shipment">
+      <image src="../../images/iron/fahuo.png"></image>
+      <text>待发货</text>
+    </view>
+    <view class="menu" bind:tap="gotopending_delivery">
+      <image src="../../images/iron/shouhuo.png"></image>
+      <text>待收货</text>
+    </view>
+    <view class="menu" bind:tap="gotoaddress_management">
+      <image src="../../images/iron/dizhi.png"></image>
+      <text>地址管理</text>
+    </view>
+    <view class="menu" bind:tap="gotopending_evaluation">
+      <image src="../../images/iron/pingjia.png"></image>
+      <text>待评价</text>
+    </view>
+    <view class="menu" bind:tap="gotomessage">
+      <image src="../../images/iron/xiaoxi.png"></image>
+      <text>消息</text>
+    </view>
+    <view class="menu" bind:tap="gotointelligent_assistant">
+      <image src="../../images/iron/xiaoxi.png"></image>
+      <text>智能助手</text>
+    </view>
   </view>
-  <view class="fenge">
-  </view>
-  <view>
+
+</view>
+<view class="fenge">
+</view>
+<view>
   <button class="capsule" bindtap="gotoPage">退出登录</button>
-  </view>
+</view>
+<tabbar tabbar="{{tabbar}}"></tabbar>
