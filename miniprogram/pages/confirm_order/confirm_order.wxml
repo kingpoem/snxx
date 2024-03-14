@@ -1,0 +1,97 @@
+<!--pages/confirm_order/confirm_order.wxml-->
+<view class="flex-col page">
+  <view class="flex-col">
+    <view class="flex-col section_2 mt-9">
+      <view class="flex-row justify-between items-end group">
+        <view class="flex-row items-center">
+          <text class="text_3 ml-9">小林的店铺</text>
+        </view>
+        <text class="font text_4">交易成功</text>
+      </view>
+      <view class="mt-12 flex-row group_2">
+				<image src="/images/prods/product1.png" class="prodimg"></image>
+        <view class="flex-col items-start flex-1 self-start group_3">
+          <text class="text_5">阳山水蜜桃</text>
+          <text class="text_7 mt-7">6-7两，6个一盒</text>
+        </view>
+        <view class="flex-col items-end shrink-0 self-start group_4">
+          <text class="text_6">¥138.00</text>
+          <text class="font text_8 mt-7">×1</text>
+        </view>
+      </view>
+      <view class="mt-12 flex-col group_5">
+        <view class="flex-row justify-between items-center view">
+          <text class="font_2 text_9">商品总价</text>
+          <text class="font_3">¥138.00</text>
+        </view>
+        <view class="flex-row justify-between items-center relative section_3">
+          <text class="font_2">运费</text>
+          <text class="font_3">¥0.00</text>
+        </view>
+        <view class="flex-row justify-between items-center relative section_1">
+          <text class="font_2 text_10">运费险</text>
+          <text class="font_3">¥0.00</text>
+        </view>
+        <view class="flex-row justify-between relative section_18">
+          <text class="font_2 text_11">优惠券</text>
+          <text class="font_2">满10元减3元</text>
+        </view>
+        <view class="flex-row justify-between items-center relative section_17">
+          <text class="font_2 text_12">实付款</text>
+          <text class="font_3 text_13">¥135.00</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="flex-col">
+    <view class="flex-col justify-start relative group_6">
+      <view class="flex-col section_5">
+        <view class="flex-row justify-between section_7">
+          <text class="font_2">鲜行值</text>
+          <text class="font_2">获得0点鲜行值</text>
+        </view>
+        <view class="flex-col relative list">
+          <view
+            class="flex-row justify-between items-center section_12"
+            wx:for="{{items}}"
+            wx:for-item="item"
+            wx:for-index="index"
+            wx:key="index"
+          >
+            <text class="font_2 text_16">创建时间</text>
+            <text class="font_4 text_17">2024-02-14 20:36:36</text>
+          </view>
+        </view>
+        <view class="flex-row justify-between items-center list-item">
+          <text class="font_2 text_19">发货时间</text>
+          <text class="font_4 text_17">2024-02-15 10:37:37</text>
+        </view>
+        <view class="flex-row justify-between items-center relative section_8">
+          <text class="font_2 text_20">成交时间</text>
+          <text class="font_4 text_17">2024-02-18 12:12:12</text>
+        </view>
+      </view>
+      <view class="flex-col pos_2">
+        <view
+          class="flex-row items-center section_4"
+          wx:for="{{items_1}}"
+          wx:for-item="item"
+          wx:for-index="index"
+          wx:key="index"
+        >
+          <text class="shrink-0 font_2 text_14">收货信息</text>
+          <text class="ml-38 flex-1 font_4">大学生，18877771551，江苏省 南京市 栖霞区 街道 小区</text>
+        </view>
+      </view>
+    </view>
+    <view class="flex-row justify-center section_9">
+      <view class="flex-col justify-start items-center text-wrapper_1"><text class="font text_21">评价</text></view>
+      <view class="flex-col justify-start items-center text-wrapper ml-5">
+        <text class="font text_22">加入购物车</text>
+      </view>
+      <view class="flex-col justify-start items-center text-wrapper_3 ml-5">
+        <text class="font text_23">再买一单</text>
+      </view>
+    </view>
+  </view>
+</view>
