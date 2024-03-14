@@ -26,6 +26,12 @@
       <view class = "a2">
         <text class ="t2">盒装水蜜桃</text>
       </view>
+      <view class = "a2">
+        <text class ="t2">商家：小林的店铺</text>
+      </view>
+      <view class = "a2">
+        <text class ="t2">产地：无锡市阳山镇</text>
+      </view>
       <view class = "a3">
         <view class = "b1">
           <text class ="t3">库存：366件</text>
@@ -42,6 +48,8 @@
     </view>
   </view>
 </view>
+
+
 <view class ="back_3">
   <view class = "white_2">
     <view class = "d1">

@@ -21,7 +21,7 @@
       <!-- 胶囊形状的选择框 -->
       <view class="capsule-container">
         <view class="capsule-option" bindtap="userTypeChanged" data-type="farmer">
-          <checkbox style="margin-right: 5px;" checked="{{userType === 'farmer'}}"></checkbox>
+          <checkbox style="margin-right: 5px;" checked="{{userType === 'farmer'}}" ></checkbox>
           <text>我是农户</text>
         </view>
         <view class="capsule-option" bindtap="userTypeChanged" data-type="consumer">
@@ -42,7 +42,7 @@
         <input class="input" type="password" placeholder="请输入您的登录密码"></input>
       </view>
 
-      <button class="capsule" bindtap="login">
+      <button class="capsule" bindtap ="login">
         <text class="capsule-text">登录</text>
       </button>
       
@@ -58,11 +58,11 @@
       <!-- 胶囊形状的选择框 -->
       <view class="capsule-container">
         <view class="capsule-option" bindtap="userTypeChanged" data-type="farmer">
-          <checkbox style="margin-right: 5px;" checked="{{userType === 'farmer'}}"></checkbox>
+          <checkbox style="margin-right: 5px;" checked="{{userType === 'farmer'}}" value="merchant"></checkbox>
           <text>我是农户</text>
         </view>
         <view class="capsule-option" bindtap="userTypeChanged" data-type="consumer">
-          <checkbox style="margin-right: 5px;" checked="{{userType === 'consumer'}}"></checkbox>
+          <checkbox style="margin-right: 5px;" checked="{{userType === 'consumer'}}" value="consumer" ></checkbox>
           <text>我是消费者</text>
         </view>
       </view>
@@ -88,3 +88,4 @@
     </view>
   </view>
 </view>
+ 
