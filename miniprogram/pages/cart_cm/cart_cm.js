@@ -189,5 +189,8 @@ Page({
    */
   onShareAppMessage() {
 
-  }
+  },
+  onLoad: function () {  
+    getApp().editTabbar();
+  }  
 })
