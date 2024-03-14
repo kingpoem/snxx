@@ -10,12 +10,13 @@
     "pages/all_orders/all_orders",
     "pages/pending/pending",
    "pages/detail/detail",
-    "pages/farmer_fm/farmer_fm"
+    "pages/farmer_fm/farmer_fm",
     "pages/order_details/order_details",
     "pages/trace_cm/trace_cm",
     "pages/confirm_order/confirm_order",
     "pages/message/message",
-    "pages/intelligent_assistant/intelligent_assistant"
+    "pages/intelligent_assistant/intelligent_assistant",
+    "pages/chatroom/chatroom"
   ],
   "subpackages": [
     {

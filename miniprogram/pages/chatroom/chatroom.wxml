@@ -1,0 +1,28 @@
+<!--pages/chatroom/chatroom.wxml-->
+
+<view style = "background-color: #4B9600;width: 750rpx;height: 70rpx;text-align: center;">
+  <text style = "margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">—— 智能助手 ——</text>
+</view>
+
+
+<scroll-view class="message-list" scroll-y="true" scroll-into-view="{{scrollIntoView}}">
+    <view class="message-item" wx:for="{{ messages }}" wx:key="index">
+      <view class="message-content {{item.type}}">
+        <view class="message-text">{{ item.content }}</view>
+      </view>
+    </view>
+  </scroll-view>
+<view style = "background-color: rgb(237, 253, 237);height : 2000rpx">
+
+</view>
+
+
+<view class = "bottom">
+  <view style = "background-color: rgb(237, 253, 237); margin-left: 16rpx; width: 650rpx; height: 60rpx;margin-top: 16rpx; border-radius: 30rpx">
+    <input style = "margin-left: 30rpx;margin-top: 6rpx;" placeholder="请输入消息" bindinput="handleInput" value="{{ inputMessage }}"></input>
+  </view>
+  
+  <view bindtap="sendMessage" style="margin-left: 12rpx;height: 60rpx;width:60rpx;border-radius: 30rpx;background-color: #4B9600;margin-top: 16rpx;">
+    <text style = "color:white;margin-left: 10rpx;font-size: 54rpx;margin-top:0rpx;">^</text>
+  </view>
+</view>
