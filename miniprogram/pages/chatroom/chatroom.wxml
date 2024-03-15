@@ -1,28 +1,53 @@
 <!--pages/chatroom/chatroom.wxml-->
 
-<view style = "background-color: #4B9600;width: 750rpx;height: 70rpx;text-align: center;">
-  <text style = "margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">—— 智能助手 ——</text>
+<view style="background-color: #4B9600;width: 750rpx;height: 70rpx;text-align: center;position: fixed;z-index: 1;margin-top: -4rpx;">
+  <text style="margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">—— 智能助手 ——</text>
 </view>
-
 
 <scroll-view class="message-list" scroll-y="true" scroll-into-view="{{scrollIntoView}}">
-    <view class="message-item" wx:for="{{ messages }}" wx:key="index">
-      <view class="message-content {{item.type}}">
-        <view class="message-text">{{ item.content }}</view>
+
+  <view style="background-color: rgb(237, 253, 237);  height: 130rpx;"></view>
+
+  <view class="chat-container">
+    <block wx:for="{{messages}}" wx:key="content">
+      <block wx:if="{{item.hidden===false}}">
+
+        <!-- 用户消息在右边 -->
+        <view class="message-bubble user-bubble" wx:if="{{item.role==='user'}}">
+          <image class="avatar" src="/images/user_avatar.png" wx:if="{{item.role === 'user'}}"></image>
+          <text class="message-text">{{item.content}}</text>
+        </view>
+
+        <!-- 助手消息在左边  -->
+        <view class="message-bubble assistant-bubble" wx:if="{{item.role==='assistant'}}">
+          <image class="avatar" src="/images/assistant_avatar.png" wx:if="{{item.role === 'assistant'}}"></image>
+          <text class="message-text">{{item.content}}</text>
+        </view>
+      </block>
+      <block style="background-color: rgb(237, 253, 237);  height: 150rpx;"></block>
+    </block>
+  </view>
+  <view style="background-color: rgb(237, 253, 237);  height: 130rpx;"></view>
+  <!-- <view class="message-item" wx:for="{{ messages }}" wx:key="index">
+    <view class="message-content {{item.type}}">
+      <view class="message-text">
+        {{ item.content }}
       </view>
     </view>
-  </scroll-view>
-<view style = "background-color: rgb(237, 253, 237);height : 2000rpx">
-
-</view>
-
-
-<view class = "bottom">
-  <view style = "background-color: rgb(237, 253, 237); margin-left: 16rpx; width: 650rpx; height: 60rpx;margin-top: 16rpx; border-radius: 30rpx">
-    <input style = "margin-left: 30rpx;margin-top: 6rpx;" placeholder="请输入消息" bindinput="handleInput" value="{{ inputMessage }}"></input>
-  </view>
+  </view> -->
   
-  <view bindtap="sendMessage" style="margin-left: 12rpx;height: 60rpx;width:60rpx;border-radius: 30rpx;background-color: #4B9600;margin-top: 16rpx;">
-    <text style = "color:white;margin-left: 10rpx;font-size: 54rpx;margin-top:0rpx;">^</text>
+</scroll-view>
+<!-- <view style = "background-color: rgb(237, 253, 237);height : 2000rpx">
+
+</view> -->
+
+
+<view class="bottom">
+  <view style="background-color: rgb(237, 253, 237); margin-left: 16rpx; width: 650rpx; height: 60rpx;margin-top: 16rpx; border-radius: 30rpx">
+    <input style="margin-left: 30rpx;margin-top: 6rpx;" placeholder="请输入消息" bindinput="handleInput" value="{{ inputMessage }}"></input>
+  </view>
+
+  <view bindtap="sendMessage" style="margin-left: 12rpx;height: 60rpx;width:60rpx;border-radius: 30rpx;background-color: #4B9600;margin-top: 16rpx;text-align: center;">
+    <text style="color:white;font-size: 54rpx;margin-top:0rpx;">^</text>
   </view>
 </view>
