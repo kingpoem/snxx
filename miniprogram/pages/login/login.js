@@ -64,7 +64,7 @@ Page({
   } else if (this.data.userType === 'farmer') {
     // 农户端为普通页面
     wx.redirectTo({
-      url: '/pages/farmer/farmer'
+      url: '/pages/farmer_fm/farmer_fm'
     });
   }
   },

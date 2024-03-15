@@ -1,0 +1,26 @@
+<!--pages/farmer_fm/farmer_fm.wxml-->
+<view class="top">
+<image src="/images/farmer/car.png" class="img"/>
+<text class="w1">物流信息</text>
+<image src="/images/farmer/money.png" class="img"/>
+<text class="w2">店铺营收</text>
+</view>
+
+<view class="bg1">
+<view class="t1">发布的商品</view>
+
+<view class="img2">
+<image  src="/images/farmer/1 (1).png" />
+<image src="/images/farmer/1 (2).png" />
+<image src="/images/farmer/1 (3).png" mode=""/>
+<image src="/images/farmer/add.png" mode=""/>
+</view>
+</view>
+<view class="bottom">
+<view class="bar">
+  <image  src="/images/farmer/home.png" />
+<image src="/images/farmer/order.png" />
+<image src="/images/farmer/tweet.png" />
+<image src="/images/farmer/user.png"/>
+</view>
+</view>

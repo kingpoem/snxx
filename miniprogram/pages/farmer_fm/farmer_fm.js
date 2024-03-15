@@ -1,4 +1,4 @@
-// pages/farmer/farmer.js
+// pages/farmer_fm/farmer_fm.js
 Page({
 
   /**

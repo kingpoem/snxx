@@ -10,7 +10,9 @@
     "pages/all_orders/all_orders",
     "pages/pending/pending",
    "pages/detail/detail",
-    "pages/farmer/farmer"
+   "pages/farmer_fm/farmer_fm"
+    
+
 
   ],
   "window": {
