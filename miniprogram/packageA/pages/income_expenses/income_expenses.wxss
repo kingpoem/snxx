@@ -64,3 +64,8 @@ view {
   color: #333; /* 假设的字体颜色 */  
   width:20rpx;
 }
+
+.yue{
+  font-weight: 700;
+  font-size: x-large;
+}
