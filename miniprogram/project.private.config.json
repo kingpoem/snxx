@@ -20,6 +20,20 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/indent_fm/indent_fm",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/chat_fm/chat_fm",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

@@ -2,5 +2,4 @@
  "navigationBarTitleText": "订单确认","onReachBottomDistance": 20,
   "backgroundTextStyle": "light",
   "enablePullDownRefresh": true
-  
 }

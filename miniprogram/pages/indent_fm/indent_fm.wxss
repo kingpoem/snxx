@@ -1,0 +1,126 @@
+/* pages/cart_cm/cart_cm.wxss */
+.background{
+	background-color: rgb(250, 250, 250);
+	position: relative;
+}
+
+.bg{
+  padding-top: 5rpx;
+  padding-bottom: 0rpx;
+}
+
+.management{
+	position: absolute;
+	top: 10rpx;
+	right: 20rpx;
+	height: 60rpx;
+	width: 60rpx;
+}
+
+.manageicon{
+	height: 60rpx;
+	width: 60rpx;
+}
+
+.products{
+	border-bottom: 10rpx solid rgb(219, 219, 219);
+	background-color: white;
+	display:flex;
+	flex-direction: row;
+}
+
+.shopico{
+	height: 40rpx;
+	width: 40rpx;
+	vertical-align: -10rpx;
+}
+
+.shop_selection{
+	height: 40rpx;
+	width: 40rpx;
+	vertical-align: -10rpx;
+}
+
+.selectionico{
+	height: 40rpx;
+	width: 40rpx;
+	vertical-align: 80rpx;
+}
+
+.product_info{
+	height: 50rpx;
+	width: 50rpx;
+}
+
+.productlist{
+	height: 200rpx;
+	width: 96%;
+}
+
+.productimg{
+	height: 200rpx;
+	width: 200rpx;
+}
+
+.productinfo_txt{
+	height: 50rpx;
+}
+
+.left_container{
+	height: 240rpx;
+	width: 250rpx;
+}
+
+.right_container{
+	height: 240rpx;
+	width: 400rpx;
+}
+
+.description_1{
+	font-size: large;
+	display: flex;
+	flex-direction: row;
+}
+
+.description_2{
+	height:50rpx;
+	font-size: medium;
+}
+
+.description_3{
+	height: 50rpx;
+	font-size: medium;
+	color: red;
+}
+
+.itemname{
+	width: 300rpx;
+}
+
+.productnum{
+	width: 50rpx;
+}
+
+.orderstatus{
+	height: 100rpx;
+	width: 600rpx;
+	font-size: small;
+	display: flex;
+	flex-direction: row;
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+
+}
+.bar > image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 100rpx;
+}
+.bottom{
+  color: white;
+  position: fixed;
+  bottom: 20rpx;
+}
