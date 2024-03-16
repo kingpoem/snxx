@@ -1,2 +1,19 @@
-<!--packageA/pages/received_review/received_review.wxml-->
-<text>packageA/pages/received_review/received_review.wxml</text>
+<view class="review" style="margin: -20rpx;">  
+  <view class="zone_left">  
+    <view class="zone_left_1">  
+      <image class="zone_left_avatar" src="{{avatarUrl}}" mode="aspectFit"></image>  
+      <view class="zone_left_info">  
+        <view class="zone_left_nickname">{{nickname}}</view>  
+        <view class="zone_left_date">{{date}}</view>  
+      </view>  
+    </view>  
+    <view class="zone_left_2">  
+      <text>{{review}}</text>  
+    </view>  
+  </view>  
+  <view class="zone_right">  
+    <block wx:for="{{stars}}" wx:key="*this">  
+      <image class="star-icon" src="{{item == 1 ? starOn : starOff}}" mode="aspectFit"></image>  
+    </block>  
+  </view>  
+</view>

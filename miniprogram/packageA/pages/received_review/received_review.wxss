@@ -1,1 +1,55 @@
-/* packageA/pages/received_review/received_review.wxss */
+.review {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: flex-start;  
+  background-color: #f5f5f5; /* 浅灰色 */  
+  padding: 20rpx;  
+  border-radius: 20rpx;  
+}  
+  
+.zone_left {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: flex-start;  
+}  
+  
+.zone_left_1 {  
+  display: flex;  
+  align-items: center;  
+}  
+  
+.zone_left_avatar {  
+  width: 80rpx;  
+  height: 80rpx;  
+  border-radius: 50%;  
+  margin-right: 20rpx;  
+}  
+  
+.zone_left_info {  
+  display: flex;  
+  flex-direction: column;  
+}  
+  
+.zone_left_nickname {  
+  font-weight: bold;  
+}  
+  
+.zone_left_date {  
+  font-size: 12px;  
+  color: #999;  
+}  
+  
+.zone_left_2 {  
+  margin-top: 20rpx;  
+}  
+  
+.zone_right {  
+  display: flex;  
+  align-items: center;  
+}  
+  
+.star-icon {  
+  width: 40rpx;  
+  height: 40rpx;  
+  margin-right: 10rpx;  
+}
