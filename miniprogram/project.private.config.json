@@ -8,7 +8,7 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/all_order/yijiandenglu_1",
+          "name": "pages/all_orders/yijiandenglu_1",
           "pathName": "pages/home_cm/home_cm",
           "query": "",
           "launchMode": "default",

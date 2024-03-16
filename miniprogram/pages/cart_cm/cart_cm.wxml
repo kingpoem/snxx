@@ -46,6 +46,7 @@
 			<view class="description_3"> <text>¥{{itm.type[0].price}}</text> </view>
 		</view>
 	</view>
-</view>
+  
 
+</view>
 <tabbar tabbar="{{tabbar}}"></tabbar>
