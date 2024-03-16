@@ -1,0 +1,45 @@
+<!--pages/cart_cm/cart_cm.wxml-->
+<view class="background">
+	<!--搜索框-->
+	<view class="bg">
+		<view class="search-box">
+			<image src="/images/reps/sicon.png" class="search-image"></image>
+			<input type="text" placeholder="请输入关键词" class="search-input"></input>
+		</view>
+	</view>
+</view>
+<view class="background">
+	<view class="products" wx:for="{{chatinfo}}" wx:key="k" wx:for-index="idx" wx:for-item="itm">
+		<view class="left_container">
+			<block class="productlist">
+				<image src="{{itm.image}}" class="productimg"></image>
+				<view class="productinfo_txt">
+					<view class ="name_zone">
+					</view>
+				</view>
+			</block>
+		</view>
+		<view class="right_container">
+			<view class="description_1"> 
+				<span class="itemname">
+					<text class="itemname">{{itm.name}}</text> 
+				</span>
+			</view>
+			<view class="description_2"> <text>{{itm.msg}}</text> </view>
+		</view>
+		<view class="right_right_container">
+			<span class="productnum">
+				<text>{{itm.time_h}}:{{itm.time_m}}</text>
+				<image src = '/images/iron/redspot.png' class="redspot" wx:if="{{!itm.isread}}"></image>
+			</span>
+		</view>
+	</view>
+</view>
+<view class="bottom">
+<view class="bar">
+  <image  src="/images/farmer/home_0.png"  />
+<image src="/images/farmer/order_0.png" />
+<image src="/images/farmer/tweet_1.png" />
+<image src="/images/farmer/user_0.png" bindtap ="toUser"/>
+</view>
+</view>

@@ -44,9 +44,16 @@ Page({
 
   // 登录按钮点击事件
   login() {
-    wx.switchTab({
-      url: '/pages/home_cm/home_cm'
-    });
+    if (userType === 'consumer'){
+      wx.switchTab({
+        url: '/pages/home_cm/home_cm'
+      });
+    }
+    else if (userType === 'farmer'){
+      wx.switchTap({
+        url: '/pages/home_fm/home_fm'
+      });
+    }
   },
 
   // 注册按钮点击事件
