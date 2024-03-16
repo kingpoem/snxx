@@ -8,6 +8,9 @@
     "pages/forgetpw/forgetpw",
     "pages/product_info/product_info",
     "pages/all_orders/all_orders",
+    "pages/pending/pending",
+    "pages/detail/detail",
+    "pages/farmer_fm/farmer_fm",
     "pages/order_details/order_details",
     "pages/trace_cm/trace_cm",
     "pages/confirm_order/confirm_order",
@@ -17,8 +20,7 @@
 	"pages/indent_fm/indent_fm",
 	"pages/chat_fm/chat_fm"
   ],
-  "subpackages": [
-    {
+  "subpackages": [{
       "root": "packageA",
       "pages": [
         "pages/shop_revenue/shop_revenue",
@@ -26,26 +28,24 @@
         "pages/received_review/received_review",
         "pages/income_expenses/income_expenses"
       ]
-    }, 
+    },
     {
       "root": "packageB",
       "pages": [
-        "pages/addresss_management/address_management",
+        "pages/address_management/address_management",
         "pages/contact_merchat/contact_merchant",
         "pages/evaluation/evaluation",
         "pages/logistics_info/logistics_info"
       ]
-    } 
+    }
   ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "苏农鲜行",
     "navigationBarBackgroundColor": "#4B9600"
-    
   },
   "tabBar": {
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/home_cm/home_cm",
         "iconPath": "/images/tabs/home_cm_tb.png",
         "selectedIconPath": "/images/tabs/sl_home_cm_tb.png"
@@ -65,8 +65,10 @@
         "iconPath": "/images/tabs/custom_cm_tb.png",
         "selectedIconPath": "/images/tabs/sl_custom_cm_tb.png"
       }
-
     ]
+  },
+  "usingComponents": {
+    "tabbar": "/tabbarComponent/tabbar"
   },
   "style": "v2",
   "componentFramework": "glass-easel",

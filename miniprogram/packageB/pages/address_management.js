@@ -1,4 +1,4 @@
-// packageA/pages/income_expenses/income_expenses.js
+// packageB/pages/address_management/address_management.js
 Page({
 
   /**

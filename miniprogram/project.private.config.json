@@ -8,8 +8,15 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/classification_cm/classification_cm",
-          "pathName": "pages/classification_cm/classification_cm",
+          "name": "pages/all_order/yijiandenglu_1",
+          "pathName": "pages/home_cm/home_cm",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "1",
+          "pathName": "pages/yijiandengluyanzheng_1/yijiandengluyanzheng_1",
           "query": "",
           "launchMode": "default",
           "scene": null

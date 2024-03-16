@@ -65,3 +65,4 @@
     
   </view>
 </scroll-view>
+<tabbar tabbar="{{tabbar}}"></tabbar>

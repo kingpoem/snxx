@@ -1,1 +1,71 @@
 /* packageA/pages/income_expenses/income_expenses.wxss */
+/* 通用样式，可根据需要调整 */  
+view {  
+  display: flex;  
+  flex-direction: column;  
+  box-sizing: border-box;  
+  padding: 10px;  
+}  
+  
+.zone {  
+  display: flex;  
+  flex-direction: column;  
+  margin: 20rpx;
+  padding: 20px; /* 设置内边距，让内容与zone四周保持一定距离 */  
+  background-color: #f5f5f5; /* 设置背景色为白色偏灰 */  
+  border-radius: 20px; /* 可选：添加圆角，使矩形看起来更柔和 */  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 可选：添加阴影，增强立体感 */  
+}  
+  
+.zone_1, .zone_2 {  
+  display: flex;  
+  width: 100%;  
+  margin-bottom: 10px; /* 添加一些底部间距，以区分两个区域 */  
+}  
+  
+.zone_1_left, .zone_1_right {  
+  display: flex;  
+  flex: 1; /* 使得左右两部分等宽 */  
+  justify-content: center;  
+  align-items: center;  
+}  
+  
+.zone_1_left {  
+  flex-direction: column; /* 左侧内容垂直排列 */  
+}  
+  
+.zone_1_left_1, .zone_1_left_2 {  
+  margin-bottom: 10px; /* 左侧两个元素之间的间距 */  
+  margin-left: -150rpx;
+  font-weight: 700;
+  font-size: x-large;
+}  
+
+.zone_1_left_2{
+  color:green;
+}
+
+.zone_1_right {  
+  justify-content: flex-end; /* 右侧内容对齐到下方，适合放置日期 */  
+  font-size: 14px; /* 假设的字体大小 */  
+  color: rgb(66, 139, 70); /* 假设的字体颜色 */  
+}  
+  
+.zone_2 {  
+  flex-direction: row; /* 使得zone_2下的元素水平排列 */  
+  justify-content: space-between; /* 使得zone_2下的元素之间有空隙 */  
+  height:80rpx;
+}  
+  
+.zone_2_1, .zone_2_2, .zone_2_3 {  
+  flex: 1; /* 使得三个元素等宽 */  
+  text-align: center; /* 文本居中显示 */  
+  font-size: 20px; /* 假设的字体大小 */  
+  color: #333; /* 假设的字体颜色 */  
+  width:20rpx;
+}
+
+.yue{
+  font-weight: 700;
+  font-size: x-large;
+}

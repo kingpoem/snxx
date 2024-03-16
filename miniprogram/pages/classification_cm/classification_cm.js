@@ -27,7 +27,8 @@ Page({
       sold: 0,
       hidden: false
       }
-    ]
+    ],
+    tabbar: {}
   },
 
 
@@ -96,5 +97,8 @@ Page({
     wx.navigateTo({
       url: '/pages/product_info/product_info'
     })
-  }
+  },
+  onLoad(){  
+    getApp().editTabbar();
+  }  
 })
