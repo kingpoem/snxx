@@ -1,2 +1,50 @@
-<!--packageA/pages/shop_revenue/shop_revenue.wxml-->
-<text>packageA/pages/shop_revenue/shop_revenue.wxml</text>
+<!--packageA/pages/income_expenses/income_expenses.wxml-->
+<!-- 日收入 -->
+<view class="zone">
+  <veiw class="zone_1">
+    <veiw class="zone_1_left">
+      <veiw class="zone_1_left_1">日收入</veiw>
+      <veiw class="zone_1_left_2">￥234.00</veiw>
+    </veiw>
+    <veiw class="zone_1_right">2024年3月16日</veiw>
+  </veiw>
+  <veiw class="zone_2">
+    <veiw class="zone_2_1">收入笔数：3.00</veiw>
+    <veiw class="zone_2_2">顾客人数：3.00</veiw>
+    <veiw class="zone_2_3">单笔均值：78.00</veiw>
+  </veiw>
+</view>
+
+<!-- 周收入 -->
+<view class="zone">
+  <veiw class="zone_1">
+    <veiw class="zone_1_left">
+      <veiw class="zone_1_left_1">周收入</veiw>
+      <veiw class="zone_1_left_2">￥1760.00</veiw>
+    </veiw>
+    <veiw class="zone_1_right">2024年3月第第三周</veiw>
+  </veiw>
+  <veiw class="zone_2">
+    <veiw class="zone_2_1">收入笔数：20.00</veiw>
+    <veiw class="zone_2_2">顾客人数：20.00</veiw>
+    <veiw class="zone_2_3">单笔均值：88.00</veiw>
+  </veiw>
+</view>
+
+<!-- 月收入 -->
+<view class="zone">
+  <veiw class="zone_1">
+    <veiw class="zone_1_left">
+      <veiw class="zone_1_left_1">月收入</veiw>
+      <veiw class="zone_1_left_2">￥6666.00</veiw>
+    </veiw>
+    <veiw class="zone_1_right">2024年3月</veiw>
+  </veiw>
+  <veiw class="zone_2">
+    <veiw class="zone_2_1">收入笔数：99.00</veiw>
+    <veiw class="zone_2_2">顾客人数：99.00</veiw>
+    <veiw class="zone_2_3">单笔均值：67.33</veiw>
+  </veiw>
+</view>
+
+<view class="zone yue">月收支明细</view>

@@ -1,4 +1,4 @@
-// packageA/pages/shop_revenue/shop_revenue.js
+// packageA/pages/income_expenses/income_expenses.js
 Page({
 
   /**
