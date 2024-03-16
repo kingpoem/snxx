@@ -1,2 +1,8 @@
 <!--packageA/pages/release_product/release_product.wxml-->
-<text>packageA/pages/release_product/release_product.wxml</text>
+<view class="container">  
+  <view class="zone" wx:for="{{zones}}" wx:key="index" style="margin-bottom: 10px;">  
+    <text class="zone-label">{{item.label}}</text>  
+    <input class="zone-input" bindinput="inputChanged" data-zone="{{index}}" placeholder="请输入内容" auto-height />  
+  </view>  
+</view>
+<button size="default" form-type="submit" type="">确认发布</button>
