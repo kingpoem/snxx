@@ -9,17 +9,15 @@
     "pages/product_info/product_info",
     "pages/all_orders/all_orders",
     "pages/pending/pending",
-   "pages/detail/detail",
+    "pages/detail/detail",
     "pages/farmer_fm/farmer_fm",
     "pages/order_details/order_details",
     "pages/trace_cm/trace_cm",
     "pages/confirm_order/confirm_order",
     "pages/message/message",
-    "pages/intelligent_assistant/intelligent_assistant",
-    "pages/chatroom/chatroom"
+    "pages/intelligent_assistant/intelligent_assistant"
   ],
-  "subpackages": [
-    {
+  "subpackages": [{
       "root": "packageA",
       "pages": [
         "pages/shop_revenue/shop_revenue",
@@ -31,7 +29,7 @@
     {
       "root": "packageB",
       "pages": [
-        "pages/addresss_management/address_management",
+        "pages/address_management/address_management",
         "pages/contact_merchat/contact_merchant",
         "pages/evaluation/evaluation",
         "pages/logistics_info/logistics_info"
@@ -44,8 +42,7 @@
     "navigationBarBackgroundColor": "#4B9600"
   },
   "tabBar": {
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/home_cm/home_cm",
         "iconPath": "/images/tabs/home_cm_tb.png",
         "selectedIconPath": "/images/tabs/sl_home_cm_tb.png"
