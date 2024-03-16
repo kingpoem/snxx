@@ -1,2 +1,15 @@
 <!--packageA/pages/income_expenses/income_expenses.wxml-->
-<text>packageA/pages/income_expenses/income_expenses.wxml</text>
+<view class="zone">
+  <veiw class="zone_1">
+    <veiw class="zone_1_left">
+      <veiw class="zone_1_left_1">日收入</veiw>
+      <veiw class="zone_1_left_2">￥234.00</veiw>
+    </veiw>
+    <veiw class="zone_1_right">2024年3月16日</veiw>
+  </veiw>
+  <veiw class="zone_2">
+    <veiw class="zone_2_1">收入笔数：3.00</veiw>
+    <veiw class="zone_2_2">顾客人数：3.00</veiw>
+    <veiw class="zone_2_3">单笔均值：78.00</veiw>
+  </veiw>
+</view>
