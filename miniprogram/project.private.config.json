@@ -8,6 +8,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/custom_cm/custom_cm",
+          "pathName": "pages/custom_cm/custom_cm",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "pages/all_order/yijiandenglu_1",
           "pathName": "pages/home_cm/home_cm",
           "query": "",

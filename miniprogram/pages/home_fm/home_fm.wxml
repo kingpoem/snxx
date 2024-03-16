@@ -1,0 +1,18 @@
+<!--pages/home_fm/home_fm.wxml-->
+<view class="top">
+<image src="/images/farmer/tx.png" class="img" />
+<text class="w1">小林的店铺
+155****1234</text>
+</view>
+<view class="container1">
+
+</view>
+
+<view class="bottom">
+<view class="bar">
+  <image  src="/images/farmer/home_0.png" bindtap="toHome" />
+<image src="/images/farmer/order_0.png" />
+<image src="/images/farmer/tweet_0.png" />
+<image src="/images/farmer/user_1.png" />
+</view>
+</view>

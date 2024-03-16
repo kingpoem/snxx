@@ -1,0 +1,49 @@
+/* pages/home_fm/home_fm.wxss */
+
+
+.top{
+  width: 100%;
+  background-color: rgba(75, 150, 0,1);
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+}
+.container1{
+  top: 0rpx;
+  background-color:  rgba(235, 252, 217, 1);
+  height: 900rpx;
+  width: 755rpx;
+  z-index: 1;
+}
+
+.img{
+ 
+    margin-left: 60rpx;
+    
+    width: 90rpx;
+    height: 90rpx;
+
+}
+.w1{
+  color: rgb(247, 241, 241);
+  margin-left: 80rpx;
+ 
+  font-weight: 800;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+}
+.bar{
+  display: flex;
+  flex-direction: row;
+
+}
+.bar > image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 100rpx;
+}
+.bottom{
+  position: fixed;
+  bottom: 20rpx;
+}

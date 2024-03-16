@@ -10,18 +10,11 @@
     "pages/all_orders/all_orders",
     "pages/pending/pending",
    "pages/detail/detail",
-<<<<<<< HEAD
-   "pages/farmer_fm/farmer_fm"
+  
+   "pages/farmer_fm/farmer_fm",
+   "pages/home_fm/home_fm"
     
-
-
-=======
-    "pages/farmer_fm/farmer_fm"
-    "pages/order_details/order_details",
-    "pages/trace_cm/trace_cm",
-    "pages/confirm_order/confirm_order",
-    "pages/message/message",
-    "pages/intelligent_assistant/intelligent_assistant"
+   
   ],
   "subpackages": [
     {
@@ -32,17 +25,10 @@
         "pages/received_review/received_review",
         "pages/income_expenses/income_expenses"
       ]
-    },
-    {
-      "root": "packageB",
-      "pages": [
-        "pages/addresss_management/address_management",
-        "pages/contact_merchat/contact_merchant",
-        "pages/evaluation/evaluation",
-        "pages/logistics_info/logistics_info"
-      ]
+      
     }
->>>>>>> f14f87b94dec28c53fb9d72dc28a179f43652c61
+    
+
   ],
   "window": {
     "navigationBarTextStyle": "white",
