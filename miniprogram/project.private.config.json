@@ -8,14 +8,7 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/custom_cm/custom_cm",
-          "pathName": "pages/custom_cm/custom_cm",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        },
-        {
-          "name": "pages/all_order/yijiandenglu_1",
+          "name": "pages/all_orders/yijiandenglu_1",
           "pathName": "pages/home_cm/home_cm",
           "query": "",
           "launchMode": "default",
@@ -24,6 +17,20 @@
         {
           "name": "1",
           "pathName": "pages/yijiandengluyanzheng_1/yijiandengluyanzheng_1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/indent_fm/indent_fm",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/chat_fm/chat_fm",
           "query": "",
           "launchMode": "default",
           "scene": null

@@ -34,9 +34,8 @@ Page({
   },
   gotoaddress_management() {
     wx.navigateTo({
-      url: '/packageB/pages/address_management/address_management',
-    }),
-      console.log(1);
+      url: '/packageB/pages/address_management/address_management'
+    })
   },
   gotomessage() {
     wx.navigateTo({
@@ -47,12 +46,8 @@ Page({
     wx.navigateTo({
       url: '/pages/intelligent_assistant/intelligent_assistant',
     })
-  
-},
-  onLoad: function () {
+  },
+  onLoad() {
     getApp().editTabbar();
-  }  
-}
-  
-  
-)
+  }
+})

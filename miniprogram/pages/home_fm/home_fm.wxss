@@ -1,6 +1,4 @@
 /* pages/home_fm/home_fm.wxss */
-
-
 .top{
   width: 100%;
   background-color: rgba(75, 150, 0,1);

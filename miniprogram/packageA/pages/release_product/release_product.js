@@ -1,66 +1,23 @@
-// packageA/pages/release_product/release_product.js
-Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
-  }
-})
+Page({  
+  data: {  
+    zones: [  
+      { label: '商品名称' },  
+      { label: '商品图片' },  
+      { label: '商品简介' },  
+      { label: '商品优势' },  
+      { label: '商品品质' },  
+      { label: '商品产地' },  
+      { label: '商品类别' },  
+      { label: '商品规格' },  
+      { label: '商品标价' }  
+    ]  
+  },  
+  inputChanged: function(e) {  
+    const zoneIndex = e.currentTarget.dataset.zone;  
+    const value = e.detail.value;  
+      
+    this.setData({  
+      ['zones[' + zoneIndex + '].value']: value  
+    });  
+  }  
+});
