@@ -16,7 +16,6 @@
     "pages/confirm_order/confirm_order",
     "pages/message/message",
     "pages/intelligent_assistant/intelligent_assistant",
-    "pages/coupon/coupon",
     "pages/indent_fm/indent_fm",
     "pages/chat_fm/chat_fm"
   ],
