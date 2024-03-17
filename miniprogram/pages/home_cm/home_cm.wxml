@@ -42,7 +42,7 @@
   </view>
 <!-- 商品列表 -->
 <view class="product-list">
-    <block wx:for="{{products}}" wx:key="id">
+    <block wx:for="{{products2}}" wx:key="id">
     <navigator url="/pages/detail/detail" bindtap="toDetail">
       <view class="product-item">
         <image src="{{item.image}}" class="product-image"></image>
@@ -55,4 +55,8 @@
     </block>
   </view>
 </view>
+<view class="product-list"></view>
+<view class="product-list"></view>
+<view class="product-list"></view>
+<view class="product-list"></view>
 <tabbar tabbar="{{tabbar}}"></tabbar>

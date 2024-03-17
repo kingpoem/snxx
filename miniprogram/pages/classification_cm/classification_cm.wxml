@@ -52,17 +52,200 @@
       <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
       <div class="text_zone">
         <view class="zone_1">
-          <view class = "product_text">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节 中果</view> <!--云链接-->
+          <view class = "product_text">田良季无锡阳山水蜜桃 爆甜桃王</view> <!--云链接-->
         </view>
         <view class = "zone_2">
-          <text class = "pdct_number">库存：12/800</text>
+          <text class = "pdct_number">库存：12/552</text>
         </view>
         <view class="zone_3">
-          <text class = "product_price">￥20.00/斤</text>
+          <text class = "product_price">￥6.9/斤</text>
         </view>
       </div>
     </view>
     
   </view>
+
+
+  <view wx:if="{{active_class == 1}}">
+  
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+    <image src="/images/prods/f2.jpg"/> <!--这里具体应该会是云链接-->
+    <div class="text_zone">
+      <view class="zone_1">
+        <view class = "product_text">南京马山杨梅</view> <!--云链接-->
+      </view>
+      <view class = "zone_2">
+        <text class = "pdct_number">库存：0/0</text>
+      </view>
+      <view class="zone_3">
+        <text class = "product_price">￥13.9/斤</text>
+      </view>
+    </div>
+  </view>
+  
+</view>
+
+
+<view wx:if="{{active_class == 1}}">
+  
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+    <image src="/images/prods/f3.jpg"/> <!--这里具体应该会是云链接-->
+    <div class="text_zone">
+      <view class="zone_1">
+        <view class = "product_text">苏州东山白玉枇杷 热卖</view> <!--云链接-->
+      </view>
+      <view class = "zone_2">
+        <text class = "pdct_number">库存：87/290</text>
+      </view>
+      <view class="zone_3">
+        <text class = "product_price">￥9.8/斤</text>
+      </view>
+    </div>
+  </view>
+  
+</view>
+
+
+<view wx:if="{{active_class == 1}}">
+  
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+    <image src="/images/prods/f4.jpg"/> <!--这里具体应该会是云链接-->
+    <div class="text_zone">
+      <view class="zone_1">
+        <view class = "product_text">溧水草莓 小果</view> <!--云链接-->
+      </view>
+      <view class = "zone_2">
+        <text class = "pdct_number">库存：172/1600</text>
+      </view>
+      <view class="zone_3">
+        <text class = "product_price">￥8.5/斤</text>
+      </view>
+    </div>
+  </view>
+  
+</view>
+
+
+<view wx:if="{{active_class == 1}}">
+  
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+    <image src="/images/prods/f5.jpg"/> <!--这里具体应该会是云链接-->
+    <div class="text_zone">
+      <view class="zone_1">
+        <view class = "product_text">宿迁花园酥梨 中果</view> <!--云链接-->
+      </view>
+      <view class = "zone_2">
+        <text class = "pdct_number">库存：1489/3470</text>
+      </view>
+      <view class="zone_3">
+        <text class = "product_price">￥2.2/斤</text>
+      </view>
+    </div>
+  </view>
+  
+  
+</view>
+
+
+<view wx:if="{{active_class == 0}}">
+  
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+    <image src="/images/prods/v1.jpg"/> <!--这里具体应该会是云链接-->
+    <div class="text_zone">
+      <view class="zone_1">
+        <view class = "product_text">矮脚苏州青</view> <!--云链接-->
+      </view>
+      <view class = "zone_2">
+        <text class = "pdct_number">库存：326/980</text>
+      </view>
+      <view class="zone_3">
+        <text class = "product_price">￥1.9/斤</text>
+      </view>
+    </div>
+  </view>
+  
+</view>
+
+
+<view wx:if="{{active_class == 0}}">
+  
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+    <image src="/images/prods/v2.jpg"/> <!--这里具体应该会是云链接-->
+    <div class="text_zone">
+      <view class="zone_1">
+        <view class = "product_text">董浜筒管玉丝瓜</view> <!--云链接-->
+      </view>
+      <view class = "zone_2">
+        <text class = "pdct_number">库存：129/890</text>
+      </view>
+      <view class="zone_3">
+        <text class = "product_price">￥2.1/斤</text>
+      </view>
+    </div>
+  </view>
+  
+</view>
+
+
+<view wx:if="{{active_class == 0}}">
+  
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+    <image src="/images/prods/v3.jpg"/> <!--这里具体应该会是云链接-->
+    <div class="text_zone">
+      <view class="zone_1">
+        <view class = "product_text">八卦洲芦蒿</view> <!--云链接-->
+      </view>
+      <view class = "zone_2">
+        <text class = "pdct_number">库存：754/4430</text>
+      </view>
+      <view class="zone_3">
+        <text class = "product_price">￥6.4/斤</text>
+      </view>
+    </div>
+  </view>
+  
+</view>
+
+
+<view wx:if="{{active_class == 0}}">
+  
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+    <image src="/images/prods/v4.jpg"/> <!--这里具体应该会是云链接-->
+    <div class="text_zone">
+      <view class="zone_1">
+        <view class = "product_text">扬州宝应茨菇</view> <!--云链接-->
+      </view>
+      <view class = "zone_2">
+        <text class = "pdct_number">库存：789/1430</text>
+      </view>
+      <view class="zone_3">
+        <text class = "product_price">￥4.5/斤</text>
+      </view>
+    </div>
+  </view>
+  
+</view>
+
+
+<view wx:if="{{active_class == 0}}">
+  
+  <view class="cls_product_zone" bindtap="redirectToproduct_info">
+    <image src="/images/prods/v5.jpg"/> <!--这里具体应该会是云链接-->
+    <div class="text_zone">
+      <view class="zone_1">
+        <view class = "product_text">泰兴花生</view> <!--云链接-->
+      </view>
+      <view class = "zone_2">
+        <text class = "pdct_number">库存：56/550</text>
+      </view>
+      <view class="zone_3">
+        <text class = "product_price">￥3.9/斤</text>
+      </view>
+    </div>
+  </view>
+  
+</view>
+
+<view class = "cls_product_zone"></view>
 </scroll-view>
 <tabbar tabbar="{{tabbar}}"></tabbar>
