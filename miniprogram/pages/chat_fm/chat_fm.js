@@ -133,5 +133,26 @@ data:{
     wx.navigateTo({
       url: '/pages/confirm_order/confirm_order',
     })
-  }
+  },
+
+	toHome(){
+		wx.navigateTo({
+		  url: '/pages/farmer/farmer',
+		})
+	},
+
+	toIndent(){
+		wx.navigateTo({
+		  url: '/pages/indent_fm/indent_fm',
+		})
+	},
+
+	toUser(){
+		wx.navigateTo({
+		  url: '/pages/farmer_fm/farmer_fm',
+		})
+	}
+
+
 })
+

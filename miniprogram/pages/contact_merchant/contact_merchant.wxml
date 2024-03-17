@@ -1,5 +1,5 @@
 <view style="background-color: #4B9600;width: 750rpx;height: 70rpx;text-align: center;position: fixed;z-index: 1;margin-top: -4rpx;">
-  <text style="margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">—— 智能助手 ——</text>
+  <text style="margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">—— 联系商家 ——</text>
 </view>
 
 <scroll-view class="message-list" scroll-y="true" scroll-into-view="{{scrollIntoView}}">

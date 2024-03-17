@@ -1,6 +1,27 @@
-<view>
-  <image src="/images/iron1.jpg" />
+<view class="custom_config_background">
+	<view class="review" style="margin: -20rpx;">  
+	  <view class="zone_left">  
+		<view class="zone_left_1">  
+			<image class="zone_left_avatar" src="/images/usrico/usr1.jpg" mode="aspectFit"></image>  
+		  <view class="zone_left_info">  
+			<view class="zone_left_nickname text">大学生</view>  
+			<view class="zone_left_date"></view>  
+		  </view>  
+		</view>  
+		<view class="zone_left_2">  
+		  <text class="text">188****1551</text>  
+		</view>  
+	  </view>  
+	  <view class="zone_right">  
+		<block wx:for="{{stars}}" wx:key="*this">  
+		  <image class="star-icon" src="{{item == 1 ? starOn : starOff}}" mode="aspectFit"></image>  
+		</block>  
+	  </view>  
+	</view>
 </view>
+
+<image src="/images/login/values.jpg" class="valueimg"></image>
+
 <button></button>
 <view class="fenge" />
 <view>

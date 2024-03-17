@@ -34,6 +34,20 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/farmer_fm/farmer_fm",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/indent_fm/indent_fm",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }
