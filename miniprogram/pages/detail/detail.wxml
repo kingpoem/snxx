@@ -56,7 +56,7 @@
       <text class ="intro_t">产品介绍</text>
     </view>
     <view class = "d2">
-      <image src="/images/prods/fruitOne.png" mode="widthFix" style="height: 170rpx;width: 709rpx;margin-top: -180rpx;"></image>
+      <image src="/images/prods/fruitOne.jpg" mode="widthFix" style="height: 170rpx;width: 709rpx;margin-top: -180rpx;"></image>
     </view>
     <view class = "d3">
       <view class = "d1">盒装水蜜桃是一种以水蜜桃为主要原料制成的饮品，通常是将水蜜桃果肉榨汁或浸泡后制成的果汁饮料。这种产品通常以盒装形式出售，方便携带和保存。
@@ -70,7 +70,7 @@
     </view>
     <view style="display: flex;flex-direction: row;height: 500rpx;border:1rpx solid black;margin-top: 15rpx;">
       <view style="width: 300rpx;height: 500rpx;margin-left: 33rpx;display: flex;flex-direction:column">
-        <image mode = "aspectFill" style = "width: 300rpx; height: 300rpx; border-radius: 25rpx;" src = "/images/prods/fruitOne.png"></image>
+        <image mode = "aspectFill" style = "width: 300rpx; height: 300rpx; border-radius: 25rpx;" src = "/images/prods/fruitOne.jpg"></image>
         <view style = "height: 100rpx;width: 300rpx;">
           <text style = "font-size: 25rpx;color: rgb(51, 51, 51);">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节</text>
         </view>
@@ -80,7 +80,7 @@
       </view>
 
       <view style="width: 300rpx;height: 500rpx;margin-left: 33rpx;display: flex;flex-direction:column">
-        <image mode = "aspectFill" style = "width: 300rpx; height: 300rpx; border-radius: 25rpx;" src = "/images/prods/fruitOne.png"></image>
+        <image mode = "aspectFill" style = "width: 300rpx; height: 300rpx; border-radius: 25rpx;" src = "/images/prods/fruitOne.jpg"></image>
         <view style = "height: 100rpx;width: 300rpx;">
           <text style = "font-size: 25rpx;color: rgb(51, 51, 51);">田良季无锡阳山水蜜桃爆甜桃王软桃应当季新鲜水果桃子送礼品物盒圣诞节</text>
         </view>
@@ -101,8 +101,8 @@
   
 <!-- 底部悬浮栏 -->
 <view class="detail-nav">
-  <image bindtap="toHome" src="/images/tabs/home_cm_tb.png" />
-  <image bindtap="toCar" src="/images/tabs/cart_cm_tb.png" />
+  <image bindtap="toHome" src="/images/tabs/home_cm_tb.jpg" />
+  <image bindtap="toCar" src="/images/tabs/cart_cm_tb.jpg" />
   <button class="button-green" bindtap="addCar" date-item="{{item}}">加入购物车</button>
   <button class="button-yellow" bindtap="immeBuy" >立即购买</button>
 </view>

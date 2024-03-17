@@ -3,9 +3,9 @@
 Page({
   data: {
     imgURLs: [
-      '/images/reps/slider1.png',
-      '/images/reps/slider2.png',
-      '/images/reps/slider3.png'
+      '/images/reps/slider1.jpg',
+      '/images/reps/slider2.jpg',
+      '/images/reps/slider3.jpg'
     ],
     indicatorDots: true,
     vertical: false, //滑动方向是否为纵向
@@ -16,9 +16,9 @@ Page({
     circular: true,   // 是否采用衔接滑动
 
     products: [
-      { id: 1, image: '/images/prods/product1.png', name: '商品1', price: '￥10.00' },
-      { id: 2, image: '/images/prods/product2.png', name: '商品2', price: '￥20.00' },
-      { id: 3, image: '/images/prods/product3.png', name: '商品3', price: '￥30.00' }
+      { id: 1, image: '/images/prods/product1.jpg', name: '商品1', price: '￥10.00' },
+      { id: 2, image: '/images/prods/product2.jpg', name: '商品2', price: '￥20.00' },
+      { id: 3, image: '/images/prods/product3.jpg', name: '商品3', price: '￥30.00' }
     ],
     tabbar: {}
   },

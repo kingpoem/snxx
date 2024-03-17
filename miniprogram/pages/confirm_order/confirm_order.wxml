@@ -9,7 +9,7 @@
         <text class="font text_4">交易成功</text>
       </view>
       <view class="mt-12 flex-row group_2">
-				<image src="/images/prods/product1.png" class="prodimg"></image>
+				<image src="/images/prods/product1.jpg" class="prodimg"></image>
         <view class="flex-col items-start flex-1 self-start group_3">
           <text class="text_5">阳山水蜜桃</text>
           <text class="text_7 mt-7">6-7两，6个一盒</text>

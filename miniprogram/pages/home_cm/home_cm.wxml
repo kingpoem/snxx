@@ -5,7 +5,7 @@
 <view class="container">
   <!-- 搜索框 -->
   <view class="search-box">
-    <image src="/images/reps/sicon.png" class="search-icon"></image>
+    <image src="/images/reps/sicon.jpg" class="search-icon"></image>
     <input type="text" placeholder="请输入关键词" class="search-input"></input>
   </view>
   </view>

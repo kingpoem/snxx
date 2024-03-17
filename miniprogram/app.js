@@ -5,23 +5,23 @@ App({
     tabbar: {
       list: [{
           "pagePath": "/pages/home_cm/home_cm",
-          "iconPath": "/images/tabs/home_cm_tb.png",
-          "selectedIconPath": "/images/tabs/sl_home_cm_tb.png"
+          "iconPath": "/images/tabs/home_cm_tb.jpg",
+          "selectedIconPath": "/images/tabs/sl_home_cm_tb.jpg"
         },
         {
           "pagePath": "/pages/classification_cm/classification_cm",
-          "iconPath": "/images/tabs/classification_cm_tb.png",
-          "selectedIconPath": "/images/tabs/sl_classification_cm_tb.png"
+          "iconPath": "/images/tabs/classification_cm_tb.jpg",
+          "selectedIconPath": "/images/tabs/sl_classification_cm_tb.jpg"
         },
         {
           "pagePath": "/pages/cart_cm/cart_cm",
-          "iconPath": "/images/tabs/cart_cm_tb.png",
-          "selectedIconPath": "/images/tabs/sl_cart_cm_tb.png"
+          "iconPath": "/images/tabs/cart_cm_tb.jpg",
+          "selectedIconPath": "/images/tabs/sl_cart_cm_tb.jpg"
         },
         {
           "pagePath": "/pages/custom_cm/custom_cm",
-          "iconPath": "/images/tabs/custom_cm_tb.png",
-          "selectedIconPath": "/images/tabs/sl_custom_cm_tb.png"
+          "iconPath": "/images/tabs/custom_cm_tb.jpg",
+          "selectedIconPath": "/images/tabs/sl_custom_cm_tb.jpg"
         }
       ]
     }
