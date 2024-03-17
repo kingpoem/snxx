@@ -8,7 +8,7 @@ data:{
 	chatinfo:[
 		{
 			name: '系统信息',
-			image: '/images/usrico/sysico.jpg',
+			image: '/images/usrico/sysico.png',
 			time_h: '',
 			time_m: '',
 			msg: '你有一条消息请查收',
@@ -16,7 +16,7 @@ data:{
 		},
 		{
 			name: '小王',
-			image: '/images/usrico/usr1.jpg',
+			image: '/images/usrico/usr1.png',
 			time_h: '16',
 			time_m: '35',
 			msg: '请问什么时候发货',
@@ -24,7 +24,7 @@ data:{
 		},
 		{
 			name: '晨姐',
-			image: '/images/usrico/usr2.jpg',
+			image: '/images/usrico/usr2.png',
 			time_h: '16',
 			time_m: '00',
 			msg: '好',
@@ -32,7 +32,7 @@ data:{
 		},
 		{
 			name: '袁师傅',
-			image: '/images/usrico/usr3.jpg',
+			image: '/images/usrico/usr3.png',
 			time_h: '14',
 			time_m: '20',
 			msg: '谢谢师傅',
@@ -40,7 +40,7 @@ data:{
 		},
 		{
 			name: '大伟',
-			image: '/images/usrico/usr4.jpg',
+			image: '/images/usrico/usr4.png',
 			time_h: '14',
 			time_m: '00',
 			msg: '感谢你的好评',
@@ -48,7 +48,7 @@ data:{
 		},
 		{
 			name: '老李',
-			image: '/images/usrico/usr5.jpg',
+			image: '/images/usrico/usr5.png',
 			time_h: '14',
 			time_m: '00',
 			msg: '感谢你的好评',
@@ -56,7 +56,7 @@ data:{
 		},
 		{
 			name: '小美',
-			image: '/images/usrico/usr6.jpg',
+			image: '/images/usrico/usr6.png',
 			time_h: '13',
 			time_m: '35',
 			msg: '抱歉给您带来不好的体验,我们会...',
@@ -64,7 +64,7 @@ data:{
 		},
 		{
 			name: '娜娜',
-			image: '/images/usrico/usr7.jpg',
+			image: '/images/usrico/usr7.png',
 			time_h: '12',
 			time_m: '00',
 			msg: '抱歉给您带来不好的体验,我们会...',
@@ -133,5 +133,26 @@ data:{
     wx.navigateTo({
       url: '/pages/confirm_order/confirm_order',
     })
-  }
+  },
+
+	toHome(){
+		wx.navigateTo({
+		  url: '/pages/farmer/farmer',
+		})
+	},
+
+	toIndent(){
+		wx.navigateTo({
+		  url: '/pages/indent_fm/indent_fm',
+		})
+	},
+
+	toUser(){
+		wx.navigateTo({
+		  url: '/pages/farmer_fm/farmer_fm',
+		})
+	}
+
+
 })
+
