@@ -1,1 +1,37 @@
 /* packageA/pages/release_product/release_product.wxss */
+button{
+  align-content: center;
+  color:white;
+  background-color: yellowgreen;
+  border-radius: 18rpx; 
+}
+.container {  
+  display: flex;  
+  flex-direction: column;  
+  padding: 10px;  
+}  
+.body{
+  display: flex;  
+  justify-content: center;  
+  align-items: center;
+}
+.zone {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
+  margin-bottom: 10px;  
+}  
+  
+.zone-label {  
+  width: 30%; /* 您可以根据需要调整这个宽度 */  
+  font-weight: bold;  
+}  
+  
+.zone-input {  
+  width: 80%; /* 您可以根据需要调整这个宽度 */  
+  border: 1px solid #ccc;  
+  border-radius: 10px;  
+  padding: 5px;  
+  font-size: 16px;  
+  background-color: #fff;  
+}

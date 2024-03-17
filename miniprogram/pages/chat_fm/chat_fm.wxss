@@ -1,0 +1,151 @@
+.background{
+	background-color: rgb(250, 250, 250);
+	position: relative;
+}
+
+.search-box{
+	display: flex;
+	align-items: center;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 5px;
+	width:95%;
+	height: 20px;
+	background-color: #ffffff;
+}
+
+.bg{
+  padding-top: 5rpx;
+  padding-bottom: 0rpx;
+}
+
+.search-image{
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+}
+
+.management{
+	position: absolute;
+	top: 10rpx;
+	right: 20rpx;
+	height: 60rpx;
+	width: 60rpx;
+}
+
+.manageicon{
+	height: 60rpx;
+	width: 60rpx;
+}
+
+.products{
+	border-bottom: 10rpx solid rgb(219, 219, 219);
+	background-color: white;
+	display:flex;
+	flex-direction: row;
+}
+
+.shopico{
+	height: 40rpx;
+	width: 40rpx;
+	vertical-align: -10rpx;
+}
+
+.shop_selection{
+	height: 40rpx;
+	width: 40rpx;
+	vertical-align: -10rpx;
+}
+
+.selectionico{
+	height: 40rpx;
+	width: 40rpx;
+	vertical-align: 80rpx;
+}
+
+.product_info{
+	height: 50rpx;
+	width: 50rpx;
+}
+
+.productlist{
+	height: 200rpx;
+	width: 96%;
+}
+
+.productimg{
+	height: 100rpx;
+	width: 100rpx;
+}
+
+.productinfo_txt{
+	height: 50rpx;
+}
+
+.left_container{
+	height: 150rpx;
+	width: 120rpx;
+}
+
+.right_container{
+	height: 150rpx;
+	width: 500rpx;
+}
+
+.description_1{
+	font-size: large;
+	display: flex;
+	flex-direction: row;
+}
+
+.description_2{
+	height:100rpx;
+	font-size: medium;
+}
+
+.description_3{
+	height: 100rpx;
+	font-size: medium;
+	color: red;
+}
+
+.itemname{
+	height: 100rpx;
+	width: 500rpx;
+}
+
+.productnum{
+	width: 50rpx;
+}
+
+.multiico{
+	vertical-align: -5rpx;
+	height: 30rpx;
+	width: 30rpx;
+}
+
+.redspot{
+	height: 30rpx;
+	width: 30rpx;
+}
+
+.right_right_container{
+	height: 150rpx;
+	width: 50rpx;
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+
+}
+.bar > image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 100rpx;
+}
+.bottom{
+  position: fixed;
+  bottom: 20rpx;
+}

@@ -27,7 +27,8 @@ Page({
       sold: 0,
       hidden: false
       }
-    ]
+    ],
+    tabbar: {}
   },
 
 
@@ -97,7 +98,7 @@ Page({
       url: '/pages/product_info/product_info'
     })
   },
-  onLoad: function () {  
+  onLoad(){  
     getApp().editTabbar();
   }  
 })

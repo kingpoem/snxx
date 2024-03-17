@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "收到评价",
+  "usingComponents": {},
+  "avatarUrl": "/images/avatar/avatar_1.jpg",  
+  "nickname": "张三",  
+  "date": "2024-03-16",  
+  "review": "商品质量很好，非常满意！",  
+  "stars": [1, 1, 1, 1, 1]
 }

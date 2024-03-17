@@ -7,26 +7,33 @@
   </view>
 </view>
 
-<view class="navbar">  
-  <text wx:for="{{navbar}}" wx:key="index" data-index="{{index}}" bindtap="switchTab" class="item {{currentIndex == index ? 'active' : ''}}">{{item}}</text>  
+<view class="navbar">
+  <text wx:for="{{navbar}}" wx:key="index" data-index="{{index}}" bindtap="switchTab" class="item {{currentIndex == index ? 'active' : ''}}">{{item}}</text>
 </view>
 <view wx:if="{{currentIndex == 0}}">
 
-  <view class="cls_product_zone" bindtap="redirectToproduct_info">
-      <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
-      <div class="text_zone">
-        <view class="zone_1">
-          <view class = "product_text">阳山水蜜桃</view> <!--云链接-->
-        </view>
-        <view class = "zone_2">
-          <text class = "pdct_number">￥138.00</text>
-        </view>
-        <view class="zone_3">
-          <text class = "product_price">实付款：￥135.00</text>
-        </view>
-        <button bind:tap="delete_indent" size="mini" class="button_delete">删除订单</button>
-      </div>
+  <view class="zone_large">
+    <view class="zone_left">
+      <view class="zone_left_1">小林的店铺
+      </view>
+      <view class="zone_left_2">
+        <image src="/images/prods/fruitOne.png"></image>
+      </view>
     </view>
-
-
+    <view class="zone_right">
+      <view class="zone_right_1">交易成功
+      </view>
+      <view class="zone_right_2">
+        <view class="zone_right_21">阳山水蜜桃
+        </view>
+        <view class="zone_right_22">¥138.00
+        </view>
+      </view>
+      <view class="zone_right_3">x1
+      </view>
+      <view class="zone_right_4">实付款：¥135.00
+      </view>
+      <button class="zone_right_5" size="mini" bind:tap="delete_indent">删除订单</button>
+    </view>
+  </view>
 </view>
