@@ -16,11 +16,17 @@ Page({
     circular: true,   // 是否采用衔接滑动
 
     products: [
-      { id: 1, image: '/images/prods/product1.png', name: '商品1', price: '￥10.00' },
-      { id: 2, image: '/images/prods/product2.png', name: '商品2', price: '￥20.00' },
-      { id: 3, image: '/images/prods/product3.png', name: '商品3', price: '￥30.00' }
+      { id: 1, image: '/images/prods/s1.jpg', name: '南京雨花茶  ', price: '￥78.00' },
+      { id: 2, image: '/images/prods/s5.jpg', name: '邵店板栗', price: '￥5.1' },
+      { id: 3, image: '/images/prods/fruitOne.png', name: '阳山水蜜桃', price: '￥6.9' }
     ],
-    tabbar: {}
+    
+    products2: [
+      { id: 1, image: '/images/prods/v2.jpg', name: '筒管丝瓜  ', price: '￥2.1' },
+      { id: 2, image: '/images/prods/f4.jpg', name: '溧水草莓 小果', price: '￥8.5' },
+      { id: 3, image: '/images/prods/f5.jpg', name: '花园酥梨 ', price: '￥2.2' }
+    ],
+    tabbar: {},
   },
   //跳转到详情
   /*toDetail: function(e){
