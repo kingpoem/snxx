@@ -1,50 +1,83 @@
-<!--packageA/pages/income_expenses/income_expenses.wxml-->
-<!-- 日收入 -->
-<view class="zone">
-  <veiw class="zone_1">
-    <veiw class="zone_1_left">
-      <veiw class="zone_1_left_1">日收入</veiw>
-      <veiw class="zone_1_left_2">￥234.00</veiw>
-    </veiw>
-    <veiw class="zone_1_right">2024年3月16日</veiw>
-  </veiw>
-  <veiw class="zone_2">
-    <veiw class="zone_2_1">收入笔数：3.00</veiw>
-    <veiw class="zone_2_2">顾客人数：3.00</veiw>
-    <veiw class="zone_2_3">单笔均值：78.00</veiw>
-  </veiw>
+<view class="zone_1">
+  <view class="zone_1_left">
+    <view class="zone_1_left_image">
+      <image src="/images/money/income.jpg" class="image_money"></image>
+    </view>
+    <view class="zone_1_left_0">
+      <view class="zone_1_left_1">
+        总收入
+      </view>
+      <view class="zone_1_left_2">
+        6666.00
+      </view>
+    </view>
+  </view>
+  <view class="zone_1_right">
+    <view class="zone_1_right_image">
+      <image src="/images/money/expense.jpg" class="image_money"></image>
+    </view>
+    <view class="zone_1_right_0">
+      <view class="zone_1_right_1">
+        总支出
+      </view>
+      <view class="zone_1_right_2">
+        666.00
+      </view>
+    </view>
+  </view>
 </view>
 
-<!-- 周收入 -->
-<view class="zone">
-  <veiw class="zone_1">
-    <veiw class="zone_1_left">
-      <veiw class="zone_1_left_1">周收入</veiw>
-      <veiw class="zone_1_left_2">￥1760.00</veiw>
-    </veiw>
-    <veiw class="zone_1_right">2024年3月第第三周</veiw>
-  </veiw>
-  <veiw class="zone_2">
-    <veiw class="zone_2_1">收入笔数：20.00</veiw>
-    <veiw class="zone_2_2">顾客人数：20.00</veiw>
-    <veiw class="zone_2_3">单笔均值：88.00</veiw>
-  </veiw>
+<view class="fenge">收 支 详 情</view>
+
+
+<view class="zone_2">
+  <view class="zone_2_left">
+    <view class="zone_2_left_image">
+      <image src="/images/money/shouchu.jpg" class="shouchu"></image>
+    </view>
+    <view class="zone_2_left_0">
+      <view class="zone_2_left_1">水蜜桃售出</view>
+      <view class="zone_2_left_2">2024年3月17日</view>
+    </view>
+  </view>
+  <view class="zone_2_right">+86元</view>
 </view>
 
-<!-- 月收入 -->
-<view class="zone">
-  <veiw class="zone_1">
-    <veiw class="zone_1_left">
-      <veiw class="zone_1_left_1">月收入</veiw>
-      <veiw class="zone_1_left_2">￥6666.00</veiw>
-    </veiw>
-    <veiw class="zone_1_right">2024年3月</veiw>
-  </veiw>
-  <veiw class="zone_2">
-    <veiw class="zone_2_1">收入笔数：99.00</veiw>
-    <veiw class="zone_2_2">顾客人数：99.00</veiw>
-    <veiw class="zone_2_3">单笔均值：67.33</veiw>
-  </veiw>
+<view class="zone_2">
+  <view class="zone_2_left">
+    <view class="zone_2_left_image">
+      <image src="/images/money/shouchu.jpg" class="shouchu"></image>
+    </view>
+    <view class="zone_2_left_0">
+      <view class="zone_2_left_1">枇杷售出</view>
+      <view class="zone_2_left_2">2024年3月17日</view>
+    </view>
+  </view>
+  <view class="zone_2_right">+188元</view>
 </view>
 
-<view class="zone yue">月收支明细</view>
+
+<view class="zone_2">
+  <view class="zone_2_left">
+    <view class="zone_2_left_image">
+      <image src="/images/money/shouchu.jpg" class="shouchu"></image>
+    </view>
+    <view class="zone_2_left_0">
+      <view class="zone_2_left_1">水蜜桃售出</view>
+      <view class="zone_2_left_2">2024年3月17日</view>
+    </view>
+  </view>
+  <view class="zone_2_right">+86元</view>
+</view>
+<view class="zone_2">
+  <view class="zone_2_left">
+    <view class="zone_2_left_image">
+      <image src="/images/money/shouchu.jpg" class="shouchu"></image>
+    </view>
+    <view class="zone_2_left_0">
+      <view class="zone_2_left_1">水蜜桃售出</view>
+      <view class="zone_2_left_2">2024年3月17日</view>
+    </view>
+  </view>
+  <view class="zone_2_right">+86元</view>
+</view>
