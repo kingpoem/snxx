@@ -1,2 +1,7 @@
 <!--packageA/pages/shop_revenue/shop_revenue.wxml-->
-<text>packageA/pages/shop_revenue/shop_revenue.wxml</text>
+<view class="bg">
+<image src="/images/farmer/dayBill.png" class="day"/>
+<image src="/images/farmer/weekBill.png" class="week"/>
+<image src="/images/farmer/monthBill1.png" class="month"/>
+<image src="/images/farmer/monthBill.png" class="month1"/>
+</view>

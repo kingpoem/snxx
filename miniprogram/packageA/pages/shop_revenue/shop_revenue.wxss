@@ -1,1 +1,25 @@
 /* packageA/pages/shop_revenue/shop_revenue.wxss */
+.bg{
+  background-color: rgba(246, 250, 242,1);
+  height: 1200rpx;
+}
+.day{
+  margin-top: 30rpx;
+  width: 720rpx;
+  height: 240rpx;
+}
+.week{
+  margin-top: 20rpx;
+  width: 720rpx;
+  height: 400rpx;
+}
+.month{
+  margin-top: 20rpx;
+  width: 720rpx;
+  height: 240rpx;
+}
+.month1{
+  margin-top: 30rpx;
+  width: 720rpx;
+  height: 90rpx;
+}
