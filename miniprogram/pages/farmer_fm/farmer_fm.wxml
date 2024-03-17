@@ -3,7 +3,7 @@
 <image src="/images/farmer/car.png" class="img"/>
 <text class="w1">物流信息</text>
 <image src="/images/farmer/money.png" class="img"/>
-<text class="w2">店铺营收</text>
+<text class="w2" bindtap ="toShopRevenue">店铺营收</text>
 </view>
 
 <view class="bg1">
