@@ -18,8 +18,7 @@
     "pages/intelligent_assistant/intelligent_assistant",
     "pages/indent_fm/indent_fm",
     "pages/chat_fm/chat_fm",
-    "pages/contact_merchant/contact_merchant",
-    "pages/chat_fm/chat_fm"
+    "pages/contact_merchant/contact_merchant"
   ],
   "subpackages": [
     {
