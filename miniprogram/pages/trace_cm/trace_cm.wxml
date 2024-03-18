@@ -1,5 +1,5 @@
 <view style = "background-color: #4B9600;width: 750rpx;height: 120rpx;text-align: center;">
-  <text style = "margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">的\n产品是这样产生的</text>
+  <text style = "margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">产品是这样产生的</text>
 </view>
 
 <view class="flex-col page">
