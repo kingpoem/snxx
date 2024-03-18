@@ -85,5 +85,8 @@ Page({
     wx.navigateTo({
       url: '/pages/forgetpw/forgetpw'
     });
+  },
+  onShow() {
+    wx.hideHomeButton();
   }
 });

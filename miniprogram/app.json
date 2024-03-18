@@ -20,8 +20,7 @@
     "pages/chat_fm/chat_fm",
     "pages/contact_merchant/contact_merchant"
   ],
-  "subpackages": [
-    {
+  "subpackages": [{
       "root": "packageA",
       "pages": [
         "pages/shop_revenue/shop_revenue",
@@ -46,8 +45,7 @@
     "navigationBarBackgroundColor": "#4B9600"
   },
   "tabBar": {
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/home_cm/home_cm",
         "iconPath": "/images/tabs/home_cm_tb.jpg",
         "selectedIconPath": "/images/tabs/sl_home_cm_tb.jpg"

@@ -1,62 +1,48 @@
 <view class="background">
-	<view
-	 class="products"
-	 wx:for="{{productinfo}}"
-	 wx:key="k"
-	 wx:for-index="idx"
-	 wx:for-item="itm"
-	>
-		<view class="top">
-		</view>
-		<view class="left_container">
-			<view class="shop-info">
-				<image src="/images/iron/product_not_selected.jpg" class="shopico"></image>
-				<image src="/images/iron/shop.jpg" class="shopico"></image>
-				<a>{{itm.ownerld}}</a>
-			</view>
-			<block class="productlist">
-				<image src="/images/iron/product_not_selected.jpg" class="selectionico"></image>
-				<image src="{{itm.image[0]}}" class="productimg"></image>
-				<view class="productinfo_txt">
-					<view class="name_zone">
-						<text class ="name_text">
+  <view class="products" wx:for="{{productinfo}}" wx:key="k" wx:for-index="idx" wx:for-item="itm">
+    <view class="top">
+    </view>
+    <view class="left_container">
+      <view class="shop-info">
+        <image src="/images/iron/product_not_selected.jpg" class="shopico"></image>
+        <image src="/images/iron/shop.jpg" class="shopico"></image>
+        <a>{{itm.ownerld}}</a>
+      </view>
+      <block class="productlist">
+        <image src="/images/iron/product_not_selected.jpg" class="selectionico"></image>
+        <image src="{{itm.image[0]}}" class="productimg"></image>
+        <view class="productinfo_txt">
+          <view class="name_zone">
+            <text class="name_text">
 
-						</text>
-					</view>
-				</view>
-			</block>
-		</view>
-		<view class="right_container">
-			<view class="description_1">
-				<span class="itemname">
-					<text class="itemname">{{itm.name}}</text>
-				</span>
-				<span class="productnum">
-					<text class="orderstatus">待发货</text>
-				</span>
-			</view>
-			<view class="description_2">
-				<text>{{itm.warranty}}</text>
-			</view>
-			<view class="description_3">
-				<text>¥{{itm.type[0].price}}</text>
-			</view>
-		</view>
-	</view>
+            </text>
+          </view>
+        </view>
+      </block>
+    </view>
+    <view class="right_container">
+      <view class="description_1">
+        <span class="itemname">
+          <text class="itemname">{{itm.name}}</text>
+        </span>
+        <span class="productnum">
+          <text class="orderstatus">待发货</text>
+        </span>
+      </view>
+      <view class="description_2">
+        <text>{{itm.warranty}}</text>
+      </view>
+      <view class="description_3">
+        <text>¥{{itm.type[0].price}}</text>
+      </view>
+    </view>
+  </view>
 </view>
 
 <view class="bottom">
-	<view class="bar">
+  <view class="bar">
 
-	</view>
+  </view>
 </view>
 
-<view class="bottom">
-	<view class="bar">
-		<image src="/images/farmer/home_0.jpg" bindtap="toHome" />
-		<image src="/images/farmer/order_1.jpg" />
-		<image src="/images/farmer/tweet_0.jpg" bindtap="toChat" />
-		<image src="/images/farmer/user_0.jpg" bindtap="toUser" />
-	</view>
-</view>
-
+<tabbar tabbar="{{tabbar}}"></tabbar>

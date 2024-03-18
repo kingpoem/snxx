@@ -6,13 +6,14 @@ Page({
    */
   data: {
 
+    tabbar: {}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad(options) {
-
+  onLoad() {
+    getApp().editTabbar();
   },
 
   /**
@@ -26,7 +27,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-
+    wx.hideHomeButton();
   },
 
   /**
@@ -74,22 +75,5 @@ Page({
     wx.navigateTo({
       url: '/packageA/pages/shop_revenue/shop_revenue',
     })
-  },
-	toIndent(){
-		wx.reLaunch({
-		  url: '/pages/indent_fm/indent_fm',
-		})
-	},
-
-	toChat(){
-		wx.reLaunch({
-		  url: '/pages/chat_fm/chat_fm',
-		})
-	},
-
-	toUser(){
-		wx.reLaunch({
-		  url: '/pages/farmer_fm/farmer_fm',
-		})
-	}
+  }
 })

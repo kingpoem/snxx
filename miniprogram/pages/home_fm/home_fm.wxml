@@ -1,2 +1,3 @@
 <!--pages/home_fm/home_fm.wxml-->
 <text>pages/home_fm/home_fm.wxml</text>
+<tabbar tabbar="{{tabbar}}"></tabbar>

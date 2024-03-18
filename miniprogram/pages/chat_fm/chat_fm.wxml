@@ -35,11 +35,4 @@
 		</view>
 	</view>
 </view>
-<view class="bottom">
-<view class="bar">
-	<image  src="/images/farmer/home_0.jpg" bindtap="toHome" />
-	<image src="/images/farmer/order_0.jpg" bindtap="toIndent"/>
-	<image src="/images/farmer/tweet_1.jpg" />
-	<image src="/images/farmer/user_0.jpg" bindtap ="toUser"/>
-</view>
-</view>
+<tabbar tabbar="{{tabbar}}"></tabbar>

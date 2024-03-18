@@ -1,25 +1,27 @@
 /* pages/product_info/product_info.wxss */
 
-.container{
+.container {
   margin-top: -210rpx;
-  height:1530rpx;
-  border:1rpx solid black;
+  height: 1530rpx;
+  border: 1rpx solid black;
   overflow: hidden;
   display: flex;
   overflow: hidden;
   white-space: nowrap;
   position: relative;
 }
-.back_1{
+
+.back_1 {
   margin-top: 0rpx;
   background-color: rgb(237, 253, 237);
   /* border:1rpx solid black; */
   height: 370rpx;
 }
-.map{
+
+.map {
   margin-top: 17rpx;
   margin-left: 20rpx;
-  
+
   height: 350rpx;
 }
 
@@ -29,14 +31,15 @@ swiper image {
   border-radius: 18rpx;
 }
 
-.back_2{
+.back_2 {
   margin-top: 0rpx;
   background-color: rgb(237, 253, 237);
   /* border:1rpx solid black; */
   height: 170rpx;
 
 }
-.white_1{
+
+.white_1 {
   margin-left: 20rpx;
   width: 710rpx;
   height: 150rpx;
@@ -44,7 +47,8 @@ swiper image {
   display: flex;
   flex-direction: row;
 }
-.mes_1{
+
+.mes_1 {
   margin-top: 10rpx;
   display: flex;
   flex-direction: column;
@@ -52,7 +56,8 @@ swiper image {
   height: 120rpx;
   /* border: 1rpx solid black */
 }
-.mes_2{
+
+.mes_2 {
   margin-top: 10rpx;
   display: flex;
   flex-direction: column;
@@ -60,55 +65,64 @@ swiper image {
   height: 120rpx;
   /* border: 1rpx solid rgb(255, 0, 0) */
 }
-.a1{
+
+.a1 {
   width: 355rpx;
   height: 41rpx;
   /* border: 1rpx solid rgb(0, 255, 98) */
 }
-.a2{
+
+.a2 {
   width: 355rpx;
   height: 41rpx;
   /* border: 1rpx solid rgb(0, 81, 255) */
 }
-.a3{
+
+.a3 {
   width: 355rpx;
   height: 40rpx;
   /* border: 1rpx solid rgb(255, 0, 221); */
   display: flex;
   flex-direction: row;
 }
-.b1{
+
+.b1 {
   width: 177.5rpx;
   height: 40rpx;
   /* border: 1rpx solid rgb(0, 217, 255) */
 }
-.b2{
+
+.b2 {
   width: 177.5rpx;
   height: 40rpx;
   /* border: 1rpx solid rgb(0, 60, 255) */
 }
-.t1{
+
+.t1 {
   color: rgb(255, 81, 0);
   font-size: 33rpx;
   margin-left: 10rpx;
 }
-.t2{
+
+.t2 {
   color: rgb(0, 0, 0);
   font-size: 26rpx;
   margin-left: 14rpx;
 }
-.t3{
+
+.t3 {
   color: rgb(139, 139, 139);
   font-size: 20rpx;
   margin-left: 10rpx;
 }
-.t4{
+
+.t4 {
   color: rgb(139, 139, 139);
   font-size: 20rpx;
   margin-left: 60rpx;
 }
 
-.orbutton{
+.orbutton {
   border-radius: 30rpx;
   width: 200rpx;
   height: 50rpx;
@@ -116,43 +130,49 @@ swiper image {
   margin-top: 10rpx;
   margin-left: 130rpx;
 }
-.ort{
+
+.ort {
   font-size: 30rpx;
   margin-left: 35rpx;
   color: rgb(0, 145, 0);
 }
 
-.d1{
+.d1 {
   margin-top: 10rpx;
   height: 45rpx;
   /* border: 1rpx solid black; */
   text-align: center;
   font-size: 26rpx;
 }
-.intro_t{
+
+.intro_t {
   font-size: 27rpx;
   color: rgb(0, 0, 0);
 
 }
-.d2{
+
+.d2 {
   height: 170rpx;
   /* border: 1rpx solid black; */
   overflow: hidden;
 }
-.d3{
+
+.d3 {
   height: 140rpx;
   /* border: 1rpx solid black; */
 }
-.image2{
+
+.image2 {
   height: 140rpx;
 }
 
-.back_3{
+.back_3 {
   margin-top: 0rpx;
   background-color: rgb(232, 255, 232);
   height: 405rpx;
 }
-.white_2{
+
+.white_2 {
   margin-left: 20rpx;
   width: 710rpx;
   height: 380rpx;
@@ -160,12 +180,14 @@ swiper image {
   display: flex;
   flex-direction: column;
 }
-.back_4{
+
+.back_4 {
   margin-top: 0rpx;
   background-color: rgb(232, 255, 232);
   height: 580rpx;
 }
-.white_3{
+
+.white_3 {
   margin-left: 20rpx;
   width: 710rpx;
   height: 590rpx;
@@ -173,16 +195,18 @@ swiper image {
   display: flex;
   flex-direction: column;
 }
-.back_5{
+
+.back_5 {
   margin-top: 0rpx;
   background-color: rgb(232, 255, 232);
   height: 100rpx;
 }
-.bottom{
+
+.bottom {
   height: 100rpx;
   width: 742rpx;
   background-color: rgb(255, 255, 255);
-  margin-bottom:0rpx;
+  margin-bottom: 0rpx;
   width: 750rpx;
   height: 100rpx;
   position: fixed;
@@ -194,26 +218,61 @@ swiper image {
   display: flex;
   flex-direction: row;
 }
-.buy{
+
+.buy {
   width: 330rpx;
   margin-left: 260rpx;
   height: 50rpx;
   margin-top: 25rpx;
   border-radius: 20rpx;
-  z-index:1;
-  overflow:hidden;
-  display:flex;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
   flex-direction: row;
 }
-.f2{
+
+.f2 {
   width: 165rpx;
   margin-left: 0rpx;
   height: 50rpx;
   background-color: orange;
 }
-.f1{
+
+.f1 {
   width: 165rpx;
   margin-left: 0rpx;
   height: 50rpx;
-  background-color:rgb(241, 237, 0);
+  background-color: rgb(241, 237, 0);
+}
+
+.detail-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 120rpx;
+}
+
+.button-green {
+  background-color: rgb(75, 150, 1);
+  /* Green */
+  border-radius: 20rpx 0rpx 0rpx 20rpx;
+
+}
+
+.button-yellow {
+  background-color: rgb(255, 230, 1);
+  /* 红色 */
+  border-radius: 0rpx 20rpx 20rpx 0rpx;
+
+}
+
+.image_detail {
+  width: 100%;
 }

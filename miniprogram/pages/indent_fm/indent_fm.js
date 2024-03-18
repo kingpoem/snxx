@@ -5,132 +5,126 @@ Page({
    * 页面的初始数据
    */
   data: {
-    productinfo:[
-      {guid:"1",
-      ownerld:"小林的店铺",
-      name:"阳山水蜜桃",
-      image:["/images/prods/product1.jpg"],
-      despciption:"",
-      address:"",
-      type: [
-        {
-          guid:"",
-          name:"阳山水蜜桃",
+    tabbar: {},
+    productinfo: [{
+        guid: "1",
+        ownerld: "小林的店铺",
+        name: "阳山水蜜桃",
+        image: ["/images/prods/product1.jpg"],
+        despciption: "",
+        address: "",
+        type: [{
+          guid: "",
+          name: "阳山水蜜桃",
           number: 1,
           price: 138,
-        }
-      ],
-      category:"",
-      quality:"",
-      advantage:"",
-      warranty:"6-7两,一盒6个",
-      sold: 0,
-      hidden: false
+        }],
+        category: "",
+        quality: "",
+        advantage: "",
+        warranty: "6-7两,一盒6个",
+        sold: 0,
+        hidden: false
       },
-      {guid:"2",
-      ownerld:"小林的店铺",
-      name:"阳山水蜜桃",
-      image:["/images/prods/product1.jpg"],
-      despciption:"",
-      address:"",
-      type: [
-        {
-          guid:"",
-          name:"阳山水蜜桃",
+      {
+        guid: "2",
+        ownerld: "小林的店铺",
+        name: "阳山水蜜桃",
+        image: ["/images/prods/product1.jpg"],
+        despciption: "",
+        address: "",
+        type: [{
+          guid: "",
+          name: "阳山水蜜桃",
           number: 1,
           price: 138,
-        }
-      ],
-      category:"",
-      quality:"",
-      advantage:"",
-      warranty:"6-7两,一盒6个",
-      sold: 0,
-      hidden: false
+        }],
+        category: "",
+        quality: "",
+        advantage: "",
+        warranty: "6-7两,一盒6个",
+        sold: 0,
+        hidden: false
       },
-      {guid:"3",
-      ownerld:"小林的店铺",
-      name:"阳山水蜜桃",
-      image:["/images/prods/product1.jpg"],
-      despciption:"",
-      address:"",
-      type: [
-        {
-          guid:"",
-          name:"阳山水蜜桃",
+      {
+        guid: "3",
+        ownerld: "小林的店铺",
+        name: "阳山水蜜桃",
+        image: ["/images/prods/product1.jpg"],
+        despciption: "",
+        address: "",
+        type: [{
+          guid: "",
+          name: "阳山水蜜桃",
           number: 1,
           price: 138,
-        }
-      ],
-      category:"",
-      quality:"",
-      advantage:"",
-      warranty:"6-7两,一盒6个",
-      sold: 0,
-      hidden: false
+        }],
+        category: "",
+        quality: "",
+        advantage: "",
+        warranty: "6-7两,一盒6个",
+        sold: 0,
+        hidden: false
       },
-      {guid:"4",
-      ownerld:"小林的店铺",
-      name:"阳山水蜜桃",
-      image:["/images/prods/product1.jpg"],
-      despciption:"",
-      address:"",
-      type: [
-        {
-          guid:"",
-          name:"阳山水蜜桃",
+      {
+        guid: "4",
+        ownerld: "小林的店铺",
+        name: "阳山水蜜桃",
+        image: ["/images/prods/product1.jpg"],
+        despciption: "",
+        address: "",
+        type: [{
+          guid: "",
+          name: "阳山水蜜桃",
           number: 1,
           price: 138,
-        }
-      ],
-      category:"",
-      quality:"",
-      advantage:"",
-      warranty:"6-7两,一盒6个",
-      sold: 0,
-      hidden: false
+        }],
+        category: "",
+        quality: "",
+        advantage: "",
+        warranty: "6-7两,一盒6个",
+        sold: 0,
+        hidden: false
       },
-      {guid:"5",
-      ownerld:"114514",
-      name:"阳山水蜜桃",
-      image:["/images/prods/product1.jpg"],
-      despciption:"",
-      address:"",
-      type: [
-        {
-          guid:"",
-          name:"阳山水蜜桃",
+      {
+        guid: "5",
+        ownerld: "114514",
+        name: "阳山水蜜桃",
+        image: ["/images/prods/product1.jpg"],
+        despciption: "",
+        address: "",
+        type: [{
+          guid: "",
+          name: "阳山水蜜桃",
           number: 1,
           price: 138,
-        }
-      ],
-      category:"",
-      quality:"",
-      advantage:"",
-      warranty:"6-7两,一盒6个",
-      sold: 0,
-      hidden: false
+        }],
+        category: "",
+        quality: "",
+        advantage: "",
+        warranty: "6-7两,一盒6个",
+        sold: 0,
+        hidden: false
       },
-      {guid:"5",
-      ownerld:"114514",
-      name:"阳山水蜜桃",
-      image:["/images/prods/product1.jpg"],
-      despciption:"",
-      address:"",
-      type: [
-        {
-          guid:"",
-          name:"阳山水蜜桃",
+      {
+        guid: "5",
+        ownerld: "114514",
+        name: "阳山水蜜桃",
+        image: ["/images/prods/product1.jpg"],
+        despciption: "",
+        address: "",
+        type: [{
+          guid: "",
+          name: "阳山水蜜桃",
           number: 1,
           price: 138,
-        }
-      ],
-      category:"",
-      quality:"",
-      advantage:"",
-      warranty:"6-7两,一盒6个",
-      sold: 0,
-      hidden: false
+        }],
+        category: "",
+        quality: "",
+        advantage: "",
+        warranty: "6-7两,一盒6个",
+        sold: 0,
+        hidden: false
       },
     ]
   },
@@ -138,8 +132,8 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad(options) {
-
+  onLoad() {
+    getApp().editTabbar();
   },
 
   /**
@@ -153,7 +147,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-
+    wx.hideHomeButton();
   },
 
   /**
@@ -191,27 +185,27 @@ Page({
 
   },
 
-  jmp_confirm_order(){
+  jmp_confirm_order() {
     wx.reLaunch({
       url: '/pages/confirm_order/confirm_order',
     })
   },
 
-	toHome(){
-		wx.reLaunch({
-		  url: '/pages/farmer/farmer',
-		})
-	},
+  toHome() {
+    wx.reLaunch({
+      url: '/pages/farmer/farmer',
+    })
+  },
 
-	toChat(){
-		wx.reLaunch({
-		  url: '/pages/chat_fm/chat_fm',
-		})
-	},
+  toChat() {
+    wx.reLaunch({
+      url: '/pages/chat_fm/chat_fm',
+    })
+  },
 
-	toUser(){
-		wx.reLaunch({
-		  url: '/pages/farmer_fm/farmer_fm',
-		})
-	}
+  toUser() {
+    wx.reLaunch({
+      url: '/pages/farmer_fm/farmer_fm',
+    })
+  }
 })
