@@ -41,6 +41,13 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "产品信息",
+          "pathName": "pages/product_info/product_info",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }
