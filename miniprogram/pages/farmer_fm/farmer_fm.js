@@ -63,14 +63,14 @@ Page({
   onShareAppMessage() {
 
   },
-  toUser(){
-wx.navigateTo({
-  url: '/pages/home_fm/home_fm',
-})
+  toUser() {
+    wx.navigateTo({
+      url: '/pages/home_fm/home_fm',
+    })
   },
-  toShopRevenue(){
-wx.navigateTo({
-  url: '/packageA/pages/shop_revenue/shop_revenue',
-})
-}
+  toShopRevenue() {
+    wx.navigateTo({
+      url: '/packageA/pages/shop_revenue/shop_revenue',
+    })
+  }
 })

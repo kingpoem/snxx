@@ -3,10 +3,10 @@
 	<!--搜索框-->
 	<view class="bg">
 		<view class="search-box">
-			<image src="/images/reps/sicon.png" class="search-image"></image>
+			<image src="/images/reps/sicon.jpg" class="search-image"></image>
 			<input type="text" placeholder="搜索商品信息" class="search-input"></input>
 			<view class="management">
-					<image src="/images/iron/management.png" class="manageicon" bindtap="jmp_confirm_order"></image>
+					<image src="/images/iron/management.jpg" class="manageicon" bindtap="jmp_confirm_order"></image>
 			</view>
 		</view>
 	</view>
@@ -17,12 +17,12 @@
 		</view>
 		<view class="left_container">
 			<view class="shop-info">
-				<image src="/images/iron/product_not_selected.png" class="shopico"></image>
-				<image src="/images/iron/shop.png" class="shopico"></image>
+				<image src="/images/iron/product_not_selected.jpg" class="shopico"></image>
+				<image src="/images/iron/shop.jpg" class="shopico"></image>
 				<a>{{itm.ownerld}}</a>
 			</view>
 			<block class="productlist">
-				<image src="/images/iron/product_not_selected.png" class="selectionico"></image>
+				<image src="/images/iron/product_not_selected.jpg" class="selectionico"></image>
 				<image src="{{itm.image[0]}}" class="productimg"></image>
 				<view class="productinfo_txt">
 					<view class ="name_zone">
@@ -38,7 +38,7 @@
 					<text class="itemname">{{itm.name}}</text> 
 				</span>
 				<span class="productnum">
-					<image src="/images/iron/1.png" class="multiico"></image>
+					<image src="/images/iron/1.jpg" class="multiico"></image>
 					<text>{{itm.type[0].number}}</text>
 				</span>
 			</view>
@@ -46,7 +46,5 @@
 			<view class="description_3"> <text>¥{{itm.type[0].price}}</text> </view>
 		</view>
 	</view>
-  
-
 </view>
 <tabbar tabbar="{{tabbar}}"></tabbar>

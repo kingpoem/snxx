@@ -18,21 +18,21 @@
           <view class="flex-col items-center group_3 equal-division-item">
             <image
               class="image_2"
-              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=fa76d8f700867351b0b4135e787c8569.png"
+              src="/images/trace/0.1.jpg"
             />
             <text class="font_2 mt-13">12～17℃</text>
           </view>
           <view class="flex-col items-center group_3 equal-division-item">
             <image
               class="image_2"
-              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=b9ad418b0455fcb9db1ab305e0d856a0.png"
+              src="/images/trace/0.2.jpg"
             />
             <text class="font_2 mt-13">65~75%</text>
           </view>
           <view class="flex-col items-center group_3 equal-division-item">
             <image
               class="image_2"
-              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=0b25e8b2eabd93219923cc77c7ca61bb.png"
+              src="/images/trace/0.3.jpg"
             />
             <text class="mt-12 font_2">充足</text>
           </view>
@@ -40,11 +40,11 @@
         <text class="self-center font_2 text_3">十月中下旬到次年一月中下旬</text>
       </view>
       <view class="mt-12 flex-col section_3">
-        <text class="self-center text_4">园地选整</text>
+        <text class="self-center text_4">园地选址</text>
         <view class="flex-col self-stretch mt-9">
           <image
             class="image_3"
-            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=0885f01515435a0107141aaab150fcfc.png"
+            src="/images/trace/1.jpg"
           />
           <text class="mt-12 font_3">
             排水好、土层深厚、土质疏松、偏酸性的沙质壤土。在种植前进行园地整改，需要深翻土壤，施入充足的土杂肥，提高土壤的肥力。然后按照行间距四米、株间距三米挖好定植穴，往定植穴中施入充足的腐熟的农家肥以及是来给你的磷肥，再撒上一层薄土，等待种植。
@@ -56,7 +56,7 @@
         <view class="mt-10 flex-col self-stretch">
           <image
             class="image_3 image_4"
-            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=e625f9e956de1967054821e747ec1248.png"
+            src="/images/trace/2.jpg"
           />
           <view class="mt-8 group_4">
             <text class="font_3">尽量是选择</text>
@@ -78,7 +78,7 @@
         <view class="mt-10 flex-col self-stretch">
           <image
             class="image_3"
-            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=887a290e97a97b3a8ee09289060fae5c.png"
+            src="/images/trace/3.jpg"
           />
           <view class="group_5 mt-5">
             <text class="font_3">水蜜桃种植前，要给种植地施充足的</text>
@@ -94,7 +94,7 @@
         <view class="mt-10 flex-col self-stretch">
           <image
             class="image_3 image_5"
-            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=5e430757921dd7e1d8cf571812538bbd.png"
+            src="/images/trace/4.jpg"
           />
           <view class="mt-16 group_6">
             <text class="font_3">一般果树落叶后会进入休眠期后，这段时间可以给树体进行</text>
@@ -112,15 +112,15 @@
         <view class="mt-10 flex-row justify-evenly self-stretch">
           <image
             class="image_6"
-            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=79a50809e1f378e5903dc6e3c2cfa0f9.png"
+            src="/images/trace/5.jpg"
           />
           <image
             class="image_7"
-            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=aba7802adaf807e78941edd72e81119c.png"
+            src="/images/trace/6.jpg"
           />
           <image
             class="image_8"
-            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=296eb952e8175a2553c7f14472b2f474.png"
+            src="/images/trace/7.jpg"
           />
         </view>
         <view class="mt-10 self-stretch group_7">
@@ -142,16 +142,16 @@
         <view class="mt-10 flex-row self-stretch">
           <image
             class="flex-1 image_9"
-            src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=65656a9a9afc9f43ec2a8e900776631c.png"
+            src="/images/trace/8.jpg"
           />
           <view class="flex-col items-center shrink-0 group_8">
             <image
               class="image_10"
-              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=f684c05985c03def36d247f70beb7887.png"
+              src="/images/trace/9.jpg"
             />
             <image
               class="image_11"
-              src="https://ide.code.fun/api/image?token=65e9ea11eb5b550011334d9f&name=d12316614eb13744196eca03c95541a1.png"
+              src="/images/trace/10.jpg"
             />
           </view>
         </view>

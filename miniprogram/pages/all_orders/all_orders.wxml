@@ -11,7 +11,6 @@
   <text wx:for="{{navbar}}" wx:key="index" data-index="{{index}}" bindtap="switchTab" class="item {{currentIndex == index ? 'active' : ''}}">{{item}}</text>
 </view>
 <view wx:if="{{currentIndex == 0}}">
-
   <view class="zone_large">
     <view class="zone_left">
       <view class="zone_left_1">小林的店铺

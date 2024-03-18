@@ -1,71 +1,120 @@
-/* packageA/pages/income_expenses/income_expenses.wxss */
-/* 通用样式，可根据需要调整 */  
-view {  
+page {
+  background-color: rgb(234, 236, 235);
+}
+/* 浅灰色背景胶囊装圆角矩形 */  
+.zone_1 {  
   display: flex;  
-  flex-direction: column;  
-  box-sizing: border-box;  
-  padding: 10px;  
+  background-color: white; 
+  border-radius: 10px; /* 圆角矩形 */  
+  overflow: hidden; /* 防止内容溢出 */  
 }  
   
-.zone {  
-  display: flex;  
-  flex-direction: column;  
-  margin: 20rpx;
-  padding: 20px; /* 设置内边距，让内容与zone四周保持一定距离 */  
-  background-color: #f5f5f5; /* 设置背景色为白色偏灰 */  
-  border-radius: 20px; /* 可选：添加圆角，使矩形看起来更柔和 */  
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 可选：添加阴影，增强立体感 */  
-}  
-  
-.zone_1, .zone_2 {  
-  display: flex;  
-  width: 100%;  
-  margin-bottom: 10px; /* 添加一些底部间距，以区分两个区域 */  
-}  
-  
+/* 左侧和右侧容器平分矩形左右空间 */  
 .zone_1_left, .zone_1_right {  
+  flex: 1; /* 平分空间 */  
   display: flex;  
-  flex: 1; /* 使得左右两部分等宽 */  
-  justify-content: center;  
+}  
+  
+/* zone_1_left内部布局 */  
+.zone_1_left,.zone_1_right {  
+  padding: 10px; /* 内边距 */  
+}  
+  
+/* zone_1_left_image占据左侧约1/4位置 */  
+.zone_1_left_image,.zone_1_right_image {  
+  flex: 0 0 25%; /* 占据左侧1份宽度 */   
+  border-radius: 10px 0 0 10px; /* 左侧圆角 */  
+}  
+  
+/* zone_1_left_0占据剩余3份宽度 */  
+.zone_1_left_0,.zone_1_right_0 {  
+  flex: 0 0 75%; /* 占据剩余3份宽度 */  
+  display: flex;  
+  flex-direction: column; /* 垂直排列子元素 */  
+  padding-left: 10px; /* 左侧内边距，与image隔开 */  
+}  
+  
+/* zone_1_left_1与zone_1_left_2平分zone_1_left_0的上下空间 */  
+.zone_1_left_1, .zone_1_left_2,.zone_1_right_1, .zone_1_right_2 {  
+  flex: 1; /* 平分上下空间 */  
+  background-color: #ffffff; /* 示例背景色 */  
+  padding: 10px; /* 内边距 */  
+  box-sizing: border-box; /* 内边距和边框包含在宽度内 */  
+}  
+  
+/* 右侧zone_1_right的布局和zone_1_left一样，但样式可能有所不同 */  
+/* ... 这里可以添加zone_1_right的相关样式，如果它与zone_1_left相同则不需要额外添加 */
+.image_money{
+  width:100rpx;
+  height:150rpx;
+}
+view{
+  font-weight: bold;
+}
+
+/* zone_2整体样式 */  
+.zone_2 {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center;  
+  padding: 10px; /* 内边距 */  
+  background-color: white;
+}  
+  
+/* zone_2_left样式 */  
+.zone_2_left {  
+  display: flex;  
   align-items: center;  
 }  
   
-.zone_1_left {  
-  flex-direction: column; /* 左侧内容垂直排列 */  
+/* zone_2_left_image样式 */  
+.zone_2_left_image {  
+  flex: 0 0 25%; /* 占据zone_2_left的左侧1/4位置 */  
+  max-width: 100%; /* 防止图片过大 */  
+  overflow: hidden; /* 隐藏超出部分 */  
+  border-radius: 5px; /* 图片圆角 */  
+  margin-right: 10px; /* 右侧内边距，与zone_2_left_0隔开 */  
 }  
   
-.zone_1_left_1, .zone_1_left_2 {  
-  margin-bottom: 10px; /* 左侧两个元素之间的间距 */  
-  margin-left: -150rpx;
-  font-weight: 700;
-  font-size: x-large;
+.income_image {  
+  width: 100%; /* 图片宽度100% */  
+  height: auto; /* 图片高度自适应 */  
 }  
-
-.zone_1_left_2{
-  color:green;
+  
+/* zone_2_left_0样式 */  
+.zone_2_left_0 {  
+  flex: 0 0 75%; /* 占据剩余3/4位置 */  
+  display: flex;  
+  flex-direction: column; /* 上下排列子元素 */  
+}  
+  
+/* zone_2_left_1与zone_2_left_2样式 */  
+.zone_2_left_1, .zone_2_left_2 {  
+  flex: 1; /* 平分上下空间 */  
+  font-size: 14px; /* 字体大小 */  
+  color: #333; /* 字体颜色 */  
+  padding: 5px 0; /* 上下内边距 */  
+}  
+.zone_2_left_2{
+  font-weight: 400;
+}
+/* zone_2_right样式 */  
+.zone_2_right {  
+  font-size: 16px; /* 字体大小 */  
+  color: #333; /* 字体颜色 */  
+  font-weight: bold; /* 加粗 */  
+  align-self: flex-end; /* 文本右对齐 */  
 }
 
-.zone_1_right {  
-  justify-content: flex-end; /* 右侧内容对齐到下方，适合放置日期 */  
-  font-size: 14px; /* 假设的字体大小 */  
-  color: rgb(66, 139, 70); /* 假设的字体颜色 */  
-}  
-  
-.zone_2 {  
-  flex-direction: row; /* 使得zone_2下的元素水平排列 */  
-  justify-content: space-between; /* 使得zone_2下的元素之间有空隙 */  
-  height:80rpx;
-}  
-  
-.zone_2_1, .zone_2_2, .zone_2_3 {  
-  flex: 1; /* 使得三个元素等宽 */  
-  text-align: center; /* 文本居中显示 */  
-  font-size: 20px; /* 假设的字体大小 */  
-  color: #333; /* 假设的字体颜色 */  
-  width:20rpx;
+.shouchu{
+  width: 70rpx;
+  height: 70rpx;
 }
 
-.yue{
-  font-weight: 700;
-  font-size: x-large;
+.fenge{
+  display: flex;
+  background-color: white;
+  height:70rpx;
+  align-items: center;
+  justify-content:center;
 }

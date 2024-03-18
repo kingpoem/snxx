@@ -4,10 +4,10 @@ Page({
     isLike: true,
     // banner
     imgUrls: [
-      "/images/goodsList/tao.png",
-      "/images/goodsList/tao.png",
-      "/images/goodsList/tao.png",
-      "/images/goodsList/tao.png",
+      "/images/goodsList/tao.jpg",
+      "/images/goodsList/tao.jpg",
+      "/images/goodsList/tao.jpg",
+      "/images/goodsList/tao.jpg",
     ],
     indicatorDots: true, //是否显示面板指示点
     autoplay: true, //是否自动切换

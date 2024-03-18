@@ -8,30 +8,33 @@ button{
 .container {  
   display: flex;  
   flex-direction: column;  
-  padding: 10px;  
+  padding: 20rpx;
+  justify-content: space-between;  
+  background-color: rgb(240, 245, 236);
 }  
 .body{
   display: flex;  
-  justify-content: center;  
-  align-items: center;
+  justify-content: space-between;  
+  align-items: stretch;
+  flex-grow:1;
 }
 .zone {  
   display: flex;  
-  justify-content: space-between;  
-  align-items: center;  
-  margin-bottom: 10px;  
+  justify-content: baseline;  
+  align-items: flex-start;  
+  margin-bottom: 30rpx;
 }  
   
 .zone-label {  
-  width: 30%; /* 您可以根据需要调整这个宽度 */  
+  width: 200rpx; /* 您可以根据需要调整这个宽度 */  
   font-weight: bold;  
 }  
   
 .zone-input {  
-  width: 80%; /* 您可以根据需要调整这个宽度 */  
-  border: 1px solid #ccc;  
-  border-radius: 10px;  
-  padding: 5px;  
-  font-size: 16px;  
-  background-color: #fff;  
+  width: 500rpx; /* 您可以根据需要调整这个宽度 */  
+  border: 10rpx solid whitesmoke;  
+  border-radius: 10rpx;  
+  padding: 5rpx;  
+  font-size: 30rpx;  
+  background-color: whitesmoke;  
 }
