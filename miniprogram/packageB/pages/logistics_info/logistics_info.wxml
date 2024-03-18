@@ -1,2 +1,3 @@
 <!--packageB/pages/logistics_info/logistics_info.wxml-->
-<text>packageB/pages/logistics_info/logistics_info.wxml</text>
+<image src = "/images/logistics_info.jpg" class="img"></image>
+    

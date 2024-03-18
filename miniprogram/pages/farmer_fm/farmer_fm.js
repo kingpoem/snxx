@@ -63,11 +63,18 @@ Page({
   onShareAppMessage() {
 
   },
-//  toShopRevenue() {
-//    wx.switchTab({
-//      url: '/packageA/pages/shop_revenue/shop_revenue',
-//    })
-//  }
+
+  jmp_logistics_info() {
+    wx.navigateTo({
+      url: '/packageB/pages/logistics_info/logistics_info',
+    })
+  },
+
+  jmp_shop_revenue() {
+    wx.navigateTo({
+      url: '/packageA/pages/shop_revenue/shop_revenue',
+    })
+  },
 	toIndent(){
 		wx.reLaunch({
 		  url: '/pages/indent_fm/indent_fm',
