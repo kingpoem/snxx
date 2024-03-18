@@ -145,6 +145,7 @@ Page({
   // 	})
   // },
 
+
   // toUser() {
   // 	wx.navigateTo({
   // 		url: '/pages/farmer_fm/farmer_fm',
