@@ -136,7 +136,7 @@ Page({
 
 	toHome() {
 		wx.navigateTo({
-			url: '/pages/farmer/farmer',
+			url: '/pages/farmer_fm/farmer_fm',
 		})
 	},
 
@@ -148,7 +148,7 @@ Page({
 
 	toUser() {
 		wx.navigateTo({
-			url: '/pages/farmer_fm/farmer_fm',
+			url: '/pages/home_fm/home_fm',
 		})
 	}
 })
