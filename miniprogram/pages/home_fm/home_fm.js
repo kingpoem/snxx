@@ -1,4 +1,4 @@
-// pages/farmer_fm/farmer_fm.js
+// pages/home_fm/home_fm.js
 Page({
 
   /**
@@ -62,27 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-//  toShopRevenue() {
-//    wx.switchTab({
-//      url: '/packageA/pages/shop_revenue/shop_revenue',
-//    })
-//  }
-	toIndent(){
-		wx.reLaunch({
-		  url: '/pages/indent_fm/indent_fm',
-		})
-	},
-
-	toChat(){
-		wx.reLaunch({
-		  url: '/pages/chat_fm/chat_fm',
-		})
-	},
-
-	toUser(){
-		wx.reLaunch({
-		  url: '/pages/farmer_fm/farmer_fm',
-		})
-	}
+  }
 })

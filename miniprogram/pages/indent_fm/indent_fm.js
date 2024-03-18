@@ -192,25 +192,25 @@ Page({
   },
 
   jmp_confirm_order(){
-    wx.navigateTo({
+    wx.reLaunch({
       url: '/pages/confirm_order/confirm_order',
     })
   },
 
 	toHome(){
-		wx.navigateTo({
+		wx.reLaunch({
 		  url: '/pages/farmer/farmer',
 		})
 	},
 
 	toChat(){
-		wx.navigateTo({
+		wx.reLaunch({
 		  url: '/pages/chat_fm/chat_fm',
 		})
 	},
 
 	toUser(){
-		wx.navigateTo({
+		wx.reLaunch({
 		  url: '/pages/farmer_fm/farmer_fm',
 		})
 	}
