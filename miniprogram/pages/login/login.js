@@ -4,9 +4,9 @@ Page({
     rememberPassword: false, // 默认不记住密码
     userType: 'consumer' // 保存用户类型
   },
-  
 
-  
+
+
   // 切换到登录界面
   switchToLogin() {
     this.setData({
@@ -47,26 +47,31 @@ Page({
   // 登录按钮点击事件
   login() {
     // 检查是否已选择用户类型
-  if (!this.data.userType) {
-    wx.showToast({
-      title: '请选择用户类型',
-      icon: 'none'
-    });
-    return; // 停止执行
-  }
-  // 根据用户类型跳转到相应的tabBar页面
-  // 根据用户类型跳转到相应的页面
-  if (this.data.userType === 'consumer') {
-    // 消费者端为tabBar页面
-    wx.switchTab({
-      url: '/pages/home_cm/home_cm'
-    });
-  } else if (this.data.userType === 'farmer') {
-    // 农户端为普通页面
-    wx.redirectTo({
-      url: '/pages/farmer_fm/farmer_fm'
-    });
-  }
+    if (!this.data.userType) {
+      wx.showToast({
+        title: '请选择用户类型',
+        icon: 'none'
+      });
+      return; // 停止执行
+    }
+    // 根据用户类型跳转到相应的tabBar页面
+    // 根据用户类型跳转到相应的页面
+    const app = getApp();
+    if (this.data.userType === 'consumer') {
+      // 消费者端为tabBar页面
+      app.globalData.userInfo.type = 0;
+      app.switchUserType();
+      wx.switchTab({
+        url: '/pages/home_cm/home_cm'
+      });
+    } else if (this.data.userType === 'farmer') {
+      app.globalData.userInfo.type = 1;
+      app.switchUserType();
+      // 农户端为普通页面
+      wx.redirectTo({
+        url: '/pages/farmer_fm/farmer_fm'
+      });
+    }
   },
   // 注册按钮点击事件
   register() {
