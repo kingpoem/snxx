@@ -9,7 +9,7 @@
     "pages/product_info/product_info",
     "pages/all_orders/all_orders",
     "pages/pending/pending",
-    "pages/home_fm/home_fm"
+    "pages/home_fm/home_fm",
     "pages/detail/detail",
     "pages/farmer_fm/farmer_fm",
     "pages/order_details/order_details",
