@@ -18,7 +18,7 @@ Page({
     products: [
       { id: 1, image: '/images/prods/s1.jpg', name: '南京雨花茶  ', price: '￥78.00' },
       { id: 2, image: '/images/prods/s5.jpg', name: '邵店板栗', price: '￥5.1' },
-      { id: 3, image: '/images/prods/fruitOne.png', name: '阳山水蜜桃', price: '￥6.9' }
+      { id: 3, image: '/images/prods/fruitOne.jpg', name: '阳山水蜜桃', price: '￥6.9' }
     ],
 
     products2: [
