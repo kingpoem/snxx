@@ -34,6 +34,13 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "智能助手",
+          "pathName": "pages/intelligent_assistant/intelligent_assistant",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }
