@@ -12,13 +12,13 @@
 
         <!-- 用户消息在右边 -->
         <view class="message-bubble user-bubble" wx:if="{{item.role==='user'}}">
-			<image class="avatar" src="/images/usrico/usr1.jpg" wx:if="{{item.role === 'user'}}"></image>
+			<image class="avatar" src="/images/usrico/usr1.png" wx:if="{{item.role === 'user'}}"></image>
           <text class="message-text">{{item.content}}</text>
         </view>
 
         <!-- 助手消息在左边  -->
         <view class="message-bubble assistant-bubble" wx:if="{{item.role==='assistant'}}">
-          <image class="avatar" src="/images/iron1.jpg" wx:if="{{item.role === 'assistant'}}"></image>
+          <image class="avatar" src="/images/iron1.png" wx:if="{{item.role === 'assistant'}}"></image>
           <text class="message-text">{{item.content}}</text>
         </view>
       </block>
