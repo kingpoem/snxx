@@ -89,7 +89,7 @@ Page({
 
 	toUser(){
 		wx.reLaunch({
-		  url: '/pages/farmer_fm/farmer_fm',
+		  url: '/pages/home_fm/home_fm',
 		})
 	}
 })
