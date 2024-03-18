@@ -1,2 +1,34 @@
 <!--pages/home_fm/home_fm.wxml-->
-<text>pages/home_fm/home_fm.wxml</text>
+<view class="top">
+<image src="/images/farmer/tx.png" class="img" />
+<text class="w1">小林的店铺
+155****1234</text>
+</view>
+<view class="container1">
+<view class="block">
+<view class="jieMian">
+<image src="/images/farmer/call.png" mode=""/>
+<image src="/images/farmer/pj.png" mode=""/>
+<image src="/images/farmer/bill.png" mode=""/>
+</view>
+</view>
+
+<view class="block1">
+<view>
+<text bindtap ="toLogin">
+退出登录
+</text>
+</view>
+</view>
+</view>
+
+
+
+<view class="bottom">
+<view class="bar">
+  <image  src="/images/farmer/home_0.png" bindtap="toHome" />
+<image src="/images/farmer/order_0.png" />
+<image src="/images/farmer/tweet_0.png" />
+<image src="/images/farmer/user_1.png" />
+</view>
+</view>
