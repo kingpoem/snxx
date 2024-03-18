@@ -3,9 +3,9 @@
 Page({
   data: {
     imgURLs: [
-      '/images/reps/slider1.png',
-      '/images/reps/slider2.png',
-      '/images/reps/slider3.png'
+      '/images/reps/slider1.jpg',
+      '/images/reps/slider2.jpg',
+      '/images/reps/slider3.jpg'
     ],
     indicatorDots: true,
     vertical: false, //滑动方向是否为纵向
@@ -20,7 +20,7 @@ Page({
       { id: 2, image: '/images/prods/s5.jpg', name: '邵店板栗', price: '￥5.1' },
       { id: 3, image: '/images/prods/fruitOne.png', name: '阳山水蜜桃', price: '￥6.9' }
     ],
-    
+
     products2: [
       { id: 1, image: '/images/prods/v2.jpg', name: '筒管丝瓜  ', price: '￥2.1' },
       { id: 2, image: '/images/prods/f4.jpg', name: '溧水草莓 小果', price: '￥8.5' },

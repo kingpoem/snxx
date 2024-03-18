@@ -1,5 +1,5 @@
 <view style="background-color: #4B9600;width: 750rpx;height: 70rpx;text-align: center;position: fixed;z-index: 1;margin-top: -4rpx;">
-  <text style="margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">—— 智能助手 ——</text>
+  <text style="margin-top: 0rpx;font-size: 33rpx;color: whitesmoke;">—— 联系商家 ——</text>
 </view>
 
 <scroll-view class="message-list" scroll-y="true" scroll-into-view="{{scrollIntoView}}">
@@ -12,13 +12,17 @@
 
         <!-- 用户消息在右边 -->
         <view class="message-bubble user-bubble" wx:if="{{item.role==='user'}}">
-          <image class="avatar" src="/images/user_avatar.jpg" wx:if="{{item.role === 'user'}}"></image>
-          <text class="message-text">{{item.content}}</text>
+			<span class="usrmsg">
+				<text class="message-text">{{item.content}}</text>
+			</span>
+			<span class="usrico">
+				<image class="avatar" src="/images/usrico/usr_ico.jpg" wx:if="{{item.role === 'user'}}"></image>
+			</span>
         </view>
 
-        <!-- 助手消息在左边  -->
-        <view class="message-bubble assistant-bubble" wx:if="{{item.role==='assistant'}}">
-          <image class="avatar" src="/images/assistant_avatar.jpg" wx:if="{{item.role === 'assistant'}}"></image>
+        <!-- 农户消息在左边  -->
+        <view class="message-bubble farmer-bubble" wx:if="{{item.role==='farmer'}}">
+		  <image class="avatar" src="/images/usrico/fm_ico.jpg" wx:if="{{item.role === 'farmer'}}"></image>
           <text class="message-text">{{item.content}}</text>
         </view>
       </block>

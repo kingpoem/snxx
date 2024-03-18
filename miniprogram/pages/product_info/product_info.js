@@ -6,11 +6,11 @@ Page({
    */
   data: {
     imgURLs: [
-      '/images/prods/fruitOne.png',
-      '/images/prods/fruitOne.png',
-      '/images/prods/fruitOne.png',
-      '/images/prods/fruitOne.png',
-      '/images/prods/fruitOne.png'
+      '/images/prods/fruitOne.jpg',
+      '/images/prods/fruitOne.jpg',
+      '/images/prods/fruitOne.jpg',
+      '/images/prods/fruitOne.jpg',
+      '/images/prods/fruitOne.jpg'
     ],
     indicatorDots: true,
     vertical: false, //滑动方向是否为纵向

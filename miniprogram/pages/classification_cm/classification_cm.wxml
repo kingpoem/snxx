@@ -2,7 +2,7 @@
 <!--搜索栏-->
 <view class="bg">
   <view class="search-box">
-    <image src="/images/reps/sicon.png" class="search-image"></image>
+    <image src="/images/reps/sicon.jpg" class="search-image"></image>
     <input type="text" placeholder="搜索商品信息" class="search-input"></input>
   </view>
 </view>
@@ -49,7 +49,7 @@
   <view wx:if="{{active_class == 1}}">
   
     <view class="cls_product_zone" bindtap="redirectToproduct_info">
-      <image src="/images/prods/fruitOne.png"/> <!--这里具体应该会是云链接-->
+      <image src="/images/prods/fruitOne.jpg"/> <!--这里具体应该会是云链接-->
       <div class="text_zone">
         <view class="zone_1">
           <view class = "product_text">田良季无锡阳山水蜜桃 爆甜桃王</view> <!--云链接-->

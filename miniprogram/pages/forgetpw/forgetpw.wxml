@@ -1,6 +1,6 @@
 <view style="position: relative; text-align: center;">
-  <image src="/images/login/green.png" style="position: absolute; left: 0; top: 0; width: 1000px; height: 210px;"></image>
-  <image src="/images/login/welto.png" style="position: absolute; left: -20px; top: 10px; height: 120px;"></image>
+  <image src="/images/login/green.jpg" style="position: absolute; left: 0; top: 0; width: 1000px; height: 210px;"></image>
+  <image src="/images/login/welto.jpg" style="position: absolute; left: -20px; top: 10px; height: 120px;"></image>
 
   <!-- 圆角矩形框 -->
   <view style="position: absolute; left: 20px; top: 140px; width: 315px; height: 500px; background-color: white; border-radius: 30px; padding: 10px; text-align: center;">
@@ -22,26 +22,26 @@
 
     <!-- 用户名输入框 -->
     <view class="search-box">
-      <image src="/images/login/usern.png" class="search-icon"></image>
+      <image src="/images/login/usern.jpg" class="search-icon"></image>
       <input class="input" type="text" placeholder="请输入您的手机号或邮箱"></input>
     </view>
 
     <!-- 密码输入框 -->
     <view class="search-box">
-      <image src="/images/login/prot.png" class="search-icon"></image>
+      <image src="/images/login/prot.jpg" class="search-icon"></image>
       <input class="input" type="text" placeholder="请输入您收到的验证码"></input>
       <view class="verification-btn" bindtap="sendVerificationCode">发送验证码</view> <!-- 新增按钮 -->
     </view>
 
     <!-- 新增的输入框 -->
     <view class="search-box">
-      <image src="/images/login/pw.png" class="search-icon"></image>
+      <image src="/images/login/pw.jpg" class="search-icon"></image>
       <input class="input" type="password" placeholder="请输入您的登录密码"></input>
     </view>
 
     <!-- 新增的输入框 -->
     <view class="search-box">
-      <image src="/images/login/pw.png" class="search-icon"></image>
+      <image src="/images/login/pw.jpg" class="search-icon"></image>
       <input class="input" type="password" placeholder="请确认您的登录密码"></input>
     </view>
 
