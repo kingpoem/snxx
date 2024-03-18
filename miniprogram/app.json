@@ -8,7 +8,7 @@
     "pages/forgetpw/forgetpw",
     "pages/product_info/product_info",
     "pages/all_orders/all_orders",
-    "pages/pending/pending",
+    "pages/home_fm/home_fm",
     "pages/detail/detail",
     "pages/farmer_fm/farmer_fm",
     "pages/order_details/order_details",
@@ -16,12 +16,14 @@
     "pages/confirm_order/confirm_order",
     "pages/message/message",
     "pages/intelligent_assistant/intelligent_assistant",
-    "pages/coupon/coupon",
-	"pages/indent_fm/indent_fm",
-	"pages/chat_fm/chat_fm",
-	"pages/contact_merchant/contact_merchant"
+    "pages/indent_fm/indent_fm",
+    "pages/chat_fm/chat_fm",
+    "pages/contact_merchant/contact_merchant",
+    "pages/indent_fm/indent_fm",
+    "pages/chat_fm/chat_fm"
   ],
-  "subpackages": [{
+  "subpackages": [
+    {
       "root": "packageA",
       "pages": [
         "pages/shop_revenue/shop_revenue",
@@ -46,7 +48,8 @@
     "navigationBarBackgroundColor": "#4B9600"
   },
   "tabBar": {
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/home_cm/home_cm",
         "iconPath": "/images/tabs/home_cm_tb.jpg",
         "selectedIconPath": "/images/tabs/sl_home_cm_tb.jpg"

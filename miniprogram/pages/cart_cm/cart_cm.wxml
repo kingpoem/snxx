@@ -47,5 +47,4 @@
 		</view>
 	</view>
 </view>
-
 <tabbar tabbar="{{tabbar}}"></tabbar>

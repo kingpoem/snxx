@@ -46,11 +46,8 @@ Page({
     wx.navigateTo({
       url: '/pages/intelligent_assistant/intelligent_assistant',
     })
-
   },
   onLoad() {
     getApp().editTabbar();
   }
-
-
 })

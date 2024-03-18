@@ -2,7 +2,7 @@
 <view class="container">
   <!-- 搜索框 -->
   <view class="search-box">
-    <image src="/images/reps/sicon.jpg" class="search-icon"></image>
+    <image src="/images/reps/sicon.png" class="search-icon"></image>
     <input type="text" placeholder="搜索订单信息" class="search-input"></input>
   </view>
 </view>
@@ -11,13 +11,12 @@
   <text wx:for="{{navbar}}" wx:key="index" data-index="{{index}}" bindtap="switchTab" class="item {{currentIndex == index ? 'active' : ''}}">{{item}}</text>
 </view>
 <view wx:if="{{currentIndex == 0}}">
-
   <view class="zone_large">
     <view class="zone_left">
       <view class="zone_left_1">小林的店铺
       </view>
       <view class="zone_left_2">
-        <image src="/images/prods/fruitOne.jpg"></image>
+        <image src="/images/prods/fruitOne.png"></image>
       </view>
     </view>
     <view class="zone_right">

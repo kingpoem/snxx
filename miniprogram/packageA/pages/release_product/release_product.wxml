@@ -1,8 +1,19 @@
 <!--packageA/pages/release_product/release_product.wxml-->
-<view class="container">  
-  <view class="zone" wx:for="{{zones}}" wx:key="index" style="margin-bottom: 10px;">  
-    <text class="zone-label">{{item.label}}</text>  
-    <input class="zone-input" bindinput="inputChanged" data-zone="{{index}}" placeholder="请输入内容" auto-height />  
-  </view>  
+<view class="container">
+  <view class="zone">
+    <text class="zone-label">商品图片：</text>
+    <input class="zone-input" bindinput="inputImage" placeholder="请放置图片" auto-height />
+
+  </view>
+  <view class="zone" wx:for="{{zones}}" wx:key="index">
+    <text class="zone-label">{{item.label}}</text>
+    <input class="zone-input" bindinput="inputChanged" data-zone="{{index}}" placeholder="请输入内容" auto-height />
+  </view>
+  <button form-type="submit" type="">确认发布</button>
+  <view class="container"></view>
+  <view class="container"></view>
+  <view class="container"></view>
+  <view class="container"></view>
+  <view class="container"></view>
+  <view class="container"></view>
 </view>
-<button size="default" form-type="submit" type="">确认发布</button>

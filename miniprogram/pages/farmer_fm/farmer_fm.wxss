@@ -1,1 +1,67 @@
-/* pages/farmer_fm/farmer_fm.wxss */
+.top{
+  width: 100%;
+  background-color: rgba(75, 150, 0,1);
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+ 
+}
+.img{
+  margin-left: 130rpx;
+  margin-right: rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+.w1{
+  color: rgb(247, 241, 241);
+  margin-left: 10rpx;
+  margin-top: 15rpx;
+}
+.w2{
+  color: rgb(247, 241, 241);
+  margin-top: 15rpx;
+  margin-left: 10rpx;
+  margin-right: 60rpx;
+}
+.t1{
+  font-size:xx-large;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  font-family:cursive;
+  text-align: center;
+  font-weight: 1000;
+}
+.img2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.img2 > .item{
+display: flex;
+flex-direction: column; /* 设置子项垂直排列 */
+align-items:center; /* 子项在交叉轴上居中对齐 */
+}
+
+.img2>view >image{
+  width: 300rpx;
+  height: 300rpx;
+  margin: 20rpx;
+  margin-left: 45rpx;
+}
+.bg1{
+  background-color: rgba(246,250,242,1);
+}
+.bar{
+  display: flex;
+  flex-direction: row;
+
+}
+.bar > image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 100rpx;
+}
+.bottom{
+  position: fixed;
+  bottom: 20rpx;
+}

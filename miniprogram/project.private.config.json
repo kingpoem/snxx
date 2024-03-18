@@ -8,8 +8,15 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/all_order/yijiandenglu_1",
+          "name": "pages/all_orders/yijiandenglu_1",
           "pathName": "pages/home_cm/home_cm",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "1",
+          "pathName": "pages/yijiandengluyanzheng_1/yijiandengluyanzheng_1",
           "query": "",
           "launchMode": "default",
           "scene": null
@@ -24,27 +31,6 @@
         {
           "name": "",
           "pathName": "pages/chat_fm/chat_fm",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        },
-        {
-          "name": "练习商家",
-          "pathName": "pages/contact_merchant/contact_merchant",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        },
-        {
-          "name": "",
-          "pathName": "pages/farmer_fm/farmer_fm",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        },
-        {
-          "name": "",
-          "pathName": "pages/indent_fm/indent_fm",
           "query": "",
           "launchMode": "default",
           "scene": null
