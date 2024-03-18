@@ -49,7 +49,7 @@ App({
       }
     ]
     const farmerTabbar = [{
-        "pagePath": "/pages/home_fm/home_fm",
+        "pagePath": "/pages/farmer_fm/farmer_fm",
         "iconPath": "/images/farmer/home_0.png",
         "selectedIconPath": "/images/farmer/home_1.png",
         isSpecial: true
@@ -67,9 +67,9 @@ App({
         isSpecial: true
       },
       {
-        "pagePath": "/pages/farmer_fm/farmer_fm",
-        "iconPath": "/images/farmer/user_0.jpg",
-        "selectedIconPath": "/images/farmer/user_1.jpg",
+        "pagePath": "/pages/home_fm/home_fm",
+        "iconPath": "/images/farmer/user_0.png",
+        "selectedIconPath": "/images/farmer/user_1.png",
         isSpecial: true
       }
     ]

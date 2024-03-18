@@ -189,23 +189,5 @@ Page({
     wx.reLaunch({
       url: '/pages/confirm_order/confirm_order',
     })
-  },
-
-  toHome() {
-    wx.reLaunch({
-      url: '/pages/farmer/farmer',
-    })
-  },
-
-  toChat() {
-    wx.reLaunch({
-      url: '/pages/chat_fm/chat_fm',
-    })
-  },
-
-  toUser() {
-    wx.reLaunch({
-      url: '/pages/farmer_fm/farmer_fm',
-    })
   }
 })

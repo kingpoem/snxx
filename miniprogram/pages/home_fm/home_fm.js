@@ -1,3 +1,4 @@
+
 // pages/home_fm/home_fm.js
 Page({
 
@@ -64,5 +65,22 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  toHome(){
+    wx.navigateTo({
+      url: '/pages/farmer_fm/farmer_fm',
+    })
+  },
+  toLogin(){
+    wx.navigateTo({
+      url: '/pages/login/login',
+    })
+  },
+  toChat(){
+    wx.navigateTo({
+      url: '/pages/chat_fm/chat_fm',
+    })
   }
+  
+
 })
