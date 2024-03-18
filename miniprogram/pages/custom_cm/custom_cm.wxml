@@ -2,7 +2,7 @@
 	<view class="review" style="margin: -20rpx;">  
 	  <view class="zone_left">  
 		<view class="zone_left_1">  
-			<image class="zone_left_avatar" src="/images/usrico/usr1.jpg" mode="aspectFit"></image>  
+			<image class="zone_left_avatar" src="/images/usrico/usr1.png" mode="aspectFit"></image>  
 		  <view class="zone_left_info">  
 			<view class="zone_left_nickname text">大学生</view>  
 			<view class="zone_left_date"></view>  
@@ -20,7 +20,7 @@
 	</view>
 </view>
 
-<image src="/images/login/values.jpg" class="valueimg"></image>
+<image src="/images/login/values.png" class="valueimg"></image>
 
 <button></button>
 <view class="fenge" />
