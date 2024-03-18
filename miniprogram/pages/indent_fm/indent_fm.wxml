@@ -10,12 +10,12 @@
 		</view>
 		<view class="left_container">
 			<view class="shop-info">
-				<image src="/images/iron/product_not_selected.png" class="shopico"></image>
-				<image src="/images/iron/shop.png" class="shopico"></image>
+				<image src="/images/iron/product_not_selected.jpg" class="shopico"></image>
+				<image src="/images/iron/shop.jpg" class="shopico"></image>
 				<a>{{itm.ownerld}}</a>
 			</view>
 			<block class="productlist">
-				<image src="/images/iron/product_not_selected.png" class="selectionico"></image>
+				<image src="/images/iron/product_not_selected.jpg" class="selectionico"></image>
 				<image src="{{itm.image[0]}}" class="productimg"></image>
 				<view class="productinfo_txt">
 					<view class="name_zone">
@@ -53,10 +53,10 @@
 
 <view class="bottom">
 	<view class="bar">
-		<image src="/images/farmer/home_0.png" bindtap="toHome" />
-		<image src="/images/farmer/order_1.png" />
-		<image src="/images/farmer/tweet_0.png" bindtap="toChat" />
-		<image src="/images/farmer/user_0.png" bindtap="toUser" />
+		<image src="/images/farmer/home_0.jpg" bindtap="toHome" />
+		<image src="/images/farmer/order_1.jpg" />
+		<image src="/images/farmer/tweet_0.jpg" bindtap="toChat" />
+		<image src="/images/farmer/user_0.jpg" bindtap="toUser" />
 	</view>
 </view>
 

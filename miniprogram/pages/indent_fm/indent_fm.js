@@ -9,7 +9,7 @@ Page({
       {guid:"1",
       ownerld:"小林的店铺",
       name:"阳山水蜜桃",
-      image:["/images/prods/product1.png"],
+      image:["/images/prods/product1.jpg"],
       despciption:"",
       address:"",
       type: [
@@ -30,7 +30,7 @@ Page({
       {guid:"2",
       ownerld:"小林的店铺",
       name:"阳山水蜜桃",
-      image:["/images/prods/product1.png"],
+      image:["/images/prods/product1.jpg"],
       despciption:"",
       address:"",
       type: [
@@ -51,7 +51,7 @@ Page({
       {guid:"3",
       ownerld:"小林的店铺",
       name:"阳山水蜜桃",
-      image:["/images/prods/product1.png"],
+      image:["/images/prods/product1.jpg"],
       despciption:"",
       address:"",
       type: [
@@ -72,7 +72,7 @@ Page({
       {guid:"4",
       ownerld:"小林的店铺",
       name:"阳山水蜜桃",
-      image:["/images/prods/product1.png"],
+      image:["/images/prods/product1.jpg"],
       despciption:"",
       address:"",
       type: [
@@ -93,7 +93,7 @@ Page({
       {guid:"5",
       ownerld:"114514",
       name:"阳山水蜜桃",
-      image:["/images/prods/product1.png"],
+      image:["/images/prods/product1.jpg"],
       despciption:"",
       address:"",
       type: [
@@ -114,7 +114,7 @@ Page({
       {guid:"5",
       ownerld:"114514",
       name:"阳山水蜜桃",
-      image:["/images/prods/product1.png"],
+      image:["/images/prods/product1.jpg"],
       despciption:"",
       address:"",
       type: [
