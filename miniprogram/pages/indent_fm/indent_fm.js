@@ -195,5 +195,23 @@ Page({
     wx.navigateTo({
       url: '/pages/confirm_order/confirm_order',
     })
-  }
+  },
+
+	toHome(){
+		wx.navigateTo({
+		  url: '/pages/farmer/farmer',
+		})
+	},
+
+	toChat(){
+		wx.navigateTo({
+		  url: '/pages/chat_fm/chat_fm',
+		})
+	},
+
+	toUser(){
+		wx.navigateTo({
+		  url: '/pages/farmer_fm/farmer_fm',
+		})
+	}
 })

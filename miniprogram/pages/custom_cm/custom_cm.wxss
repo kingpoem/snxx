@@ -1,3 +1,50 @@
+.custom_config_background {
+	background: rgb(75, 150, 0);
+	height: 200rpx;
+	width: 750rpx;
+}
+
+.valueimg{
+	width: 750rpx;
+}
+
+.text{
+	color: white;
+}
+
+.usrimg {
+	width: 100rpx;  
+	height: 100rpx;  
+	border-radius: 50%;  
+	margin-right: 20rpx;  
+	border: 2rpx solid black;
+}
+
+.usrimg_background {
+	width:100rpx;
+	height: 100rpx;
+}
+
+.usrname_background{
+	width:200rpx;
+	height:100rpx;
+}
+
+.usrname{
+	color: white;
+	font-size: medium;
+}
+
+.usrtel_background{
+	width:200rpx;
+	height: 100rpx;
+}
+
+.usrtel{
+	color: white;
+	font-size: medium;
+}
+
 .function_container{
   display:flex;
   flex-wrap: wrap;
@@ -43,4 +90,61 @@
   text-align: center; /* 文字居中显示 */
   cursor: pointer; /* 鼠标样式为手型 */
   padding: 10px; /* 添加内边距 */
+}
+
+
+.review {  
+  display: flex;  
+  justify-content: space-between;  
+  align-items: flex-start;  
+  background-color: rgb(75,150,0);
+  padding: 20rpx;  
+  border-radius: 20rpx;  
+}  
+  
+.zone_left {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: flex-start;  
+}  
+  
+.zone_left_1 {  
+  display: flex;  
+  align-items: center;  
+}  
+  
+.zone_left_avatar {  
+  width: 80rpx;  
+  height: 80rpx;  
+  border-radius: 50%;  
+  margin-right: 20rpx;  
+}  
+  
+.zone_left_info {  
+  display: flex;  
+  flex-direction: column;  
+}  
+  
+.zone_left_nickname {  
+  font-weight: bold;  
+}  
+  
+.zone_left_date {  
+  font-size: 12px;  
+  color: #999;  
+}  
+  
+.zone_left_2 {  
+  margin-top: 20rpx;  
+}  
+  
+.zone_right {  
+  display: flex;  
+  align-items: center;  
+}  
+  
+.star-icon {  
+  width: 40rpx;  
+  height: 40rpx;  
+  margin-right: 10rpx;  
 }

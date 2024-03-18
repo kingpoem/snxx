@@ -4,70 +4,70 @@ App({
     userInfo: {},
     tabbar: {
       list: [{
-          "pagePath": "/pages/home_cm/home_cm",
-          "iconPath": "/images/tabs/home_cm_tb.png",
-          "selectedIconPath": "/images/tabs/sl_home_cm_tb.png"
-        },
-        // {
-        //   "pagePath": "/pages/classification_cm/classification_cm",
-        //   "iconPath": "/images/tabs/classification_cm_tb.png",
-        //   "selectedIconPath": "/images/tabs/sl_classification_cm_tb.png"
-        // },
-        // {
-        //   "pagePath": "/pages/cart_cm/cart_cm",
-        //   "iconPath": "/images/tabs/cart_cm_tb.png",
-        //   "selectedIconPath": "/images/tabs/sl_cart_cm_tb.png"
-        // },
-        {
-          "pagePath": "/pages/custom_cm/custom_cm",
-          "iconPath": "/images/tabs/custom_cm_tb.png",
-          "selectedIconPath": "/images/tabs/sl_custom_cm_tb.png"
-        }
+        "pagePath": "/pages/home_cm/home_cm",
+        "iconPath": "/images/tabs/home_cm_tb.jpg",
+        "selectedIconPath": "/images/tabs/sl_home_cm_tb.jpg"
+      },
+      // {
+      //   "pagePath": "/pages/classification_cm/classification_cm",
+      //   "iconPath": "/images/tabs/classification_cm_tb.jpg",
+      //   "selectedIconPath": "/images/tabs/sl_classification_cm_tb.jpg"
+      // },
+      // {
+      //   "pagePath": "/pages/cart_cm/cart_cm",
+      //   "iconPath": "/images/tabs/cart_cm_tb.jpg",
+      //   "selectedIconPath": "/images/tabs/sl_cart_cm_tb.jpg"
+      // },
+      {
+        "pagePath": "/pages/custom_cm/custom_cm",
+        "iconPath": "/images/tabs/custom_cm_tb.jpg",
+        "selectedIconPath": "/images/tabs/sl_custom_cm_tb.jpg"
+      }
       ]
     }
   },
   switchUserType() {
     const customTabbar = [{
-        "pagePath": "/pages/home_cm/home_cm",
-        "iconPath": "/images/tabs/home_cm_tb.png",
-        "selectedIconPath": "/images/tabs/sl_home_cm_tb.png"
-      },
-      {
-        "pagePath": "/pages/classification_cm/classification_cm",
-        "iconPath": "/images/tabs/classification_cm_tb.png",
-        "selectedIconPath": "/images/tabs/sl_classification_cm_tb.png"
-      },
-      {
-        "pagePath": "/pages/cart_cm/cart_cm",
-        "iconPath": "/images/tabs/cart_cm_tb.png",
-        "selectedIconPath": "/images/tabs/sl_cart_cm_tb.png"
-      },
-      {
-        "pagePath": "/pages/custom_cm/custom_cm",
-        "iconPath": "/images/tabs/custom_cm_tb.png",
-        "selectedIconPath": "/images/tabs/sl_custom_cm_tb.png"
-      }
+      "pagePath": "/pages/home_cm/home_cm",
+      "iconPath": "/images/tabs/home_cm_tb.jpg",
+      "selectedIconPath": "/images/tabs/sl_home_cm_tb.jpg"
+    },
+    {
+      "pagePath": "/pages/classification_cm/classification_cm",
+      "iconPath": "/images/tabs/classification_cm_tb.jpg",
+      "selectedIconPath": "/images/tabs/sl_classification_cm_tb.jpg"
+    },
+    {
+      "pagePath": "/pages/cart_cm/cart_cm",
+      "iconPath": "/images/tabs/cart_cm_tb.jpg",
+      "selectedIconPath": "/images/tabs/sl_cart_cm_tb.jpg"
+    },
+    {
+      "pagePath": "/pages/custom_cm/custom_cm",
+      "iconPath": "/images/tabs/custom_cm_tb.jpg",
+      "selectedIconPath": "/images/tabs/sl_custom_cm_tb.jpg"
+    }
     ]
     const farmerTabbar = [{
-        "pagePath": "/pages/home_cm/home_fm",
-        "iconPath": "/images/tabs/home_fm_tb.png",
-        "selectedIconPath": "/images/tabs/sl_home_cm_fb.png"
-      },
-      {
-        "pagePath": "/pages/indent_fm/indent_fm",
-        "iconPath": "/images/tabs/indent_fm_tb.png",
-        "selectedIconPath": "/images/tabs/sl_indent_fm_tb.png"
-      },
-      {
-        "pagePath": "/pages/chat_fm/chat_fm",
-        "iconPath": "/images/tabs/chat_fm_tb.png",
-        "selectedIconPath": "/images/tabs/sl_chat_fm_tb.png"
-      },
-      {
-        "pagePath": "/pages/farmer_fm/farmer_fm",
-        "iconPath": "/images/tabs/farmer_fm_tb.png",
-        "selectedIconPath": "/images/tabs/sl_farmer_fm_tb.png"
-      }
+      "pagePath": "/pages/home_cm/home_fm",
+      "iconPath": "/images/tabs/home_fm_tb.jpg",
+      "selectedIconPath": "/images/tabs/sl_home_cm_fb.jpg"
+    },
+    {
+      "pagePath": "/pages/indent_fm/indent_fm",
+      "iconPath": "/images/tabs/indent_fm_tb.jpg",
+      "selectedIconPath": "/images/tabs/sl_indent_fm_tb.jpg"
+    },
+    {
+      "pagePath": "/pages/chat_fm/chat_fm",
+      "iconPath": "/images/tabs/chat_fm_tb.jpg",
+      "selectedIconPath": "/images/tabs/sl_chat_fm_tb.jpg"
+    },
+    {
+      "pagePath": "/pages/farmer_fm/farmer_fm",
+      "iconPath": "/images/tabs/farmer_fm_tb.jpg",
+      "selectedIconPath": "/images/tabs/sl_farmer_fm_tb.jpg"
+    }
     ]
 
     switch (this.globalData.userInfo.type) {
@@ -136,4 +136,4 @@ App({
 
 
   }
-}, )
+},)

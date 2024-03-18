@@ -1,0 +1,121 @@
+.bottom{
+  height: 100rpx;
+  width: 742rpx;
+  background-color: rgb(255, 255, 255);
+  margin-bottom:0rpx;
+  width: 750rpx;
+  height: 90rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* position: absolute;
+  display:fixed;
+  border: 9rpx solid black; */
+  display: flex;
+  flex-direction: row;
+  border-top: 0rpx solid #4B9600;
+}
+
+/* pages/zas/zas.wxss */
+/* index.wxss */  
+.chat-container {  
+  display: flex;  
+  flex-direction: column;  
+  /* align-items: flex-end;   */
+  /* padding: 20px;   */
+  height: 100vh;  
+  box-sizing: border-box;
+  /* background-color: ;   */
+} 
+  
+.message-bubble {  
+  margin-bottom: 40rpx;  
+  max-width: 70%;  
+  padding: 20rpx;  
+  border-radius: 25rpx;  
+  /* background-color: #f0f0f0;   */
+  word-wrap: break-word;  
+
+}  
+  
+.user-bubble {  
+  margin-right: 5%;
+  background: rgba(255, 255, 255, 1);
+  align-self: flex-end;  
+}  
+  
+.farmer-bubble {  
+  margin-left: 5%;  
+  background: rgba(255, 255, 255, 1);
+  align-self: flex-start;  
+}
+
+.avatar {  
+  width: 80rpx;  
+  height: 80rpx;  
+  border-radius: 50%;  
+  margin-right: 20rpx;  
+  border: 2rpx solid black;
+}
+
+.usrico {
+	height: 120rpx;
+	width: 20%;
+}
+
+.usrmsg {
+	height: 120rpx;
+	width: 50%;
+}
+  
+.message-text {  
+  word-wrap: break-word;  
+  color: rgba(75, 150, 0, 1);
+  /* border: 2rpx solid black; */
+}
+
+.message-list {
+  /* flex: 1; */
+  /* padding: 10rpx; */
+  margin-top: 0rpx;
+  overflow-y: scroll;
+  background-color: rgb(237, 253, 237);
+  /* border:1rpx solid brown; */
+  height:1112rpx
+}
+/*
+.message-item {
+  display: flex;
+  margin-bottom: 10rpx;
+}
+.user .message-item {
+  justify-content: flex-end;
+}
+
+.bot .message-item {
+  justify-content: flex-start;
+}
+
+.message-content {
+  padding: 10rpx;
+  border-radius: 10rpx;
+  max-width: 80%;
+}
+
+.bot .message-text {
+  color: #fff;
+  word-wrap: break-word;
+}
+.user .message-text {
+  color: rgb(34, 34, 34);
+  word-wrap: break-word;
+} 
+.user {
+  align-self: flex-end;
+  background-color: rgb(255, 247, 202);
+}
+
+.bot {
+  align-self: flex-start;
+  background-color: #4B9600;
+} */
