@@ -1,1 +1,5 @@
 /* packageB/pages/logistics_info/logistics_info.wxss */
+.img{
+	height: 1500rpx;
+	width: 750rpx;
+}

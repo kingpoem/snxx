@@ -15,8 +15,8 @@
           "scene": null
         },
         {
-          "name": "1",
-          "pathName": "pages/yijiandengluyanzheng_1/yijiandengluyanzheng_1",
+          "name": "物流",
+          "pathName": "packageB/pages/logistics_info/logistics_info",
           "query": "",
           "launchMode": "default",
           "scene": null
