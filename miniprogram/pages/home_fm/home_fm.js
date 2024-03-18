@@ -73,6 +73,12 @@ Page({
     wx.navigateTo({
       url: '/pages/login/login',
     })
+  },
+  toChat(){
+    wx.navigateTo({
+      url: '/pages/chat_fm/chat_fm',
+    })
   }
+  
 
 })
